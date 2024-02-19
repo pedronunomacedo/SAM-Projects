@@ -1,0 +1,30 @@
+>> amostragemInterp_comFiltro("./resources/audios/Mozart20sec.wav","./outputFiles/Mozart20sec_with_filter.wav",4)
+
+Importar o sinal original para a variavel y 
+
+frequencia de amostragem = 44100 ; numero de amostras = 882000
+Numero original de amostras no sinal de entrada = 882000
+
+
+Prima uma tecla para continuar
+
+O som sub-amostrado 
+
+Prima uma tecla para continuar
+
+O pre-filtro utilizado 
+
+Prima uma tecla para continuar
+
+O som interpolado 
+
+Prima uma tecla para continuar
+
+O filtro utilizado na interpolacao 
+
+Prima uma tecla para continuar
+
+Erro entre o sinal original e o interpolado = 3.00164e-09
+
+
+PSNR do sinal interpolado = 66.4603

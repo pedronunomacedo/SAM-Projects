@@ -1,0 +1,18 @@
+>> amostragemInterp_semFiltro("./resources/audios/Mozart20sec.wav","./outputFiles/Mozart20sec_without_filter.wav",4)
+
+Importar o som original
+
+Carregue numa tecla para continuar
+
+O som sub-amostrado
+
+Carregue numa tecla para continuar
+
+O som interpolado
+
+Carregue numa tecla para continuar
+
+Erro entre o sinal original e o interpolado = 5.66584e-06
+
+
+PSNR do sinal interpolado = 33.7013
