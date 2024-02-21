@@ -16,7 +16,7 @@ end;
 
 %verificar numero de canais (estereo ou mono). Se estereo, usar apenas um
 %canal (adicionado em Fev 2022)close
-info=audioinfo(ficheiroEntrada);
+info=audioinfo(ficheiroEntrada)
 if info.NumChannels>1
     x=x(:,1);
 end

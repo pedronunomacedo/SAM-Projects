@@ -1,0 +1,32 @@
+>> quant_uniform("./resources/audios/sound.wav","./outputFiles/Mozart20sec/quant_uniform/sound_16_levels.wav",16)
+
+info = 
+
+struct with fields:
+
+         Filename: '/Users/pedromacedo/Desktop/Desktop - MacBook Air de Pedro/Study/Year 4/Semester2/SAM-Year4Semester2/Project/source/resources/audios/sound.wav'
+CompressionMethod: 'Uncompressed'
+      NumChannels: 1
+       SampleRate: 8000
+     TotalSamples: 8492
+         Duration: 1.0615
+            Title: []
+          Comment: []
+           Artist: []
+    BitsPerSample: 8
+
+  xmin      xmax       N         Q
+-1.0000    1.0000   16.0000    0.1250
+
+
+Prima uma tecla para continuar
+
+Let now look at the signal in the interval [0.25  - 0.275]sec
+
+
+Prima uma tecla para continuar
+
+Erro entre o sinal original e o interpolado = 0.00101933
+
+
+PSNR do sinal interpolado = 2.59984

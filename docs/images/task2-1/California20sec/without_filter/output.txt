@@ -1,12 +1,12 @@
->> amostragemInterp_semFiltro("./resources/audios/Mozart20sec.wav","./outputFiles/Mozart/Mozart20sec_interpolated_without_filter_factor_2.wav",2)
+>> amostragemInterp_semFiltro("./resources/audios/California20sec.wav","./outputFiles/outputCalifornia20sec.wav",4)
 
-Importing the original audio
+ Importing the original audio
 
 info = 
 
-  struct with fields:
+struct with fields:
 
-         Filename: '/Users/pedromacedo/Desktop/Desktop - MacBook Air de Pedro/Study/Year 4/Semester2/SAM-Year4Semester2/Project/source/resources/audios/Mozart20sec.wav'
+         Filename: '/Users/pedromacedo/Desktop/Desktop - MacBook Air de Pedro/Study/Year 4/Semester2/SAM-Year4Semester2/Project/source/resources/audios/California20sec.wav'
 CompressionMethod: 'Uncompressed'
       NumChannels: 1
        SampleRate: 44100
@@ -27,7 +27,7 @@ Press a key to continue
 The subsampled audio
 
 the number of samples in the subsampled audio: 
-ans = 441000
+ans = 220500
 
 
 Carregue numa tecla para continuar
@@ -40,7 +40,7 @@ ans = 882000
 
 Carregue numa tecla para continuar
 
-Erro entre o sinal original e o interpolado = 8.17638e-07
+Erro entre o sinal original e o interpolado = 0.000660961
 
 
-PSNR do sinal interpolado = 42.1083
+PSNR do sinal interpolado = 23.6693
