@@ -220,7 +220,7 @@ By looking at the original image and to the separated color components, we can d
 
 
 
-#### Task 1.4 - RGB and L\*a\*b\* components
+#### Task 1.4 - Color histogram in the different color spaces
 
 In this subtask, we are expected to compute the color histograms of the images in two different color spaces, RGB and L\*a\*b\*.
 
@@ -299,7 +299,7 @@ Let's start by cehcking the results obtained using different dimensions for the 
 
 
 
-#### Size of 64
+#### Task 2.1 - Size of 64
 
 In this subtopic, the zoneplate image was created by proving a specific size of 64x64 pixeis. The result zoneplate image is the following one:
 
@@ -574,3 +574,2001 @@ Now, we will analyse the different interpolation methods in this specific image.
 
         - **Comparing to previous methods (bicubic, bilinear, box, cubic, lanczos2, lanczos3 and nearest)**: The **bicubic method** produces smoother gradients and fewer pixelation in the result image. The **bilinear method** takes into account the closes 4 pixels (2x2 pixels) rather than just 2 pixels (the trinagle vertices). The **box method** can result in a loss of detail in the final image, rather than the **trinagle method** which is likely to preserve more detail. The **cubic method** uses the average value of 16 neighbour pixels, while the **triangle method** only uses 2 pixels, which may result in a smoother result. The **lanczos2** and **lanczos3** methods preserved more detail than the **triangle method** because, for the same reason as almost of the other methods, it uses more pixels to calculate the taregt pixel value. The **nearest method** presents a rougher texture because it calculates the value of the target pixel by using the value of the nearest pixel to the target pixel.
 
+
+
+#### Task 2.2 - Size of 512
+
+In this subtopic, the zoneplate image was created by proving a specific size of 512x512 pixeis. The result zoneplate image is the following one:
+
+<div align="center">
+    <img src="../images/2.variation_of_image_spatial_dimensions/size_512/1.zoneplate_image.png" alt="Zoneplate image with dimensions 512 by 512 pixeis" />
+</div>
+
+Now, let's start by comparing this image with the _zoneplate_ image with dimensions 64x64 pixels. We approximated the inner circle of both _zoneplate_ images in order to get a better insight of the change:
+
+<div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <figure>
+        <img src="../images/others/zoneplate_size_64.png" alt="Zoneplate inner circle image with dimensions 64 by 64 pixeis" max-width="400px" height="auto" />
+        <figcaption>Zoneplate inner circle image with dimensions 64 by 64 pixels</figcaption>
+    </figure>
+    <figure>
+        <img src="../images/others/zoneplate_size_512.png" alt="Zoneplate inner circle image with dimensions 512 by 512 pixeis" max-width="400px" height="auto" />
+        <figcaption>Zoneplate inner circle image with dimensions 512 by 512 pixels</figcaption>
+    </figure>
+</div>
+
+By comparing the obtained images for different _zoneplate_ images dimensions, we can draw some conclusions:
+
+1. It's noticeable that the image resolution increase by increasing the number of pixels of the _zoneplate_ image. The higher resolution of the right side image provides a much smoother visual experience. 
+2. On the image with 512x512 resolution, the details are clearly more visible. The inner circles are rendered smoothly, which will probably result in a more accurate representation in both spacial and frequency representations. 
+
+<div align="center">
+    <img src="../images/2.variation_of_image_spatial_dimensions/size_512/2.spectral_density_original_image.png" alt="spectral density of image with dimensions 512 by 512 pixeis" />
+</div>
+
+Now, let's compare the spectral density graphs obtained from both sizes, 64x64 pixels and 5121x512 pixels.
+
+<div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <figure>
+        <img src="../images/2.variation_of_image_spatial_dimensions/size_64/2.spectral_density_original_image.png" alt="spectral density of image with dimensions 64 by 64 pixeis" width="400px" height="auto" />
+        <figcaption>Spectral density of image with dimensions 64 by 64 pixeis</figcaption>
+    </figure>
+    <figure>
+        <img src="../images/2.variation_of_image_spatial_dimensions/size_512/2.spectral_density_original_image.png" alt="spectral density of image with dimensions 512 by 512 pixeis" width="400px" height="auto" />
+        <figcaption>Spectral density of image with dimensions 512 by 512 pixeis</figcaption>
+    </figure>
+</div>
+
+By comparing both of the spectral density graphs obtained for the two dimensions, 64x64 and 512x512 pixels, we can draw some conclusions:
+
+1. The spectral density graph of the _zoneplate_ image with the higher resolution (the image on the right side) covers a wider range of frequencies with more subtle variations between them, which makes the image circles smoother and allows to capture better details. 
+2. The higher the resolution of the image (image on the right side), more complex and denser frequency bars are in the spectral density graph.
+3. Because the inteprolation methods have more data to work on when using an image with 512x512 pixels dimensions, this interpolation methods can produce a higher quality output image (less pixelized).
+
+Now, let's compare the variation of signal in space graphs obtained from both sizes, 64x64 pixels and 5121x512 pixels.
+
+<div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <figure>
+        <img src="../images/2.variation_of_image_spatial_dimensions/size_64/3.variation_of_signal_original_image.png" alt="variation of signal in space of image with dimensions 64 by 64 pixeis" width="400px" height="auto" />
+        <figcaption>Variation of signal in space of image with dimensions 64 by 64 pixeis</figcaption>
+    </figure>
+    <figure>
+        <img src="../images/2.variation_of_image_spatial_dimensions/size_512/3.variation_of_signal_original_image.png" alt="variation of signal in space of image with dimensions 512 by 512 pixeis" width="400px" height="auto" />
+        <figcaption>Variation of signal in space of image with dimensions 512 by 512 pixeis</figcaption>
+    </figure>
+</div>
+
+By comparing both of the variation of signal in space graphs obtained for the two dimensions, 64x64 and 512x512 pixels, we can draw some conclusions:
+
+1. The variaton of signal in space of the image with 512x512 pixels contains more detailed information which is reflected in the number of frequency bar variations. While the lower resolution image implifies the variation of signal and, as a result, only more significant changes in intensity are captured, leading to a bigger variations differences between the frequency bars.
+2. In the right image, is not so noticeable the difference between the frequency bars and presents a smoother frequency change effect. 
+
+Also, for the other interpolation methods, the differences between both resolutions will be the same as the ones mention in the inteprolation method above. You can see the graphs in the [annexes](#annexes) section below.
+
+
+
+## Task 3 - Filtering experiences
+
+In this task, we must develop a simple program that performs different types of image filtering using different types of options that control the filtering operation. Firstly, lets explain the different types of image filters:
+
+1. **Average Filter**: Smooths the image by averaging he pixels with a kernel window.
+2. **Disk Filter**: It's similar to the average filter but uses a circular kernel window.
+3. **Gaussian Filter**: Reduces image noise and detail by giving more weight to the central pixels within the kernel window.
+4. **Laplacian Filter**: Enhances the edges by calculating he second derivate of the image, highlighting regions of high intensity change (you can ger more insights about this type of image filtering by clicking <a href="https://medium.com/@vaibhav1403/sobel-filter-prewitt-filter-and-the-laplacian-filter-d3b8995c13#86cd">here</a>).
+5. **Log filter**: Combines the **Gaussian filter** with the **Laplacian filter** in order to reduce noise before the edges of the image.
+6. **Motion Filter**: Simulates the effect of motion blur in a specific direction, as if the camera was moving when the photo was taken. 
+7. **Prewitt Filter**: This filter emphasizes horizontal differences by applying a specific kernel window (you can get more insigth about how to calculate the final image by clicking <a href="https://dsp.stackexchange.com/questions/40928/how-to-apply-prewitt-edge-detection-algorithm-on-a-given-image#answer-40953">here</a>).
+8. **Sobel Filter**: Similar to the **Prewitt filter** but this one emphasizes more the vertical differences (you can ger more insights about this type of image filtering by clicking <a href="https://medium.com/@vaibhav1403/sobel-filter-prewitt-filter-and-the-laplacian-filter-d3b8995c13#f1f0">here</a>).
+
+Now, lets explain the different types of options that mention of the filter will work:
+
+1. **Symmetric Option**: Extends the image by mirroring it across its border.
+2. **Replicate Option**: Extends the image by repeating the values at the edge of the image.
+3. **Circular Option**: Extends the image by implicitly assuming the image is periodic.
+4. **Same Option**: The output image is the same size as the input image (fefault behaviour if no option specified)
+5. **Full Option**: This option gives the complete image f the filtering operation, without trimming the edges. This means that the output image will be larger than the input image.
+6. **Corr Option**: The **correlation option** is the process of sliding the filter across the image and computing the sum of products at each position.
+7. **Conv Option**: The **convolution option** is similar to the **correlation option**, but involves flipping the filter both horizontally and vertically before applying it.
+
+In order to have a better understanding of the behaviours of the type of filters and options, lets see some image filtering cases:
+
+- **Average Filter**
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+        <figure>
+            <img src="../images/3.filtering_experiences/1.filter_average/1.option_symmetric.png" alt="'Average' filter with 'Symmetric' option" width="600px" height="auto" />
+            <figcaption><strong>Average</strong> filter with <strong>Symmetric</strong> option</figcaption>
+        </figure>
+    </div>
+
+    In the **average filter**, we can notice that this filter smoothed the image by averaging the pixels within the local neighborhood.
+<br />
+
+- **Disk Filter**
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+        <figure>
+            <img src="../images/3.filtering_experiences/2.filter_disk/1.option_symmetric.png" alt="'Disk' filter with 'Symmetric' option" width="600px" height="auto" />
+            <figcaption><strong>Disk</strong> filter with <strong>Symmetric</strong> option</figcaption>
+        </figure>
+    </div>
+
+    In the **disk filter**, we can notice that this filter has blurred the image (like the previous filter, the **average filter**), but mantained the integrity of the object shapes.
+
+- **Gaussian Filter**
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+        <figure>
+            <img src="../images/3.filtering_experiences/3.filter_gaussian/1.option_symmetric.png" alt="'Gaussian' filter with 'Symmetric' option" width="600px" height="auto" />
+            <figcaption><strong>Gaussian</strong> filter with <strong>Symmetric</strong> option</figcaption>
+        </figure>
+    </div>
+
+    In the **gaussian filter**, we can notice that the centre pixels are more detailed due to the fact that this filter gives more weight to pixels near the center of the image. This resulted in a smoother blur when compared to the **average** and **disk** filters.
+
+- **Laplacian Filter**
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+        <figure>
+            <img src="../images/3.filtering_experiences/4.filter_laplacian/1.option_symmetric.png" alt="'Laplacian' filter with 'Symmetric' option" width="600px" height="auto" />
+            <figcaption><strong>Laplacian</strong> filter with <strong>Symmetric</strong> option</figcaption>
+        </figure>
+    </div>
+
+    In the **laplacian filter**, we can notice that the filter highlites edges and transitions intensity. in this image, the edges are highlighted as lighter or darker lines against a dark background. The image gets darker since his filter responds to the rate of change in brightness, and in areas without rapid change (the peppers surface), the result is close to zero, hence the darkness. The lighter lines refer to the places where there as a rapid change in brightness intensity.
+
+- **Log Filter**
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+        <figure>
+            <img src="../images/3.filtering_experiences/5.filter_log/1.option_symmetric.png" alt="'Log' filter with 'Symmetric' option" width="600px" height="auto" />
+            <figcaption><strong>Log</strong> filter with <strong>Symmetric</strong> option</figcaption>
+        </figure>
+    </div>
+
+    In the **log filter**, this filter applies the **gaussian filter** to smooth the image and then the **laplacian filter** to detect the edges of the objects. So, this filter, as we can see in the image above (right image), preserves more details in the edge regions when compared to the **laplacian filter**.
+
+- **Motion Filter**
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+        <figure>
+            <img src="../images/3.filtering_experiences/6.filter_motion/1.option_symmetric.png" alt="'Motion' filter with 'Symmetric' option" width="600px" height="auto" />
+            <figcaption><strong>Motion</strong> filter with <strong>Symmetric</strong> option</figcaption>
+        </figure>
+    </div>
+
+    In the **motion filter**, this filter simulates motion blur, as if the image has been captured with a moving camera. It's noticeable the slight distortion of the image obejcts.
+
+- **Prewitt Filter**
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+        <figure>
+            <img src="../images/3.filtering_experiences/7.filter_prewitt/1.option_symmetric.png" alt="'Prewitt' filter with 'Symmetric' option" width="600px" height="auto" />
+            <figcaption><strong>Prewitt</strong> filter with <strong>Symmetric</strong> option</figcaption>
+        </figure>
+    </div>
+
+    In the **prewitt filter**, this filter is similar to the **laplacian filter** but emphasizes the edges with less intensity. The contrary difference of the images to this explanation can be due to the fact that the **laplacian filter** could produce an image with reduced brightness, making the edges less visible.
+
+- **Sobel Filter**
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+        <figure>
+            <img src="../images/3.filtering_experiences/8.filter_sobel/1.option_symmetric.png" alt="'Sobel' filter with 'Symmetric' option" width="600px" height="auto" />
+            <figcaption><strong>Sobel</strong> filter with <strong>Symmetric</strong> option</figcaption>
+        </figure>
+    </div>
+
+    In the **sobel filter**, this filter is similar to the **prewitt filter** but gives more enphase to the pixels that are closer to the center. In the image obtained from the **sobel filter**, it's possible to notice that in the pepper of the middle, the "_blue_" color  is more "intense" than the blue color of the image obtained from the **prewitt filter**, which indicates that the **sobel filter** actually gives more enphase to the pixels that are closer to the center.
+
+
+Now, lets see some different types of filter options that control de filtering operation (for this purpose, we will use the **average filter**):
+
+- **Symmetric option**:
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+        <figure>
+            <img src="../images/3.filtering_experiences/1.filter_average/1.option_symmetric.png" alt="'Average' filter with 'Symmetric' option" width="600px" height="auto" />
+            <figcaption><strong>Average</strong> filter with <strong>Symmetric</strong> option</figcaption>
+        </figure>
+    </div>
+
+    In the **symmetric option**, this option reflects the image along the edges, essentially duplicating and inverting the pixels at the border. This lead to a result image where the edges at the border are smoother.
+
+- **Replicate option**:
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+        <figure>
+            <img src="../images/3.filtering_experiences/1.filter_average/2.option_replicate.png" alt="'Replicate' filter with 'Symmetric' option" width="600px" height="auto" />
+            <figcaption><strong>Replicate</strong> filter with <strong>Symmetric</strong> option</figcaption>
+        </figure>
+    </div>
+
+    In the **symmetric option**, this option replicates the border pixels across the border of the image, which is noticeable in the margins of the picture that are darker than the **symmetric option**, where the edges were copied.
+
+- **Circular option**:
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+        <figure>
+            <img src="../images/3.filtering_experiences/1.filter_average/3.option_circular.png" alt="'Circular' filter with 'Symmetric' option" width="600px" height="auto" />
+            <figcaption><strong>Circular</strong> filter with <strong>Symmetric</strong> option</figcaption>
+        </figure>
+    </div>
+
+    In the **circular option**, this option treats the image by connecting the left edge to the right and the top to the bottom. It's possible to notice this by obersving the image above. In the margins, it's possible to see that, for example, the bottom left part went to the top left part, and the top left part went to the bottom left part. 
+
+- **Same option**:
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+        <figure>
+            <img src="../images/3.filtering_experiences/1.filter_average/4.option_same.png" alt="'Circular' filter with 'Same' option" width="600px" height="auto" />
+            <figcaption><strong>Circular</strong> filter with <strong>Same</strong> option</figcaption>
+        </figure>
+    </div>
+
+    In the **same option**, in this option the output image is the same size as the input image, and the value at the border are handled in such a way (often by replication) to mantain this size. In the output image, it's possible to notice in the margins the margin pixels replication (black pixels).
+
+- **Full option**:
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+        <figure>
+            <img src="../images/3.filtering_experiences/1.filter_average/5.option_full.png" alt="'Circular' filter with 'Full' option" width="600px" height="auto" />
+            <figcaption><strong>Circular</strong> filter with <strong>Full</strong> option</figcaption>
+        </figure>
+    </div>
+
+    In the **full option**, the result of this option is similar to the one returned by the **same option**. However, the filtering is done in a way that the entire kernel is used , even at the borders. In the returned image, it's possible to see that this filter resulted in a larger image, as the filtering in the borders includes the full area of the kernel. 
+
+- **Corr option**:
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+        <figure>
+            <img src="../images/3.filtering_experiences/1.filter_average/6.option_corr.png" alt="'Circular' filter with 'Corr' option" width="600px" height="auto" />
+            <figcaption><strong>Circular</strong> filter with <strong>Corr</strong> option</figcaption>
+        </figure>
+    </div>
+
+    In the **corr option**, also known as **correlation option**, a correlation formula is used to determine he new pixel values at the edges. In the resulted image, it's also possible to see the new pixels in the margins of the image. 
+
+- **Conv option**:
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+        <figure>
+            <img src="../images/3.filtering_experiences/1.filter_average/7.option_conv.png" alt="'Circular' filter with 'Conv' option" width="600px" height="auto" />
+            <figcaption><strong>Circular</strong> filter with <strong>Conv</strong> option</figcaption>
+        </figure>
+    </div>
+
+    In the **conv option**, also known as **convolution option**, the process is similar to the **correlation option** (also the output imagess of this two options are similar). It performs multidimensional filtering using convolution. In the result image, it's also possible to notice the darker pixels at the margin, that were possibly calculate using a predefined formula in the convolution process.
+
+## Conclusion
+
+The **qunatisation process** refers to the process of constraining an input from a large set to output in a smaller set. This process evolves reducing the number of bits needed to store the color of each pixel.
+The **dithering technique** is a technique that can be used to make a lower bit-depth blend colors by introducing random noise to the image n strategic locations. 
+
+<div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <figure>
+        <img src="../images/others/dithering_example.png" alt="Dithering image example" width="200px" height="auto" />
+        <figcaption><strong>Dithering</strong> technique example</figcaption>
+    </figure>
+</div>
+
+The **dithering technique** is useful because it reduces the effects of pixel-to-pixel errors in the flat field, and helps to remove quantisation distortion that occurs when reducing the number of bits. This technique creates an illusion of richer color depth n images with a reduced color palette.
+The **filtering process** is the process of manipulating images to improve the qualilty of the image and suppress unwanted noise. There are a vast amount of filter types and options to choose depending on the requirements. Effective filtering improves image quality for better interpretation, but it's important to measure the values of the paramters since they can also introduce errors (and noise) in the result image.
+
+
+## Annexes
+
+#### Annex A: Experiments with colors spaces
+
+###### Annex A.1: RGB and HSV components (ex1)
+
+- *elephant.bmp* file:
+
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <figure>
+    <img src="../images/1.colar_spaces/ex1/elephantBMP/grayscale_image.png" alt="'Circular' filter with 'Conv' option" width="200px" height="auto" />
+    <figcaption>Elephant.bmp file in grayscale image</figcaption>
+    </figure>
+    </div>
+
+- *floresVermelhas.bmp* file:
+
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/1.colar_spaces/ex1/floresVermelhasBMP/original_image.png" width="200px" height="auto" />
+    </div>
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/1.colar_spaces/ex1/floresVermelhasBMP/rgb_image.png" width="200px" height="auto" />
+    </div>
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/1.colar_spaces/ex1/floresVermelhasBMP/red_component_image.png" width="200px" height="auto" />
+    </div>
+
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/1.colar_spaces/ex1/floresVermelhasBMP/green_component_image.png" width="200px" height="auto" />
+    </div>
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/1.colar_spaces/ex1/floresVermelhasBMP/blue_component_image.png" width="200px" height="auto" />
+    </div>
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/1.colar_spaces/ex1/floresVermelhasBMP/hsv_image.png" width="200px" height="auto" />
+    </div>
+
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/1.colar_spaces/ex1/floresVermelhasBMP/hue_component_image.png" width="200px" height="auto" />
+    </div>
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/1.colar_spaces/ex1/floresVermelhasBMP/saturation_component_image.png" width="200px" height="auto" />
+    </div>
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/1.colar_spaces/ex1/floresVermelhasBMP/value_component_image.png" width="200px" height="auto" />
+    </div>
+
+- *folhasVerdes.bmp* file:
+
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/1.colar_spaces/ex1/folhasVerdesBMP/original_image.png" width="200px" height="auto" />
+    </div>
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/1.colar_spaces/ex1/folhasVerdesBMP/rgb_image.png" width="200px" height="auto" />
+    </div>
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/1.colar_spaces/ex1/folhasVerdesBMP/red_component_image.png" width="200px" height="auto" />
+    </div>
+
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/1.colar_spaces/ex1/folhasVerdesBMP/green_component_image.png" width="200px" height="auto" />
+    </div>
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/1.colar_spaces/ex1/floresVermelhasBMP/blue_component_image.png" width="200px" height="auto" />
+    </div>
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/1.colar_spaces/ex1/folhasVerdesBMP/hsv_image.png" width="200px" height="auto" />
+    </div>
+
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/1.colar_spaces/ex1/folhasVerdesBMP/hue_component_image.png" width="200px" height="auto" />
+    </div>
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/1.colar_spaces/ex1/folhasVerdesBMP/saturation_component_image.png" width="200px" height="auto" />
+    </div>
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/1.colar_spaces/ex1/folhasVerdesBMP/value_component_image.png" width="200px" height="auto" />
+    </div>
+
+- *lighthouse.png* file:
+
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/1.colar_spaces/ex1/lighthousePNG/original_image.png" width="200px" height="auto" />
+    </div>
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/1.colar_spaces/ex1/lighthousePNG/rgb_image.png" width="200px" height="auto" />
+    </div>
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/1.colar_spaces/ex1/lighthousePNG/red_component_image.png" width="200px" height="auto" />
+    </div>
+
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/1.colar_spaces/ex1/lighthousePNG/green_component_image.png" width="200px" height="auto" />
+    </div>
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/1.colar_spaces/ex1/lighthousePNG/blue_component_image.png" width="200px" height="auto" />
+    </div>
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/1.colar_spaces/ex1/lighthousePNG/hsv_image.png" width="200px" height="auto" />
+    </div>
+
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/1.colar_spaces/ex1/lighthousePNG/hue_component_image.png" width="200px" height="auto" />
+    </div>
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/1.colar_spaces/ex1/lighthousePNG/saturation_component_image.png" width="200px" height="auto" />
+    </div>
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/1.colar_spaces/ex1/lighthousePNG/value_component_image.png" width="200px" height="auto" />
+    </div>
+
+- *peppers.png* file:
+
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/1.colar_spaces/ex1/peppersPNG/original_image.png" width="200px" height="auto" />
+    </div>
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/1.colar_spaces/ex1/peppersPNG/rgb_image.png" width="200px" height="auto" />
+    </div>
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/1.colar_spaces/ex1/peppersPNG/red_component_image.png" width="200px" height="auto" />
+    </div>
+
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/1.colar_spaces/ex1/peppersPNG/green_component_image.png" width="200px" height="auto" />
+    </div>
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/1.colar_spaces/ex1/peppersPNG/blue_component_image.png" width="200px" height="auto" />
+    </div>
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/1.colar_spaces/ex1/peppersPNG/hsv_image.png" width="200px" height="auto" />
+    </div>
+
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/1.colar_spaces/ex1/peppersPNG/hue_component_image.png" width="200px" height="auto" />
+    </div>
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/1.colar_spaces/ex1/peppersPNG/saturation_component_image.png" width="200px" height="auto" />
+    </div>
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/1.colar_spaces/ex1/peppersPNG/value_component_image.png" width="200px" height="auto" />
+    </div>
+
+- *praia.bmp* file:
+
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/1.colar_spaces/ex1/praiaBMP/original_image.png" width="200px" height="auto" />
+    </div>
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/1.colar_spaces/ex1/praiaBMP/rgb_image.png" width="200px" height="auto" />
+    </div>
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/1.colar_spaces/ex1/praiaBMP/red_component_image.png" width="200px" height="auto" />
+    </div>
+
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/1.colar_spaces/ex1/praiaBMP/green_component_image.png" width="200px" height="auto" />
+    </div>
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/1.colar_spaces/ex1/praiaBMP/blue_component_image.png" width="200px" height="auto" />
+    </div>
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/1.colar_spaces/ex1/praiaBMP/hsv_image.png" width="200px" height="auto" />
+    </div>
+
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/1.colar_spaces/ex1/praiaBMP/hue_component_image.png" width="200px" height="auto" />
+    </div>
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/1.colar_spaces/ex1/praiaBMP/saturation_component_image.png" width="200px" height="auto" />
+    </div>
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/1.colar_spaces/ex1/praiaBMP/value_component_image.png" width="200px" height="auto" />
+    </div>
+
+
+
+
+
+
+
+
+
+###### Annex A.2: RGB and YCbCr components (ex2)
+
+- *elephant.bmp* file:
+
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <figure>
+    <img src="../images/1.colar_spaces/ex2/elephantBMP/grayscale_image.png" alt="'Circular' filter with 'Conv' option" width="200px" height="auto" />
+    <figcaption>Elephant.bmp file in grayscale image</figcaption>
+    </figure>
+    </div>
+
+- *floresVermelhas.bmp* file:
+
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/1.colar_spaces/ex2/floresVermelhasBMP/original_image.png" width="200px" height="auto" />
+    </div>
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/1.colar_spaces/ex2/floresVermelhasBMP/rgb_image.png" width="200px" height="auto" />
+    </div>
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/1.colar_spaces/ex2/floresVermelhasBMP/red_component_image.png" width="200px" height="auto" />
+    </div>
+
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/1.colar_spaces/ex2/floresVermelhasBMP/green_component_image.png" width="200px" height="auto" />
+    </div>
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/1.colar_spaces/ex2/floresVermelhasBMP/blue_component_image.png" width="200px" height="auto" />
+    </div>
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/1.colar_spaces/ex2/floresVermelhasBMP/ycbcr_image.png" width="200px" height="auto" />
+    </div>
+
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/1.colar_spaces/ex2/floresVermelhasBMP/y_component_image.png" width="200px" height="auto" />
+    </div>
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/1.colar_spaces/ex2/floresVermelhasBMP/cb_component_image.png" width="200px" height="auto" />
+    </div>
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/1.colar_spaces/ex2/floresVermelhasBMP/cr_component_image.png" width="200px" height="auto" />
+    </div>
+
+- *folhasVerdes.bmp* file:
+
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/1.colar_spaces/ex2/folhasVerdesBMP/original_image.png" width="200px" height="auto" />
+    </div>
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/1.colar_spaces/ex2/folhasVerdesBMP/rgb_image.png" width="200px" height="auto" />
+    </div>
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/1.colar_spaces/ex2/folhasVerdesBMP/red_component_image.png" width="200px" height="auto" />
+    </div>
+
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/1.colar_spaces/ex2/folhasVerdesBMP/green_component_image.png" width="200px" height="auto" />
+    </div>
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/1.colar_spaces/ex2/floresVermelhasBMP/blue_component_image.png" width="200px" height="auto" />
+    </div>
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/1.colar_spaces/ex2/folhasVerdesBMP/ycbcr_image.png" width="200px" height="auto" />
+    </div>
+
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/1.colar_spaces/ex2/folhasVerdesBMP/y_component_image.png" width="200px" height="auto" />
+    </div>
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/1.colar_spaces/ex2/folhasVerdesBMP/cb_component_image.png" width="200px" height="auto" />
+    </div>
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/1.colar_spaces/ex2/folhasVerdesBMP/cr_component_image.png" width="200px" height="auto" />
+    </div>
+
+- *lighthouse.png* file:
+
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/1.colar_spaces/ex2/lighthousePNG/original_image.png" width="200px" height="auto" />
+    </div>
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/1.colar_spaces/ex2/lighthousePNG/rgb_image.png" width="200px" height="auto" />
+    </div>
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/1.colar_spaces/ex2/lighthousePNG/red_component_image.png" width="200px" height="auto" />
+    </div>
+
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/1.colar_spaces/ex2/lighthousePNG/green_component_image.png" width="200px" height="auto" />
+    </div>
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/1.colar_spaces/ex2/lighthousePNG/blue_component_image.png" width="200px" height="auto" />
+    </div>
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/1.colar_spaces/ex2/lighthousePNG/ycbcr_image.png" width="200px" height="auto" />
+    </div>
+
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/1.colar_spaces/ex2/lighthousePNG/y_component_image.png" width="200px" height="auto" />
+    </div>
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/1.colar_spaces/ex2/lighthousePNG/cb_component_image.png" width="200px" height="auto" />
+    </div>
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/1.colar_spaces/ex2/lighthousePNG/cr_component_image.png" width="200px" height="auto" />
+    </div>
+
+- *peppers.png* file:
+
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/1.colar_spaces/ex2/peppersPNG/original_image.png" width="200px" height="auto" />
+    </div>
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/1.colar_spaces/ex2/peppersPNG/rgb_image.png" width="200px" height="auto" />
+    </div>
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/1.colar_spaces/ex2/peppersPNG/red_component_image.png" width="200px" height="auto" />
+    </div>
+
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/1.colar_spaces/ex2/peppersPNG/green_component_image.png" width="200px" height="auto" />
+    </div>
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/1.colar_spaces/ex2/peppersPNG/blue_component_image.png" width="200px" height="auto" />
+    </div>
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/1.colar_spaces/ex2/peppersPNG/ycbcr_image.png" width="200px" height="auto" />
+    </div>
+
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/1.colar_spaces/ex2/peppersPNG/y_component_image.png" width="200px" height="auto" />
+    </div>
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/1.colar_spaces/ex2/peppersPNG/cb_component_image.png" width="200px" height="auto" />
+    </div>
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/1.colar_spaces/ex2/peppersPNG/cr_component_image.png" width="200px" height="auto" />
+    </div>
+
+- *praia.bmp* file:
+
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/1.colar_spaces/ex2/praiaBMP/original_image.png" width="200px" height="auto" />
+    </div>
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/1.colar_spaces/ex2/praiaBMP/rgb_image.png" width="200px" height="auto" />
+    </div>
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/1.colar_spaces/ex2/praiaBMP/red_component_image.png" width="200px" height="auto" />
+    </div>
+
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/1.colar_spaces/ex2/praiaBMP/green_component_image.png" width="200px" height="auto" />
+    </div>
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/1.colar_spaces/ex2/praiaBMP/blue_component_image.png" width="200px" height="auto" />
+    </div>
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/1.colar_spaces/ex2/praiaBMP/ycbcr_image.png" width="200px" height="auto" />
+    </div>
+
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/1.colar_spaces/ex2/praiaBMP/y_component_image.png" width="200px" height="auto" />
+    </div>
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/1.colar_spaces/ex2/praiaBMP/cb_component_image.png" width="200px" height="auto" />
+    </div>
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/1.colar_spaces/ex2/praiaBMP/cr_component_image.png" width="200px" height="auto" />
+    </div>
+
+
+
+
+
+
+
+
+
+
+###### Annex A.3: RGB and L\*a\*b\* components (ex3)
+
+- *elephant.bmp* file:
+
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <figure>
+    <img src="../images/1.colar_spaces/ex3/elephantBMP/grayscale_image.png" alt="'Circular' filter with 'Conv' option" width="200px" height="auto" />
+    <figcaption>Elephant.bmp file in grayscale image</figcaption>
+    </figure>
+    </div>
+
+- *floresVermelhas.bmp* file:
+
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/1.colar_spaces/ex3/floresVermelhasBMP/original_image.png" width="200px" height="auto" />
+    </div>
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/1.colar_spaces/ex3/floresVermelhasBMP/rgb_image.png" width="200px" height="auto" />
+    </div>
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/1.colar_spaces/ex3/floresVermelhasBMP/red_component_image.png" width="200px" height="auto" />
+    </div>
+
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/1.colar_spaces/ex3/floresVermelhasBMP/green_component_image.png" width="200px" height="auto" />
+    </div>
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/1.colar_spaces/ex3/floresVermelhasBMP/blue_component_image.png" width="200px" height="auto" />
+    </div>
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/1.colar_spaces/ex3/floresVermelhasBMP/lab_image.png" width="200px" height="auto" />
+    </div>
+
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/1.colar_spaces/ex3/floresVermelhasBMP/l_component_image.png" width="200px" height="auto" />
+    </div>
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/1.colar_spaces/ex3/floresVermelhasBMP/a_component_image.png" width="200px" height="auto" />
+    </div>
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/1.colar_spaces/ex3/floresVermelhasBMP/b_component_image.png" width="200px" height="auto" />
+    </div>
+
+- *folhasVerdes.bmp* file:
+
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/1.colar_spaces/ex3/folhasVerdesBMP/original_image.png" width="200px" height="auto" />
+    </div>
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/1.colar_spaces/ex3/folhasVerdesBMP/rgb_image.png" width="200px" height="auto" />
+    </div>
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/1.colar_spaces/ex3/folhasVerdesBMP/red_component_image.png" width="200px" height="auto" />
+    </div>
+
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/1.colar_spaces/ex3/folhasVerdesBMP/green_component_image.png" width="200px" height="auto" />
+    </div>
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/1.colar_spaces/ex3/floresVermelhasBMP/blue_component_image.png" width="200px" height="auto" />
+    </div>
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/1.colar_spaces/ex3/folhasVerdesBMP/lab_image.png" width="200px" height="auto" />
+    </div>
+
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/1.colar_spaces/ex3/folhasVerdesBMP/l_component_image.png" width="200px" height="auto" />
+    </div>
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/1.colar_spaces/ex3/folhasVerdesBMP/a_component_image.png" width="200px" height="auto" />
+    </div>
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/1.colar_spaces/ex3/folhasVerdesBMP/b_component_image.png" width="200px" height="auto" />
+    </div>
+
+- *lighthouse.png* file:
+
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/1.colar_spaces/ex3/lighthousePNG/original_image.png" width="200px" height="auto" />
+    </div>
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/1.colar_spaces/ex3/lighthousePNG/rgb_image.png" width="200px" height="auto" />
+    </div>
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/1.colar_spaces/ex3/lighthousePNG/red_component_image.png" width="200px" height="auto" />
+    </div>
+
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/1.colar_spaces/ex3/lighthousePNG/green_component_image.png" width="200px" height="auto" />
+    </div>
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/1.colar_spaces/ex3/lighthousePNG/blue_component_image.png" width="200px" height="auto" />
+    </div>
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/1.colar_spaces/ex3/lighthousePNG/lab_image.png" width="200px" height="auto" />
+    </div>
+
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/1.colar_spaces/ex3/lighthousePNG/l_component_image.png" width="200px" height="auto" />
+    </div>
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/1.colar_spaces/ex3/lighthousePNG/a_component_image.png" width="200px" height="auto" />
+    </div>
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/1.colar_spaces/ex3/lighthousePNG/b_component_image.png" width="200px" height="auto" />
+    </div>
+
+- *peppers.png* file:
+
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/1.colar_spaces/ex3/peppersPNG/original_image.png" width="200px" height="auto" />
+    </div>
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/1.colar_spaces/ex3/peppersPNG/rgb_image.png" width="200px" height="auto" />
+    </div>
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/1.colar_spaces/ex3/peppersPNG/red_component_image.png" width="200px" height="auto" />
+    </div>
+
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/1.colar_spaces/ex3/peppersPNG/green_component_image.png" width="200px" height="auto" />
+    </div>
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/1.colar_spaces/ex3/peppersPNG/blue_component_image.png" width="200px" height="auto" />
+    </div>
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/1.colar_spaces/ex3/peppersPNG/lab_image.png" width="200px" height="auto" />
+    </div>
+
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/1.colar_spaces/ex3/peppersPNG/l_component_image.png" width="200px" height="auto" />
+    </div>
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/1.colar_spaces/ex3/peppersPNG/a_component_image.png" width="200px" height="auto" />
+    </div>
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/1.colar_spaces/ex3/peppersPNG/b_component_image.png" width="200px" height="auto" />
+    </div>
+
+- *praia.bmp* file:
+
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/1.colar_spaces/ex3/praiaBMP/original_image.png" width="200px" height="auto" />
+    </div>
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/1.colar_spaces/ex3/praiaBMP/rgb_image.png" width="200px" height="auto" />
+    </div>
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/1.colar_spaces/ex3/praiaBMP/red_component_image.png" width="200px" height="auto" />
+    </div>
+
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/1.colar_spaces/ex3/praiaBMP/green_component_image.png" width="200px" height="auto" />
+    </div>
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/1.colar_spaces/ex3/praiaBMP/blue_component_image.png" width="200px" height="auto" />
+    </div>
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/1.colar_spaces/ex3/praiaBMP/lab_image.png" width="200px" height="auto" />
+    </div>
+
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/1.colar_spaces/ex3/praiaBMP/l_component_image.png" width="200px" height="auto" />
+    </div>
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/1.colar_spaces/ex3/praiaBMP/a_component_image.png" width="200px" height="auto" />
+    </div>
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/1.colar_spaces/ex3/praiaBMP/b_component_image.png" width="200px" height="auto" />
+    </div>
+
+
+
+
+
+
+
+
+
+###### Annex A.4: Color histogram in the different color spaces (ex4)
+
+- *elephant.bmp* file:
+
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/1.colar_spaces/ex4/elephantBMP/grayscale_image.png" alt="'Circular' filter with 'Conv' option" width="200px" height="auto" />
+    </div>
+
+- *floresVermelhas.bmp* file:
+
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/1.colar_spaces/ex4/floresVermelhasBMP/rgb_lab_histograms.png" width="600px" height="auto" />
+    </div>
+
+- *folhasVerdes.bmp* file:
+
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/1.colar_spaces/ex4/folhasVerdesBMP/rgb_lab_histograms.png" width="600px" height="auto" />
+    </div>
+
+- *lighthouse.png* file:
+
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/1.colar_spaces/ex4/lighthousePNG/rgb_lab_histograms.png" width="600px" height="auto" />
+    </div>
+
+- *peppers.png* file:
+
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/1.colar_spaces/ex4/peppersPNG/rgb_lab_histograms.png" width="600px" height="auto" />
+    </div>
+
+- *praia.bmp* file:
+
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/1.colar_spaces/ex4/praiaBMP/rgb_lab_histograms.png" width="600px" height="auto" />
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+#### Annex B: Variation of image spatial dimensions using or not filters with the “imzoneplate” test image
+
+###### Annex B.1: Size of 64
+
+<div align="center" style="display: flex; align-items: center; justify-content: center;">
+<img src="../images/2.variation_of_image_spatial_dimensions/size_64/1.zoneplate_image.png" width="300px" height="auto" />
+</div>
+<div align="center" style="display: flex; align-items: center; justify-content: center;">
+<img src="../images/2.variation_of_image_spatial_dimensions/size_64/2.spectral_density_original_image.png" width="350px" height="auto" />
+</div>
+<div align="center" style="display: flex; align-items: center; justify-content: center;">
+<img src="../images/2.variation_of_image_spatial_dimensions/size_64/3.variation_of_signal_original_image.png" width="350px" height="auto" />
+</div>
+
+
+- Bicubic method
+
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/2.variation_of_image_spatial_dimensions/size_64/bicubic/2.1.image_processed_by_repetition.png" width="350px" height="auto" />
+    </div>
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/2.variation_of_image_spatial_dimensions/size_64/bicubic/2.2.spectral_density_image_processed_by_repetition.png" width="350px" height="auto" />
+    </div>
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/2.variation_of_image_spatial_dimensions/size_64/bicubic/2.3.variation_of_signal_image_processed_by_repetition.png" width="350px" height="auto" />
+    </div>
+
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/2.variation_of_image_spatial_dimensions/size_64/bicubic/3.1.image_processed_by_imresize.png" width="350px" height="auto" />
+    </div>
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/2.variation_of_image_spatial_dimensions/size_64/bicubic/3.2.spectral_density_image_processed_by_imresize.png" width="350px" height="auto" />
+    </div>
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/2.variation_of_image_spatial_dimensions/size_64/bicubic/3.3.variation_of_signal_image_processed_by_imresize.png" width="350px" height="auto" />
+    </div>
+
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/2.variation_of_image_spatial_dimensions/size_64/bicubic/4.final_graphs.png" width="7000px" height="auto" />
+    </div>
+
+- Bilinear method
+
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/2.variation_of_image_spatial_dimensions/size_64/bilinear/2.1.image_processed_by_repetition.png" width="350px" height="auto" />
+    </div>
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/2.variation_of_image_spatial_dimensions/size_64/bilinear/2.2.spectral_density_image_processed_by_repetition.png" width="350px" height="auto" />
+    </div>
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/2.variation_of_image_spatial_dimensions/size_64/bilinear/2.3.variation_of_signal_image_processed_by_repetition.png" width="350px" height="auto" />
+    </div>
+
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/2.variation_of_image_spatial_dimensions/size_64/bilinear/3.1.image_processed_by_imresize.png" width="350px" height="auto" />
+    </div>
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/2.variation_of_image_spatial_dimensions/size_64/bilinear/3.2.spectral_density_image_processed_by_imresize.png" width="350px" height="auto" />
+    </div>
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/2.variation_of_image_spatial_dimensions/size_64/bilinear/3.3.variation_of_signal_image_processed_by_imresize.png" width="350px" height="auto" />
+    </div>
+
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/2.variation_of_image_spatial_dimensions/size_64/bilinear/4.final_graphs.png" width="7000px" height="auto" />
+    </div>
+
+- Box method
+
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/2.variation_of_image_spatial_dimensions/size_64/box/2.1.image_processed_by_repetition.png" width="350px" height="auto" />
+    </div>
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/2.variation_of_image_spatial_dimensions/size_64/box/2.2.spectral_density_image_processed_by_repetition.png" width="350px" height="auto" />
+    </div>
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/2.variation_of_image_spatial_dimensions/size_64/box/2.3.variation_of_signal_image_processed_by_repetition.png" width="350px" height="auto" />
+    </div>
+
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/2.variation_of_image_spatial_dimensions/size_64/box/3.1.image_processed_by_imresize.png" width="350px" height="auto" />
+    </div>
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/2.variation_of_image_spatial_dimensions/size_64/box/3.2.spectral_density_image_processed_by_imresize.png" width="350px" height="auto" />
+    </div>
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/2.variation_of_image_spatial_dimensions/size_64/box/3.3.variation_of_signal_image_processed_by_imresize.png" width="350px" height="auto" />
+    </div>
+
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/2.variation_of_image_spatial_dimensions/size_64/box/4.final_graphs.png" width="7000px" height="auto" />
+    </div>
+
+- Cubic method
+
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/2.variation_of_image_spatial_dimensions/size_64/cubic/2.1.image_processed_by_repetition.png" width="350px" height="auto" />
+    </div>
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/2.variation_of_image_spatial_dimensions/size_64/cubic/2.2.spectral_density_image_processed_by_repetition.png" width="350px" height="auto" />
+    </div>
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/2.variation_of_image_spatial_dimensions/size_64/cubic/2.3.variation_of_signal_image_processed_by_repetition.png" width="350px" height="auto" />
+    </div>
+
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/2.variation_of_image_spatial_dimensions/size_64/cubic/3.1.image_processed_by_imresize.png" width="350px" height="auto" />
+    </div>
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/2.variation_of_image_spatial_dimensions/size_64/cubic/3.2.spectral_density_image_processed_by_imresize.png" width="350px" height="auto" />
+    </div>
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/2.variation_of_image_spatial_dimensions/size_64/cubic/3.3.variation_of_signal_image_processed_by_imresize.png" width="350px" height="auto" />
+    </div>
+
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/2.variation_of_image_spatial_dimensions/size_64/cubic/4.final_graphs.png" width="7000px" height="auto" />
+    </div>
+
+- Lanczos2 method
+
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/2.variation_of_image_spatial_dimensions/size_64/lanczos2/2.1.image_processed_by_repetition.png" width="350px" height="auto" />
+    </div>
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/2.variation_of_image_spatial_dimensions/size_64/lanczos2/2.2.spectral_density_image_processed_by_repetition.png" width="350px" height="auto" />
+    </div>
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/2.variation_of_image_spatial_dimensions/size_64/lanczos2/2.3.variation_of_signal_image_processed_by_repetition.png" width="350px" height="auto" />
+    </div>
+
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/2.variation_of_image_spatial_dimensions/size_64/lanczos2/3.1.image_processed_by_imresize.png" width="350px" height="auto" />
+    </div>
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/2.variation_of_image_spatial_dimensions/size_64/lanczos2/3.2.spectral_density_image_processed_by_imresize.png" width="350px" height="auto" />
+    </div>
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/2.variation_of_image_spatial_dimensions/size_64/lanczos2/3.3.variation_of_signal_image_processed_by_imresize.png" width="350px" height="auto" />
+    </div>
+
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/2.variation_of_image_spatial_dimensions/size_64/lanczos2/4.final_graphs.png" width="7000px" height="auto" />
+    </div>
+
+- Lanczos3 method
+
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/2.variation_of_image_spatial_dimensions/size_64/lanczos3/2.1.image_processed_by_repetition.png" width="350px" height="auto" />
+    </div>
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/2.variation_of_image_spatial_dimensions/size_64/lanczos3/2.2.spectral_density_image_processed_by_repetition.png" width="350px" height="auto" />
+    </div>
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/2.variation_of_image_spatial_dimensions/size_64/lanczos3/2.3.variation_of_signal_image_processed_by_repetition.png" width="350px" height="auto" />
+    </div>
+
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/2.variation_of_image_spatial_dimensions/size_64/lanczos3/3.1.image_processed_by_imresize.png" width="350px" height="auto" />
+    </div>
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/2.variation_of_image_spatial_dimensions/size_64/lanczos3/3.2.spectral_density_image_processed_by_imresize.png" width="350px" height="auto" />
+    </div>
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/2.variation_of_image_spatial_dimensions/size_64/lanczos3/3.3.variation_of_signal_image_processed_by_imresize.png" width="350px" height="auto" />
+    </div>
+
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/2.variation_of_image_spatial_dimensions/size_64/lanczos3/4.final_graphs.png" width="7000px" height="auto" />
+    </div>
+
+- Nearest method
+
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/2.variation_of_image_spatial_dimensions/size_64/nearest/2.1.image_processed_by_repetition.png" width="350px" height="auto" />
+    </div>
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/2.variation_of_image_spatial_dimensions/size_64/nearest/2.2.spectral_density_image_processed_by_repetition.png" width="350px" height="auto" />
+    </div>
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/2.variation_of_image_spatial_dimensions/size_64/nearest/2.3.variation_of_signal_image_processed_by_repetition.png" width="350px" height="auto" />
+    </div>
+
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/2.variation_of_image_spatial_dimensions/size_64/nearest/3.1.image_processed_by_imresize.png" width="350px" height="auto" />
+    </div>
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/2.variation_of_image_spatial_dimensions/size_64/nearest/3.2.spectral_density_image_processed_by_imresize.png" width="350px" height="auto" />
+    </div>
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/2.variation_of_image_spatial_dimensions/size_64/nearest/3.3.variation_of_signal_image_processed_by_imresize.png" width="350px" height="auto" />
+    </div>
+
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/2.variation_of_image_spatial_dimensions/size_64/nearest/4.final_graphs.png" width="7000px" height="auto" />
+    </div>
+
+- Triangle method
+
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/2.variation_of_image_spatial_dimensions/size_64/triangle/2.1.image_processed_by_repetition.png" width="350px" height="auto" />
+    </div>
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/2.variation_of_image_spatial_dimensions/size_64/triangle/2.2.spectral_density_image_processed_by_repetition.png" width="350px" height="auto" />
+    </div>
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/2.variation_of_image_spatial_dimensions/size_64/triangle/2.3.variation_of_signal_image_processed_by_repetition.png" width="350px" height="auto" />
+    </div>
+
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/2.variation_of_image_spatial_dimensions/size_64/triangle/3.1.image_processed_by_imresize.png" width="350px" height="auto" />
+    </div>
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/2.variation_of_image_spatial_dimensions/size_64/triangle/3.2.spectral_density_image_processed_by_imresize.png" width="350px" height="auto" />
+    </div>
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/2.variation_of_image_spatial_dimensions/size_64/triangle/3.3.variation_of_signal_image_processed_by_imresize.png" width="350px" height="auto" />
+    </div>
+
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/2.variation_of_image_spatial_dimensions/size_64/triangle/4.final_graphs.png" width="7000px" height="auto" />
+    </div>
+
+
+
+###### Annex B.2: Size of 128
+
+<div align="center" style="display: flex; align-items: center; justify-content: center;">
+<img src="../images/2.variation_of_image_spatial_dimensions/size_128/1.zoneplate_image.png" width="300px" height="auto" />
+</div>
+<div align="center" style="display: flex; align-items: center; justify-content: center;">
+<img src="../images/2.variation_of_image_spatial_dimensions/size_128/2.spectral_density_original_image.png" width="350px" height="auto" />
+</div>
+<div align="center" style="display: flex; align-items: center; justify-content: center;">
+<img src="../images/2.variation_of_image_spatial_dimensions/size_128/3.variation_of_signal_original_image.png" width="350px" height="auto" />
+</div>
+
+- Bicubic method
+
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/2.variation_of_image_spatial_dimensions/size_128/bicubic/2.1.image_processed_by_repetition.png" width="350px" height="auto" />
+    </div>
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/2.variation_of_image_spatial_dimensions/size_128/bicubic/2.2.spectral_density_image_processed_by_repetition.png" width="350px" height="auto" />
+    </div>
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/2.variation_of_image_spatial_dimensions/size_128/bicubic/2.3.variation_of_signal_image_processed_by_repetition.png" width="350px" height="auto" />
+    </div>
+
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/2.variation_of_image_spatial_dimensions/size_128/bicubic/3.1.image_processed_by_imresize.png" width="350px" height="auto" />
+    </div>
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/2.variation_of_image_spatial_dimensions/size_128/bicubic/3.2.spectral_density_image_processed_by_imresize.png" width="350px" height="auto" />
+    </div>
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/2.variation_of_image_spatial_dimensions/size_128/bicubic/3.3.variation_of_signal_image_processed_by_imresize.png" width="350px" height="auto" />
+    </div>
+
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/2.variation_of_image_spatial_dimensions/size_128/bicubic/4.final_graphs.png" width="7000px" height="auto" />
+    </div>
+
+- Bilinear method
+
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/2.variation_of_image_spatial_dimensions/size_128/bilinear/2.1.image_processed_by_repetition.png" width="350px" height="auto" />
+    </div>
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/2.variation_of_image_spatial_dimensions/size_128/bilinear/2.2.spectral_density_image_processed_by_repetition.png" width="350px" height="auto" />
+    </div>
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/2.variation_of_image_spatial_dimensions/size_128/bilinear/2.3.variation_of_signal_image_processed_by_repetition.png" width="350px" height="auto" />
+    </div>
+
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/2.variation_of_image_spatial_dimensions/size_128/bilinear/3.1.image_processed_by_imresize.png" width="350px" height="auto" />
+    </div>
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/2.variation_of_image_spatial_dimensions/size_128/bilinear/3.2.spectral_density_image_processed_by_imresize.png" width="350px" height="auto" />
+    </div>
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/2.variation_of_image_spatial_dimensions/size_128/bilinear/3.3.variation_of_signal_image_processed_by_imresize.png" width="350px" height="auto" />
+    </div>
+
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/2.variation_of_image_spatial_dimensions/size_128/bilinear/4.final_graphs.png" width="7000px" height="auto" />
+    </div>
+
+- Box method
+
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/2.variation_of_image_spatial_dimensions/size_128/box/2.1.image_processed_by_repetition.png" width="350px" height="auto" />
+    </div>
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/2.variation_of_image_spatial_dimensions/size_128/box/2.2.spectral_density_image_processed_by_repetition.png" width="350px" height="auto" />
+    </div>
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/2.variation_of_image_spatial_dimensions/size_128/box/2.3.variation_of_signal_image_processed_by_repetition.png" width="350px" height="auto" />
+    </div>
+
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/2.variation_of_image_spatial_dimensions/size_128/box/3.1.image_processed_by_imresize.png" width="350px" height="auto" />
+    </div>
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/2.variation_of_image_spatial_dimensions/size_128/box/3.2.spectral_density_image_processed_by_imresize.png" width="350px" height="auto" />
+    </div>
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/2.variation_of_image_spatial_dimensions/size_128/box/3.3.variation_of_signal_image_processed_by_imresize.png" width="350px" height="auto" />
+    </div>
+
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/2.variation_of_image_spatial_dimensions/size_128/box/4.final_graphs.png" width="7000px" height="auto" />
+    </div>
+
+- Cubic method
+
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/2.variation_of_image_spatial_dimensions/size_128/cubic/2.1.image_processed_by_repetition.png" width="350px" height="auto" />
+    </div>
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/2.variation_of_image_spatial_dimensions/size_128/cubic/2.2.spectral_density_image_processed_by_repetition.png" width="350px" height="auto" />
+    </div>
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/2.variation_of_image_spatial_dimensions/size_128/cubic/2.3.variation_of_signal_image_processed_by_repetition.png" width="350px" height="auto" />
+    </div>
+
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/2.variation_of_image_spatial_dimensions/size_128/cubic/3.1.image_processed_by_imresize.png" width="350px" height="auto" />
+    </div>
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/2.variation_of_image_spatial_dimensions/size_128/cubic/3.2.spectral_density_image_processed_by_imresize.png" width="350px" height="auto" />
+    </div>
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/2.variation_of_image_spatial_dimensions/size_128/cubic/3.3.variation_of_signal_image_processed_by_imresize.png" width="350px" height="auto" />
+    </div>
+
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/2.variation_of_image_spatial_dimensions/size_128/cubic/4.final_graphs.png" width="7000px" height="auto" />
+    </div>
+
+- Lanczos2 method
+
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/2.variation_of_image_spatial_dimensions/size_128/lanczos2/2.1.image_processed_by_repetition.png" width="350px" height="auto" />
+    </div>
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/2.variation_of_image_spatial_dimensions/size_128/lanczos2/2.2.spectral_density_image_processed_by_repetition.png" width="350px" height="auto" />
+    </div>
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/2.variation_of_image_spatial_dimensions/size_128/lanczos2/2.3.variation_of_signal_image_processed_by_repetition.png" width="350px" height="auto" />
+    </div>
+
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/2.variation_of_image_spatial_dimensions/size_128/lanczos2/3.1.image_processed_by_imresize.png" width="350px" height="auto" />
+    </div>
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/2.variation_of_image_spatial_dimensions/size_128/lanczos2/3.2.spectral_density_image_processed_by_imresize.png" width="350px" height="auto" />
+    </div>
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/2.variation_of_image_spatial_dimensions/size_128/lanczos2/3.3.variation_of_signal_image_processed_by_imresize.png" width="350px" height="auto" />
+    </div>
+
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/2.variation_of_image_spatial_dimensions/size_128/lanczos2/4.final_graphs.png" width="7000px" height="auto" />
+    </div>
+
+- Lanczos3 method
+
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/2.variation_of_image_spatial_dimensions/size_128/lanczos3/2.1.image_processed_by_repetition.png" width="350px" height="auto" />
+    </div>
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/2.variation_of_image_spatial_dimensions/size_128/lanczos3/2.2.spectral_density_image_processed_by_repetition.png" width="350px" height="auto" />
+    </div>
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/2.variation_of_image_spatial_dimensions/size_128/lanczos3/2.3.variation_of_signal_image_processed_by_repetition.png" width="350px" height="auto" />
+    </div>
+
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/2.variation_of_image_spatial_dimensions/size_128/lanczos3/3.1.image_processed_by_imresize.png" width="350px" height="auto" />
+    </div>
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/2.variation_of_image_spatial_dimensions/size_128/lanczos3/3.2.spectral_density_image_processed_by_imresize.png" width="350px" height="auto" />
+    </div>
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/2.variation_of_image_spatial_dimensions/size_128/lanczos3/3.3.variation_of_signal_image_processed_by_imresize.png" width="350px" height="auto" />
+    </div>
+
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/2.variation_of_image_spatial_dimensions/size_128/lanczos3/4.final_graphs.png" width="7000px" height="auto" />
+    </div>
+
+- Nearest method
+
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/2.variation_of_image_spatial_dimensions/size_128/nearest/2.1.image_processed_by_repetition.png" width="350px" height="auto" />
+    </div>
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/2.variation_of_image_spatial_dimensions/size_128/nearest/2.2.spectral_density_image_processed_by_repetition.png" width="350px" height="auto" />
+    </div>
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/2.variation_of_image_spatial_dimensions/size_128/nearest/2.3.variation_of_signal_image_processed_by_repetition.png" width="350px" height="auto" />
+    </div>
+
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/2.variation_of_image_spatial_dimensions/size_128/nearest/3.1.image_processed_by_imresize.png" width="350px" height="auto" />
+    </div>
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/2.variation_of_image_spatial_dimensions/size_128/nearest/3.2.spectral_density_image_processed_by_imresize.png" width="350px" height="auto" />
+    </div>
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/2.variation_of_image_spatial_dimensions/size_128/nearest/3.3.variation_of_signal_image_processed_by_imresize.png" width="350px" height="auto" />
+    </div>
+
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/2.variation_of_image_spatial_dimensions/size_128/nearest/4.final_graphs.png" width="7000px" height="auto" />
+    </div>
+
+- Triangle method
+
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/2.variation_of_image_spatial_dimensions/size_128/triangle/2.1.image_processed_by_repetition.png" width="350px" height="auto" />
+    </div>
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/2.variation_of_image_spatial_dimensions/size_128/triangle/2.2.spectral_density_image_processed_by_repetition.png" width="350px" height="auto" />
+    </div>
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/2.variation_of_image_spatial_dimensions/size_128/triangle/2.3.variation_of_signal_image_processed_by_repetition.png" width="350px" height="auto" />
+    </div>
+
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/2.variation_of_image_spatial_dimensions/size_128/triangle/3.1.image_processed_by_imresize.png" width="350px" height="auto" />
+    </div>
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/2.variation_of_image_spatial_dimensions/size_128/triangle/3.2.spectral_density_image_processed_by_imresize.png" width="350px" height="auto" />
+    </div>
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/2.variation_of_image_spatial_dimensions/size_128/triangle/3.3.variation_of_signal_image_processed_by_imresize.png" width="350px" height="auto" />
+    </div>
+
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/2.variation_of_image_spatial_dimensions/size_128/triangle/4.final_graphs.png" width="7000px" height="auto" />
+    </div>
+
+
+
+
+
+
+###### Annex B.3: Size of 256
+
+<div align="center" style="display: flex; align-items: center; justify-content: center;">
+<img src="../images/2.variation_of_image_spatial_dimensions/size_256/1.zoneplate_image.png" width="300px" height="auto" />
+</div>
+<div align="center" style="display: flex; align-items: center; justify-content: center;">
+<img src="../images/2.variation_of_image_spatial_dimensions/size_256/2.spectral_density_original_image.png" width="350px" height="auto" />
+</div>
+<div align="center" style="display: flex; align-items: center; justify-content: center;">
+<img src="../images/2.variation_of_image_spatial_dimensions/size_256/3.variation_of_signal_original_image.png" width="350px" height="auto" />
+</div>
+
+- Bicubic method
+
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/2.variation_of_image_spatial_dimensions/size_256/bicubic/2.1.image_processed_by_repetition.png" width="350px" height="auto" />
+    </div>
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/2.variation_of_image_spatial_dimensions/size_256/bicubic/2.2.spectral_density_image_processed_by_repetition.png" width="350px" height="auto" />
+    </div>
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/2.variation_of_image_spatial_dimensions/size_256/bicubic/2.3.variation_of_signal_image_processed_by_repetition.png" width="350px" height="auto" />
+    </div>
+
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/2.variation_of_image_spatial_dimensions/size_256/bicubic/3.1.image_processed_by_imresize.png" width="350px" height="auto" />
+    </div>
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/2.variation_of_image_spatial_dimensions/size_256/bicubic/3.2.spectral_density_image_processed_by_imresize.png" width="350px" height="auto" />
+    </div>
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/2.variation_of_image_spatial_dimensions/size_256/bicubic/3.3.variation_of_signal_image_processed_by_imresize.png" width="350px" height="auto" />
+    </div>
+
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/2.variation_of_image_spatial_dimensions/size_256/bicubic/4.final_graphs.png" width="7000px" height="auto" />
+    </div>
+
+- Bilinear method
+
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/2.variation_of_image_spatial_dimensions/size_256/bilinear/2.1.image_processed_by_repetition.png" width="350px" height="auto" />
+    </div>
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/2.variation_of_image_spatial_dimensions/size_256/bilinear/2.2.spectral_density_image_processed_by_repetition.png" width="350px" height="auto" />
+    </div>
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/2.variation_of_image_spatial_dimensions/size_256/bilinear/2.3.variation_of_signal_image_processed_by_repetition.png" width="350px" height="auto" />
+    </div>
+
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/2.variation_of_image_spatial_dimensions/size_256/bilinear/3.1.image_processed_by_imresize.png" width="350px" height="auto" />
+    </div>
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/2.variation_of_image_spatial_dimensions/size_256/bilinear/3.2.spectral_density_image_processed_by_imresize.png" width="350px" height="auto" />
+    </div>
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/2.variation_of_image_spatial_dimensions/size_256/bilinear/3.3.variation_of_signal_image_processed_by_imresize.png" width="350px" height="auto" />
+    </div>
+
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/2.variation_of_image_spatial_dimensions/size_256/bilinear/4.final_graphs.png" width="7000px" height="auto" />
+    </div>
+
+- Box method
+
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/2.variation_of_image_spatial_dimensions/size_256/box/2.1.image_processed_by_repetition.png" width="350px" height="auto" />
+    </div>
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/2.variation_of_image_spatial_dimensions/size_256/box/2.2.spectral_density_image_processed_by_repetition.png" width="350px" height="auto" />
+    </div>
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/2.variation_of_image_spatial_dimensions/size_256/box/2.3.variation_of_signal_image_processed_by_repetition.png" width="350px" height="auto" />
+    </div>
+
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/2.variation_of_image_spatial_dimensions/size_256/box/3.1.image_processed_by_imresize.png" width="350px" height="auto" />
+    </div>
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/2.variation_of_image_spatial_dimensions/size_256/box/3.2.spectral_density_image_processed_by_imresize.png" width="350px" height="auto" />
+    </div>
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/2.variation_of_image_spatial_dimensions/size_256/box/3.3.variation_of_signal_image_processed_by_imresize.png" width="350px" height="auto" />
+    </div>
+
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/2.variation_of_image_spatial_dimensions/size_256/box/4.final_graphs.png" width="7000px" height="auto" />
+    </div>
+
+- Cubic method
+
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/2.variation_of_image_spatial_dimensions/size_256/cubic/2.1.image_processed_by_repetition.png" width="350px" height="auto" />
+    </div>
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/2.variation_of_image_spatial_dimensions/size_256/cubic/2.2.spectral_density_image_processed_by_repetition.png" width="350px" height="auto" />
+    </div>
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/2.variation_of_image_spatial_dimensions/size_256/cubic/2.3.variation_of_signal_image_processed_by_repetition.png" width="350px" height="auto" />
+    </div>
+
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/2.variation_of_image_spatial_dimensions/size_256/cubic/3.1.image_processed_by_imresize.png" width="350px" height="auto" />
+    </div>
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/2.variation_of_image_spatial_dimensions/size_256/cubic/3.2.spectral_density_image_processed_by_imresize.png" width="350px" height="auto" />
+    </div>
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/2.variation_of_image_spatial_dimensions/size_256/cubic/3.3.variation_of_signal_image_processed_by_imresize.png" width="350px" height="auto" />
+    </div>
+
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/2.variation_of_image_spatial_dimensions/size_256/cubic/4.final_graphs.png" width="7000px" height="auto" />
+    </div>
+
+- Lanczos2 method
+
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/2.variation_of_image_spatial_dimensions/size_256/lanczos2/2.1.image_processed_by_repetition.png" width="350px" height="auto" />
+    </div>
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/2.variation_of_image_spatial_dimensions/size_256/lanczos2/2.2.spectral_density_image_processed_by_repetition.png" width="350px" height="auto" />
+    </div>
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/2.variation_of_image_spatial_dimensions/size_256/lanczos2/2.3.variation_of_signal_image_processed_by_repetition.png" width="350px" height="auto" />
+    </div>
+
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/2.variation_of_image_spatial_dimensions/size_256/lanczos2/3.1.image_processed_by_imresize.png" width="350px" height="auto" />
+    </div>
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/2.variation_of_image_spatial_dimensions/size_256/lanczos2/3.2.spectral_density_image_processed_by_imresize.png" width="350px" height="auto" />
+    </div>
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/2.variation_of_image_spatial_dimensions/size_256/lanczos2/3.3.variation_of_signal_image_processed_by_imresize.png" width="350px" height="auto" />
+    </div>
+
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/2.variation_of_image_spatial_dimensions/size_256/lanczos2/4.final_graphs.png" width="7000px" height="auto" />
+    </div>
+
+- Lanczos3 method
+
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/2.variation_of_image_spatial_dimensions/size_256/lanczos3/2.1.image_processed_by_repetition.png" width="350px" height="auto" />
+    </div>
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/2.variation_of_image_spatial_dimensions/size_256/lanczos3/2.2.spectral_density_image_processed_by_repetition.png" width="350px" height="auto" />
+    </div>
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/2.variation_of_image_spatial_dimensions/size_256/lanczos3/2.3.variation_of_signal_image_processed_by_repetition.png" width="350px" height="auto" />
+    </div>
+
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/2.variation_of_image_spatial_dimensions/size_256/lanczos3/3.1.image_processed_by_imresize.png" width="350px" height="auto" />
+    </div>
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/2.variation_of_image_spatial_dimensions/size_256/lanczos3/3.2.spectral_density_image_processed_by_imresize.png" width="350px" height="auto" />
+    </div>
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/2.variation_of_image_spatial_dimensions/size_256/lanczos3/3.3.variation_of_signal_image_processed_by_imresize.png" width="350px" height="auto" />
+    </div>
+
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/2.variation_of_image_spatial_dimensions/size_256/lanczos3/4.final_graphs.png" width="7000px" height="auto" />
+    </div>
+
+- Nearest method
+
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/2.variation_of_image_spatial_dimensions/size_256/nearest/2.1.image_processed_by_repetition.png" width="350px" height="auto" />
+    </div>
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/2.variation_of_image_spatial_dimensions/size_256/nearest/2.2.spectral_density_image_processed_by_repetition.png" width="350px" height="auto" />
+    </div>
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/2.variation_of_image_spatial_dimensions/size_256/nearest/2.3.variation_of_signal_image_processed_by_repetition.png" width="350px" height="auto" />
+    </div>
+
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/2.variation_of_image_spatial_dimensions/size_256/nearest/3.1.image_processed_by_imresize.png" width="350px" height="auto" />
+    </div>
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/2.variation_of_image_spatial_dimensions/size_256/nearest/3.2.spectral_density_image_processed_by_imresize.png" width="350px" height="auto" />
+    </div>
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/2.variation_of_image_spatial_dimensions/size_256/nearest/3.3.variation_of_signal_image_processed_by_imresize.png" width="350px" height="auto" />
+    </div>
+
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/2.variation_of_image_spatial_dimensions/size_256/nearest/4.final_graphs.png" width="7000px" height="auto" />
+    </div>
+
+- Triangle method
+
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/2.variation_of_image_spatial_dimensions/size_256/triangle/2.1.image_processed_by_repetition.png" width="350px" height="auto" />
+    </div>
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/2.variation_of_image_spatial_dimensions/size_256/triangle/2.2.spectral_density_image_processed_by_repetition.png" width="350px" height="auto" />
+    </div>
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/2.variation_of_image_spatial_dimensions/size_256/triangle/2.3.variation_of_signal_image_processed_by_repetition.png" width="350px" height="auto" />
+    </div>
+
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/2.variation_of_image_spatial_dimensions/size_256/triangle/3.1.image_processed_by_imresize.png" width="350px" height="auto" />
+    </div>
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/2.variation_of_image_spatial_dimensions/size_256/triangle/3.2.spectral_density_image_processed_by_imresize.png" width="350px" height="auto" />
+    </div>
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/2.variation_of_image_spatial_dimensions/size_256/triangle/3.3.variation_of_signal_image_processed_by_imresize.png" width="350px" height="auto" />
+    </div>
+
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/2.variation_of_image_spatial_dimensions/size_256/triangle/4.final_graphs.png" width="7000px" height="auto" />
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+###### Annex B.4: Size of 512
+
+<div align="center" style="display: flex; align-items: center; justify-content: center;">
+<img src="../images/2.variation_of_image_spatial_dimensions/size_512/1.zoneplate_image.png" width="300px" height="auto" />
+</div>
+<div align="center" style="display: flex; align-items: center; justify-content: center;">
+<img src="../images/2.variation_of_image_spatial_dimensions/size_512/2.spectral_density_original_image.png" width="350px" height="auto" />
+</div>
+<div align="center" style="display: flex; align-items: center; justify-content: center;">
+<img src="../images/2.variation_of_image_spatial_dimensions/size_512/3.variation_of_signal_original_image.png" width="350px" height="auto" />
+</div>
+
+
+- Bicubic method
+
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/2.variation_of_image_spatial_dimensions/size_512/bicubic/2.1.image_processed_by_repetition.png" width="350px" height="auto" />
+    </div>
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/2.variation_of_image_spatial_dimensions/size_512/bicubic/2.2.spectral_density_image_processed_by_repetition.png" width="350px" height="auto" />
+    </div>
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/2.variation_of_image_spatial_dimensions/size_512/bicubic/2.3.variation_of_signal_image_processed_by_repetition.png" width="350px" height="auto" />
+    </div>
+
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/2.variation_of_image_spatial_dimensions/size_512/bicubic/3.1.image_processed_by_imresize.png" width="350px" height="auto" />
+    </div>
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/2.variation_of_image_spatial_dimensions/size_512/bicubic/3.2.spectral_density_image_processed_by_imresize.png" width="350px" height="auto" />
+    </div>
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/2.variation_of_image_spatial_dimensions/size_512/bicubic/3.3.variation_of_signal_image_processed_by_imresize.png" width="350px" height="auto" />
+    </div>
+
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/2.variation_of_image_spatial_dimensions/size_512/bicubic/4.final_graphs.png" width="7000px" height="auto" />
+    </div>
+
+- Bilinear method
+
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/2.variation_of_image_spatial_dimensions/size_512/bilinear/2.1.image_processed_by_repetition.png" width="350px" height="auto" />
+    </div>
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/2.variation_of_image_spatial_dimensions/size_512/bilinear/2.2.spectral_density_image_processed_by_repetition.png" width="350px" height="auto" />
+    </div>
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/2.variation_of_image_spatial_dimensions/size_512/bilinear/2.3.variation_of_signal_image_processed_by_repetition.png" width="350px" height="auto" />
+    </div>
+
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/2.variation_of_image_spatial_dimensions/size_512/bilinear/3.1.image_processed_by_imresize.png" width="350px" height="auto" />
+    </div>
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/2.variation_of_image_spatial_dimensions/size_512/bilinear/3.2.spectral_density_image_processed_by_imresize.png" width="350px" height="auto" />
+    </div>
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/2.variation_of_image_spatial_dimensions/size_512/bilinear/3.3.variation_of_signal_image_processed_by_imresize.png" width="350px" height="auto" />
+    </div>
+
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/2.variation_of_image_spatial_dimensions/size_512/bilinear/4.final_graphs.png" width="7000px" height="auto" />
+    </div>
+
+- Box method
+
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/2.variation_of_image_spatial_dimensions/size_512/box/2.1.image_processed_by_repetition.png" width="350px" height="auto" />
+    </div>
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/2.variation_of_image_spatial_dimensions/size_512/box/2.2.spectral_density_image_processed_by_repetition.png" width="350px" height="auto" />
+    </div>
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/2.variation_of_image_spatial_dimensions/size_512/box/2.3.variation_of_signal_image_processed_by_repetition.png" width="350px" height="auto" />
+    </div>
+
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/2.variation_of_image_spatial_dimensions/size_512/box/3.1.image_processed_by_imresize.png" width="350px" height="auto" />
+    </div>
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/2.variation_of_image_spatial_dimensions/size_512/box/3.2.spectral_density_image_processed_by_imresize.png" width="350px" height="auto" />
+    </div>
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/2.variation_of_image_spatial_dimensions/size_512/box/3.3.variation_of_signal_image_processed_by_imresize.png" width="350px" height="auto" />
+    </div>
+
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/2.variation_of_image_spatial_dimensions/size_512/box/4.final_graphs.png" width="7000px" height="auto" />
+    </div>
+
+- Cubic method
+
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/2.variation_of_image_spatial_dimensions/size_512/cubic/2.1.image_processed_by_repetition.png" width="350px" height="auto" />
+    </div>
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/2.variation_of_image_spatial_dimensions/size_512/cubic/2.2.spectral_density_image_processed_by_repetition.png" width="350px" height="auto" />
+    </div>
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/2.variation_of_image_spatial_dimensions/size_512/cubic/2.3.variation_of_signal_image_processed_by_repetition.png" width="350px" height="auto" />
+    </div>
+
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/2.variation_of_image_spatial_dimensions/size_512/cubic/3.1.image_processed_by_imresize.png" width="350px" height="auto" />
+    </div>
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/2.variation_of_image_spatial_dimensions/size_512/cubic/3.2.spectral_density_image_processed_by_imresize.png" width="350px" height="auto" />
+    </div>
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/2.variation_of_image_spatial_dimensions/size_512/cubic/3.3.variation_of_signal_image_processed_by_imresize.png" width="350px" height="auto" />
+    </div>
+
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/2.variation_of_image_spatial_dimensions/size_512/cubic/4.final_graphs.png" width="7000px" height="auto" />
+    </div>
+
+- Lanczos2 method
+
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/2.variation_of_image_spatial_dimensions/size_512/lanczos2/2.1.image_processed_by_repetition.png" width="350px" height="auto" />
+    </div>
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/2.variation_of_image_spatial_dimensions/size_512/lanczos2/2.2.spectral_density_image_processed_by_repetition.png" width="350px" height="auto" />
+    </div>
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/2.variation_of_image_spatial_dimensions/size_512/lanczos2/2.3.variation_of_signal_image_processed_by_repetition.png" width="350px" height="auto" />
+    </div>
+
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/2.variation_of_image_spatial_dimensions/size_512/lanczos2/3.1.image_processed_by_imresize.png" width="350px" height="auto" />
+    </div>
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/2.variation_of_image_spatial_dimensions/size_512/lanczos2/3.2.spectral_density_image_processed_by_imresize.png" width="350px" height="auto" />
+    </div>
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/2.variation_of_image_spatial_dimensions/size_512/lanczos2/3.3.variation_of_signal_image_processed_by_imresize.png" width="350px" height="auto" />
+    </div>
+
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/2.variation_of_image_spatial_dimensions/size_512/lanczos2/4.final_graphs.png" width="7000px" height="auto" />
+    </div>
+
+- Lanczos3 method
+
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/2.variation_of_image_spatial_dimensions/size_512/lanczos3/2.1.image_processed_by_repetition.png" width="350px" height="auto" />
+    </div>
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/2.variation_of_image_spatial_dimensions/size_512/lanczos3/2.2.spectral_density_image_processed_by_repetition.png" width="350px" height="auto" />
+    </div>
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/2.variation_of_image_spatial_dimensions/size_512/lanczos3/2.3.variation_of_signal_image_processed_by_repetition.png" width="350px" height="auto" />
+    </div>
+
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/2.variation_of_image_spatial_dimensions/size_512/lanczos3/3.1.image_processed_by_imresize.png" width="350px" height="auto" />
+    </div>
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/2.variation_of_image_spatial_dimensions/size_512/lanczos3/3.2.spectral_density_image_processed_by_imresize.png" width="350px" height="auto" />
+    </div>
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/2.variation_of_image_spatial_dimensions/size_512/lanczos3/3.3.variation_of_signal_image_processed_by_imresize.png" width="350px" height="auto" />
+    </div>
+
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/2.variation_of_image_spatial_dimensions/size_512/lanczos3/4.final_graphs.png" width="7000px" height="auto" />
+    </div>
+
+- Nearest method
+
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/2.variation_of_image_spatial_dimensions/size_512/nearest/2.1.image_processed_by_repetition.png" width="350px" height="auto" />
+    </div>
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/2.variation_of_image_spatial_dimensions/size_512/nearest/2.2.spectral_density_image_processed_by_repetition.png" width="350px" height="auto" />
+    </div>
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/2.variation_of_image_spatial_dimensions/size_512/nearest/2.3.variation_of_signal_image_processed_by_repetition.png" width="350px" height="auto" />
+    </div>
+
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/2.variation_of_image_spatial_dimensions/size_512/nearest/3.1.image_processed_by_imresize.png" width="350px" height="auto" />
+    </div>
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/2.variation_of_image_spatial_dimensions/size_512/nearest/3.2.spectral_density_image_processed_by_imresize.png" width="350px" height="auto" />
+    </div>
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/2.variation_of_image_spatial_dimensions/size_512/nearest/3.3.variation_of_signal_image_processed_by_imresize.png" width="350px" height="auto" />
+    </div>
+
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/2.variation_of_image_spatial_dimensions/size_512/nearest/4.final_graphs.png" width="7000px" height="auto" />
+    </div>
+
+- Triangle method
+
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/2.variation_of_image_spatial_dimensions/size_512/triangle/2.1.image_processed_by_repetition.png" width="350px" height="auto" />
+    </div>
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/2.variation_of_image_spatial_dimensions/size_512/triangle/2.2.spectral_density_image_processed_by_repetition.png" width="350px" height="auto" />
+    </div>
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/2.variation_of_image_spatial_dimensions/size_512/triangle/2.3.variation_of_signal_image_processed_by_repetition.png" width="350px" height="auto" />
+    </div>
+
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/2.variation_of_image_spatial_dimensions/size_512/triangle/3.1.image_processed_by_imresize.png" width="350px" height="auto" />
+    </div>
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/2.variation_of_image_spatial_dimensions/size_512/triangle/3.2.spectral_density_image_processed_by_imresize.png" width="350px" height="auto" />
+    </div>
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/2.variation_of_image_spatial_dimensions/size_512/triangle/3.3.variation_of_signal_image_processed_by_imresize.png" width="350px" height="auto" />
+    </div>
+
+    <div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <img src="../images/2.variation_of_image_spatial_dimensions/size_512/triangle/4.final_graphs.png" width="7000px" height="auto" />
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#### Annex C: Filtering experiences
+
+###### Annex C.1: Average filter
+
+<div align="center" style="display: flex; align-items: center; justify-content: center;">
+<img src="../images/3.filtering_experiences/1.filter_average/1.option_symmetric.png" width="500px" height="auto" />
+</div>
+<div align="center" style="display: flex; align-items: center; justify-content: center;">
+<img src="../images/3.filtering_experiences/1.filter_average/2.option_replicate.png" width="500px" height="auto" />
+</div>
+<div align="center" style="display: flex; align-items: center; justify-content: center;">
+<img src="../images/3.filtering_experiences/1.filter_average/3.option_circular.png" width="500px" height="auto" />
+</div>
+<div align="center" style="display: flex; align-items: center; justify-content: center;">
+<img src="../images/3.filtering_experiences/1.filter_average/4.option_same.png" width="500px" height="auto" />
+</div>
+<div align="center" style="display: flex; align-items: center; justify-content: center;">
+<img src="../images/3.filtering_experiences/1.filter_average/5.option_full.png" width="500px" height="auto" />
+</div>
+<div align="center" style="display: flex; align-items: center; justify-content: center;">
+<img src="../images/3.filtering_experiences/1.filter_average/6.option_corr.png" width="500px" height="auto" />
+</div>
+<div align="center" style="display: flex; align-items: center; justify-content: center;">
+<img src="../images/3.filtering_experiences/1.filter_average/7.option_conv.png" width="500px" height="auto" />
+</div>
+
+
+
+
+
+###### Annex C.2: Disk filter
+
+<div align="center" style="display: flex; align-items: center; justify-content: center;">
+<img src="../images/3.filtering_experiences/2.filter_disk/1.option_symmetric.png" width="500px" height="auto" />
+</div>
+<div align="center" style="display: flex; align-items: center; justify-content: center;">
+<img src="../images/3.filtering_experiences/2.filter_disk/2.option_replicate.png" width="500px" height="auto" />
+</div>
+<div align="center" style="display: flex; align-items: center; justify-content: center;">
+<img src="../images/3.filtering_experiences/2.filter_disk/3.option_circular.png" width="500px" height="auto" />
+</div>
+<div align="center" style="display: flex; align-items: center; justify-content: center;">
+<img src="../images/3.filtering_experiences/2.filter_disk/4.option_same.png" width="500px" height="auto" />
+</div>
+<div align="center" style="display: flex; align-items: center; justify-content: center;">
+<img src="../images/3.filtering_experiences/2.filter_disk/5.option_full.png" width="500px" height="auto" />
+</div>
+<div align="center" style="display: flex; align-items: center; justify-content: center;">
+<img src="../images/3.filtering_experiences/2.filter_disk/6.option_corr.png" width="500px" height="auto" />
+</div>
+<div align="center" style="display: flex; align-items: center; justify-content: center;">
+<img src="../images/3.filtering_experiences/2.filter_disk/7.option_conv.png" width="500px" height="auto" />
+</div>
+
+###### Annex C.3: Gaussian filter
+
+<div align="center" style="display: flex; align-items: center; justify-content: center;">
+<img src="../images/3.filtering_experiences/3.filter_gaussian/1.option_symmetric.png" width="500px" height="auto" />
+</div>
+<div align="center" style="display: flex; align-items: center; justify-content: center;">
+<img src="../images/3.filtering_experiences/3.filter_gaussian/2.option_replicate.png" width="500px" height="auto" />
+</div>
+<div align="center" style="display: flex; align-items: center; justify-content: center;">
+<img src="../images/3.filtering_experiences/3.filter_gaussian/3.option_circular.png" width="500px" height="auto" />
+</div>
+<div align="center" style="display: flex; align-items: center; justify-content: center;">
+<img src="../images/3.filtering_experiences/3.filter_gaussian/4.option_same.png" width="500px" height="auto" />
+</div>
+<div align="center" style="display: flex; align-items: center; justify-content: center;">
+<img src="../images/3.filtering_experiences/3.filter_gaussian/5.option_full.png" width="500px" height="auto" />
+</div>
+<div align="center" style="display: flex; align-items: center; justify-content: center;">
+<img src="../images/3.filtering_experiences/3.filter_gaussian/6.option_corr.png" width="500px" height="auto" />
+</div>
+<div align="center" style="display: flex; align-items: center; justify-content: center;">
+<img src="../images/3.filtering_experiences/3.filter_gaussian/7.option_conv.png" width="500px" height="auto" />
+</div>
+
+###### Annex C.4: Laplacian filter
+
+
+<div align="center" style="display: flex; align-items: center; justify-content: center;">
+<img src="../images/3.filtering_experiences/4.filter_laplacian/1.option_symmetric.png" width="500px" height="auto" />
+</div>
+<div align="center" style="display: flex; align-items: center; justify-content: center;">
+<img src="../images/3.filtering_experiences/4.filter_laplacian/2.option_replicate.png" width="500px" height="auto" />
+</div>
+<div align="center" style="display: flex; align-items: center; justify-content: center;">
+<img src="../images/3.filtering_experiences/4.filter_laplacian/3.option_circular.png" width="500px" height="auto" />
+</div>
+<div align="center" style="display: flex; align-items: center; justify-content: center;">
+<img src="../images/3.filtering_experiences/4.filter_laplacian/4.option_same.png" width="500px" height="auto" />
+</div>
+<div align="center" style="display: flex; align-items: center; justify-content: center;">
+<img src="../images/3.filtering_experiences/4.filter_laplacian/5.option_full.png" width="500px" height="auto" />
+</div>
+<div align="center" style="display: flex; align-items: center; justify-content: center;">
+<img src="../images/3.filtering_experiences/4.filter_laplacian/6.option_corr.png" width="500px" height="auto" />
+</div>
+<div align="center" style="display: flex; align-items: center; justify-content: center;">
+<img src="../images/3.filtering_experiences/4.filter_laplacian/7.option_conv.png" width="500px" height="auto" />
+</div>
+
+
+###### Annex C.5: Log filter
+
+<div align="center" style="display: flex; align-items: center; justify-content: center;">
+<img src="../images/3.filtering_experiences/5.filter_log/1.option_symmetric.png" width="500px" height="auto" />
+</div>
+<div align="center" style="display: flex; align-items: center; justify-content: center;">
+<img src="../images/3.filtering_experiences/5.filter_log/2.option_replicate.png" width="500px" height="auto" />
+</div>
+<div align="center" style="display: flex; align-items: center; justify-content: center;">
+<img src="../images/3.filtering_experiences/5.filter_log/3.option_circular.png" width="500px" height="auto" />
+</div>
+<div align="center" style="display: flex; align-items: center; justify-content: center;">
+<img src="../images/3.filtering_experiences/5.filter_log/4.option_same.png" width="500px" height="auto" />
+</div>
+<div align="center" style="display: flex; align-items: center; justify-content: center;">
+<img src="../images/3.filtering_experiences/5.filter_log/5.option_full.png" width="500px" height="auto" />
+</div>
+<div align="center" style="display: flex; align-items: center; justify-content: center;">
+<img src="../images/3.filtering_experiences/5.filter_log/6.option_corr.png" width="500px" height="auto" />
+</div>
+<div align="center" style="display: flex; align-items: center; justify-content: center;">
+<img src="../images/3.filtering_experiences/5.filter_log/7.option_conv.png" width="500px" height="auto" />
+</div>
+
+
+###### Annex C.6: Motion filter
+
+<div align="center" style="display: flex; align-items: center; justify-content: center;">
+<img src="../images/3.filtering_experiences/6.filter_motion/1.option_symmetric.png" width="500px" height="auto" />
+</div>
+<div align="center" style="display: flex; align-items: center; justify-content: center;">
+<img src="../images/3.filtering_experiences/6.filter_motion/2.option_replicate.png" width="500px" height="auto" />
+</div>
+<div align="center" style="display: flex; align-items: center; justify-content: center;">
+<img src="../images/3.filtering_experiences/6.filter_motion/3.option_circular.png" width="500px" height="auto" />
+</div>
+<div align="center" style="display: flex; align-items: center; justify-content: center;">
+<img src="../images/3.filtering_experiences/6.filter_motion/4.option_same.png" width="500px" height="auto" />
+</div>
+<div align="center" style="display: flex; align-items: center; justify-content: center;">
+<img src="../images/3.filtering_experiences/6.filter_motion/5.option_full.png" width="500px" height="auto" />
+</div>
+<div align="center" style="display: flex; align-items: center; justify-content: center;">
+<img src="../images/3.filtering_experiences/6.filter_motion/6.option_corr.png" width="500px" height="auto" />
+</div>
+<div align="center" style="display: flex; align-items: center; justify-content: center;">
+<img src="../images/3.filtering_experiences/6.filter_motion/7.option_conv.png" width="500px" height="auto" />
+</div>
+
+
+
+###### Annex C.7: Prewitt filter
+
+<div align="center" style="display: flex; align-items: center; justify-content: center;">
+<img src="../images/3.filtering_experiences/7.filter_prewitt/1.option_symmetric.png" width="500px" height="auto" />
+</div>
+<div align="center" style="display: flex; align-items: center; justify-content: center;">
+<img src="../images/3.filtering_experiences/7.filter_prewitt/2.option_replicate.png" width="500px" height="auto" />
+</div>
+<div align="center" style="display: flex; align-items: center; justify-content: center;">
+<img src="../images/3.filtering_experiences/7.filter_prewitt/3.option_circular.png" width="500px" height="auto" />
+</div>
+<div align="center" style="display: flex; align-items: center; justify-content: center;">
+<img src="../images/3.filtering_experiences/7.filter_prewitt/4.option_same.png" width="500px" height="auto" />
+</div>
+<div align="center" style="display: flex; align-items: center; justify-content: center;">
+<img src="../images/3.filtering_experiences/7.filter_prewitt/5.option_full.png" width="500px" height="auto" />
+</div>
+<div align="center" style="display: flex; align-items: center; justify-content: center;">
+<img src="../images/3.filtering_experiences/7.filter_prewitt/6.option_corr.png" width="500px" height="auto" />
+</div>
+<div align="center" style="display: flex; align-items: center; justify-content: center;">
+<img src="../images/3.filtering_experiences/7.filter_prewitt/7.option_conv.png" width="500px" height="auto" />
+</div>
+
+
+
+###### Annex C.8: Sobel filter
+
+<div align="center" style="display: flex; align-items: center; justify-content: center;">
+<img src="../images/3.filtering_experiences/8.filter_sobel/1.option_symmetric.png" width="500px" height="auto" />
+</div>
+<div align="center" style="display: flex; align-items: center; justify-content: center;">
+<img src="../images/3.filtering_experiences/8.filter_sobel/2.option_replicate.png" width="500px" height="auto" />
+</div>
+<div align="center" style="display: flex; align-items: center; justify-content: center;">
+<img src="../images/3.filtering_experiences/8.filter_sobel/3.option_circular.png" width="500px" height="auto" />
+</div>
+<div align="center" style="display: flex; align-items: center; justify-content: center;">
+<img src="../images/3.filtering_experiences/8.filter_sobel/4.option_same.png" width="500px" height="auto" />
+</div>
+<div align="center" style="display: flex; align-items: center; justify-content: center;">
+<img src="../images/3.filtering_experiences/8.filter_sobel/5.option_full.png" width="500px" height="auto" />
+</div>
+<div align="center" style="display: flex; align-items: center; justify-content: center;">
+<img src="../images/3.filtering_experiences/8.filter_sobel/6.option_corr.png" width="500px" height="auto" />
+</div>
+<div align="center" style="display: flex; align-items: center; justify-content: center;">
+<img src="../images/3.filtering_experiences/8.filter_sobel/7.option_conv.png" width="500px" height="auto" />
+</div>
