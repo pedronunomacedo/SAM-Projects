@@ -1,0 +1,9 @@
+Distances: 
+	euclidian_distance = 0.079356
+	cosine_similarity = 0.986046
+	intersection_distance = 0.689117
+------------- 
+Similarities 
+	Images casa1 and kids are similar based on Euclidean distance: 0.079356 .
+	Images casa1 and kids are similar based on cosine similarity: 0.986046.
+	Images casa1 and kids are similar based on intersection distance: 0.689117.

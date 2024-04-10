@@ -1,0 +1,9 @@
+Distances: 
+	euclidian_distance = 0.103173
+	cosine_similarity = 0.976721
+	intersection_distance = 0.727163
+------------- 
+Similarities 
+	Images cell and tire are similar based on Euclidean distance: 0.103173 .
+	Images cell and tire are similar based on cosine similarity: 0.976721.
+	Images cell and tire are similar based on intersection distance: 0.727163.

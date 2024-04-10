@@ -1,0 +1,9 @@
+Distances: 
+	euclidian_distance = 0.045016
+	cosine_similarity = 0.995475
+	intersection_distance = 0.785961
+------------- 
+Similarities 
+	Images canoe and elephant are similar based on Euclidean distance: 0.045016 .
+	Images /Users/pedromacedo/Desktop/Uni/SAM-Year4Semester2/Projects/Assignment 3/src/resources/canoe.tif and /Users/pedromacedo/Desktop/Uni/SAM-Year4Semester2/Projects/Assignment 3/src/resources/elephant.bmp are similar based on cosine similarity: 0.995475.
+	Images /Users/pedromacedo/Desktop/Uni/SAM-Year4Semester2/Projects/Assignment 3/src/resources/canoe.tif and /Users/pedromacedo/Desktop/Uni/SAM-Year4Semester2/Projects/Assignment 3/src/resources/elephant.bmp are similar based on intersection distance: 0.785961.

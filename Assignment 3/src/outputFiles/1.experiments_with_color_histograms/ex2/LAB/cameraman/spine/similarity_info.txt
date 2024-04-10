@@ -1,0 +1,9 @@
+Distances: 
+	euclidian_distance = 0.140229
+	cosine_similarity = 0.958311
+	intersection_distance = 0.690042
+------------- 
+Similarities 
+	Images cameraman and spine are similar based on Euclidean distance: 0.140229 .
+	Images cameraman and spine are similar based on cosine similarity: 0.958311.
+	Images cameraman and spine are similar based on intersection distance: 0.690042.

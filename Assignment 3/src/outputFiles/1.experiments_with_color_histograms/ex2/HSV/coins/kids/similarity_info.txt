@@ -1,0 +1,9 @@
+Distances: 
+	euclidian_distance = 0.077950
+	cosine_similarity = 0.986537
+	intersection_distance = 0.716692
+------------- 
+Similarities 
+	Images coins and kids are similar based on Euclidean distance: 0.077950 .
+	Images coins and kids are similar based on cosine similarity: 0.986537.
+	Images coins and kids are similar based on intersection distance: 0.716692.

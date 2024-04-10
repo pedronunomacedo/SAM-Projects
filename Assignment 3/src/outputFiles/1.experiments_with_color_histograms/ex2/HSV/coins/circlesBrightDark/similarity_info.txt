@@ -1,0 +1,9 @@
+Distances: 
+	euclidian_distance = 0.274468
+	cosine_similarity = 0.863090
+	intersection_distance = 0.674752
+------------- 
+Similarities 
+	Images coins and circlesBrightDark are similar based on Euclidean distance: 0.274468 .
+	Images coins and circlesBrightDark are similar based on cosine similarity: 0.863090.
+	Images coins and circlesBrightDark are similar based on intersection distance: 0.674752.

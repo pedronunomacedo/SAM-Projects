@@ -1,0 +1,9 @@
+Distances: 
+	euclidian_distance = 0.293340
+	cosine_similarity = 0.838313
+	intersection_distance = 0.647378
+------------- 
+Similarities 
+	Images car_4 and cell are similar based on Euclidean distance: 0.293340 .
+	Images /Users/pedromacedo/Desktop/Uni/SAM-Year4Semester2/Projects/Assignment 3/src/resources/car_4.jpg and /Users/pedromacedo/Desktop/Uni/SAM-Year4Semester2/Projects/Assignment 3/src/resources/cell.tif are similar based on cosine similarity: 0.838313.
+	Images /Users/pedromacedo/Desktop/Uni/SAM-Year4Semester2/Projects/Assignment 3/src/resources/car_4.jpg and /Users/pedromacedo/Desktop/Uni/SAM-Year4Semester2/Projects/Assignment 3/src/resources/cell.tif are similar based on intersection distance: 0.647378.

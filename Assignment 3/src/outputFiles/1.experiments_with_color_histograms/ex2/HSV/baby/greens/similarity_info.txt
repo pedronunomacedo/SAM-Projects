@@ -1,0 +1,8 @@
+Distances: 
+	euclidian_distance = 0.060443
+	cosine_similarity = 0.467059
+	intersection_distance = 0.509185
+------------- 
+Similarities 
+	Images baby and greens are similar based on Euclidean distance: 0.060443 .
+	Images /Users/pedromacedo/Desktop/Uni/SAM-Year4Semester2/Projects/Assignment 3/src/resources/baby.jpg and /Users/pedromacedo/Desktop/Uni/SAM-Year4Semester2/Projects/Assignment 3/src/resources/greens.jpg are similar based on intersection distance: 0.509185.

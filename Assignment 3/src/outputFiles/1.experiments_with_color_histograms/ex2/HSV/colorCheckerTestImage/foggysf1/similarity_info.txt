@@ -1,0 +1,8 @@
+Distances: 
+	euclidian_distance = 0.077581
+	cosine_similarity = 0.381995
+	intersection_distance = 0.509060
+------------- 
+Similarities 
+	Images colorCheckerTestImage and foggysf1 are similar based on Euclidean distance: 0.077581 .
+	Images colorCheckerTestImage and foggysf1 are similar based on intersection distance: 0.509060.

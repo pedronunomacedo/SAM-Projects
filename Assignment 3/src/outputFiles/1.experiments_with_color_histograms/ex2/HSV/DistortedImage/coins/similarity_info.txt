@@ -1,0 +1,14 @@
+Distances: 
+	euclidian_distance = 0.472581
+	cosine_similarity = 0.092291
+	intersection_distance = 0.079664
+------------- 
+Similarities 
+	Images DistortedImage and coins are similar based on Euclidean distance: 0.472581 .
+Distances: 
+	euclidian_distance = 0.472581
+	cosine_similarity = 0.092291
+	intersection_distance = 0.079664
+------------- 
+Similarities 
+	Images DistortedImage and coins are similar based on Euclidean distance: 0.472581 .

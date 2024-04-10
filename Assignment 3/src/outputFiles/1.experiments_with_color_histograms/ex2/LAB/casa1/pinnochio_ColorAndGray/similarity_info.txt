@@ -1,0 +1,9 @@
+Distances: 
+	euclidian_distance = 0.214385
+	cosine_similarity = 0.892828
+	intersection_distance = 0.625637
+------------- 
+Similarities 
+	Images casa1 and pinnochio_ColorAndGray are similar based on Euclidean distance: 0.214385 .
+	Images casa1 and pinnochio_ColorAndGray are similar based on cosine similarity: 0.892828.
+	Images casa1 and pinnochio_ColorAndGray are similar based on intersection distance: 0.625637.

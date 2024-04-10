@@ -1,0 +1,9 @@
+Distances: 
+	euclidian_distance = 0.069596
+	cosine_similarity = 0.989223
+	intersection_distance = 0.690389
+------------- 
+Similarities 
+	Images coins and pout are similar based on Euclidean distance: 0.069596 .
+	Images coins and pout are similar based on cosine similarity: 0.989223.
+	Images coins and pout are similar based on intersection distance: 0.690389.

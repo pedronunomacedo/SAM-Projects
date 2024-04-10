@@ -1,0 +1,8 @@
+Distances: 
+	euclidian_distance = 0.069862
+	cosine_similarity = 0.650904
+	intersection_distance = 0.554636
+------------- 
+Similarities 
+	Images DistortedImage and trailer are similar based on Euclidean distance: 0.069862 .
+	Images DistortedImage and trailer are similar based on intersection distance: 0.554636.

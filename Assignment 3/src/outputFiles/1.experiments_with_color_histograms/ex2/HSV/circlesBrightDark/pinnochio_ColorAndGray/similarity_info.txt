@@ -1,0 +1,9 @@
+Distances: 
+	euclidian_distance = 0.327266
+	cosine_similarity = 0.803098
+	intersection_distance = 0.535797
+------------- 
+Similarities 
+	Images circlesBrightDark and pinnochio_ColorAndGray are similar based on Euclidean distance: 0.327266 .
+	Images circlesBrightDark and pinnochio_ColorAndGray are similar based on cosine similarity: 0.803098.
+	Images circlesBrightDark and pinnochio_ColorAndGray are similar based on intersection distance: 0.535797.

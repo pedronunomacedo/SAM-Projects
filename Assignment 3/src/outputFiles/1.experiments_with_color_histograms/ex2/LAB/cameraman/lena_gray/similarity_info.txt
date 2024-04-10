@@ -1,0 +1,9 @@
+Distances: 
+	euclidian_distance = 0.031201
+	cosine_similarity = 0.997821
+	intersection_distance = 0.850047
+------------- 
+Similarities 
+	Images cameraman and lena_gray are similar based on Euclidean distance: 0.031201 .
+	Images cameraman and lena_gray are similar based on cosine similarity: 0.997821.
+	Images cameraman and lena_gray are similar based on intersection distance: 0.850047.

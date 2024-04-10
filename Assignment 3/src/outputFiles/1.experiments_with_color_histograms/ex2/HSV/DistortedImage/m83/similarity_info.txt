@@ -1,0 +1,7 @@
+Distances: 
+	euclidian_distance = 0.480826
+	cosine_similarity = 0.101165
+	intersection_distance = 0.091130
+------------- 
+Similarities 
+	Images DistortedImage and m83 are similar based on Euclidean distance: 0.480826 .

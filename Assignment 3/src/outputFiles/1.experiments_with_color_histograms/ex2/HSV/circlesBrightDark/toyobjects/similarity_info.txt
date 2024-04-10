@@ -1,0 +1,8 @@
+Distances: 
+	euclidian_distance = 0.373006
+	cosine_similarity = 0.762059
+	intersection_distance = 0.687304
+------------- 
+Similarities 
+	Images circlesBrightDark and toyobjects are similar based on Euclidean distance: 0.373006 .
+	Images circlesBrightDark and toyobjects are similar based on intersection distance: 0.687304.

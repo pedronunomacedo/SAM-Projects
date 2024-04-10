@@ -1,0 +1,8 @@
+Distances: 
+	euclidian_distance = 0.085463
+	cosine_similarity = 0.560108
+	intersection_distance = 0.524547
+------------- 
+Similarities 
+	Images board and indiancorn are similar based on Euclidean distance: 0.085463 .
+	Images board and indiancorn are similar based on intersection distance: 0.524547.

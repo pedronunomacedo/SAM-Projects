@@ -1,0 +1,9 @@
+Distances: 
+	euclidian_distance = 0.259550
+	cosine_similarity = 0.875921
+	intersection_distance = 0.669179
+------------- 
+Similarities 
+	Images cameraman and toyobjects are similar based on Euclidean distance: 0.259550 .
+	Images /Users/pedromacedo/Desktop/Uni/SAM-Year4Semester2/Projects/Assignment 3/src/resources/cameraman.tif and /Users/pedromacedo/Desktop/Uni/SAM-Year4Semester2/Projects/Assignment 3/src/resources/toyobjects.png are similar based on cosine similarity: 0.875921.
+	Images /Users/pedromacedo/Desktop/Uni/SAM-Year4Semester2/Projects/Assignment 3/src/resources/cameraman.tif and /Users/pedromacedo/Desktop/Uni/SAM-Year4Semester2/Projects/Assignment 3/src/resources/toyobjects.png are similar based on intersection distance: 0.669179.

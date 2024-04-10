@@ -1,0 +1,9 @@
+Distances: 
+	euclidian_distance = 0.149968
+	cosine_similarity = 0.952658
+	intersection_distance = 0.751210
+------------- 
+Similarities 
+	Images coins and lenaQuantised8 are similar based on Euclidean distance: 0.149968 .
+	Images coins and lenaQuantised8 are similar based on cosine similarity: 0.952658.
+	Images coins and lenaQuantised8 are similar based on intersection distance: 0.751210.

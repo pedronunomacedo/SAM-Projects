@@ -1,0 +1,28 @@
+Distances: 
+	euclidian_distance = 0.076460
+	cosine_similarity = 0.329160
+	intersection_distance = 0.399318
+------------- 
+Similarities 
+	Images DistortedImage and lena are similar based on Euclidean distance: 0.076460 .
+Distances: 
+	euclidian_distance = 0.089926
+	cosine_similarity = 0.240086
+	intersection_distance = 0.321981
+------------- 
+Similarities 
+	Images DistortedImage and lena are similar based on Euclidean distance: 0.089926 .
+Distances: 
+	euclidian_distance = 0.076460
+	cosine_similarity = 0.329160
+	intersection_distance = 0.399318
+------------- 
+Similarities 
+	Images DistortedImage and lena are similar based on Euclidean distance: 0.076460 .
+Distances: 
+	euclidian_distance = 0.089926
+	cosine_similarity = 0.240086
+	intersection_distance = 0.321981
+------------- 
+Similarities 
+	Images DistortedImage and lena are similar based on Euclidean distance: 0.089926 .

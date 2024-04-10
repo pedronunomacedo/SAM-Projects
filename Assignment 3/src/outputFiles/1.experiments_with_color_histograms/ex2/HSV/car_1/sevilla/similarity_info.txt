@@ -1,0 +1,8 @@
+Distances: 
+	euclidian_distance = 0.061916
+	cosine_similarity = 0.525981
+	intersection_distance = 0.500762
+------------- 
+Similarities 
+	Images car_1 and sevilla are similar based on Euclidean distance: 0.061916 .
+	Images /Users/pedromacedo/Desktop/Uni/SAM-Year4Semester2/Projects/Assignment 3/src/resources/car_1.jpg and /Users/pedromacedo/Desktop/Uni/SAM-Year4Semester2/Projects/Assignment 3/src/resources/sevilla.jpg are similar based on intersection distance: 0.500762.

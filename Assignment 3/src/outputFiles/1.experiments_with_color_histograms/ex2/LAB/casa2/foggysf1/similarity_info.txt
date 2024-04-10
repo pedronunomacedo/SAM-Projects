@@ -1,0 +1,7 @@
+Distances: 
+	euclidian_distance = 0.430920
+	cosine_similarity = 0.430932
+	intersection_distance = 0.296653
+------------- 
+Similarities 
+	Images casa2 and foggysf1 are similar based on Euclidean distance: 0.430920 .

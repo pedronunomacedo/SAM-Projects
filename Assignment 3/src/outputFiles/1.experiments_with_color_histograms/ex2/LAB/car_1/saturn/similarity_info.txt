@@ -1,0 +1,7 @@
+Distances: 
+	euclidian_distance = 0.251677
+	cosine_similarity = 0.621541
+	intersection_distance = 0.412378
+------------- 
+Similarities 
+	Images car_1 and saturn are similar based on Euclidean distance: 0.251677 .

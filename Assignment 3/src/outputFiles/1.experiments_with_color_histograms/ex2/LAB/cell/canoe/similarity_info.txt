@@ -1,0 +1,9 @@
+Distances: 
+	euclidian_distance = 0.094729
+	cosine_similarity = 0.980387
+	intersection_distance = 0.742668
+------------- 
+Similarities 
+	Images cell and canoe are similar based on Euclidean distance: 0.094729 .
+	Images cell and canoe are similar based on cosine similarity: 0.980387.
+	Images cell and canoe are similar based on intersection distance: 0.742668.

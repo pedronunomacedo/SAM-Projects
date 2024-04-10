@@ -1,0 +1,8 @@
+Distances: 
+	euclidian_distance = 0.310003
+	cosine_similarity = 0.842446
+	intersection_distance = 0.475748
+------------- 
+Similarities 
+	Images car_3 and toyobjects are similar based on Euclidean distance: 0.310003 .
+	Images car_3 and toyobjects are similar based on cosine similarity: 0.842446.

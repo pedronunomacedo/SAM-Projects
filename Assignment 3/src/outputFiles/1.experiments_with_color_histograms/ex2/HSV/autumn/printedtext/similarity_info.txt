@@ -1,0 +1,7 @@
+Distances: 
+	euclidian_distance = 0.453865
+	cosine_similarity = 0.310031
+	intersection_distance = 0.160124
+------------- 
+Similarities 
+	Images autumn and printedtext are similar based on Euclidean distance: 0.453865 .

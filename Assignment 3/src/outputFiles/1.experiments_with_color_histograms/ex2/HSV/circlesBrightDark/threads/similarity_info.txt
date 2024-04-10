@@ -1,0 +1,9 @@
+Distances: 
+	euclidian_distance = 0.280951
+	cosine_similarity = 0.856303
+	intersection_distance = 0.673588
+------------- 
+Similarities 
+	Images circlesBrightDark and threads are similar based on Euclidean distance: 0.280951 .
+	Images circlesBrightDark and threads are similar based on cosine similarity: 0.856303.
+	Images circlesBrightDark and threads are similar based on intersection distance: 0.673588.

@@ -1,0 +1,8 @@
+Distances: 
+	euclidian_distance = 0.105961
+	cosine_similarity = 0.609185
+	intersection_distance = 0.530190
+------------- 
+Similarities 
+	Images car_1 and lighthouse are similar based on Euclidean distance: 0.105961 .
+	Images car_1 and lighthouse are similar based on intersection distance: 0.530190.

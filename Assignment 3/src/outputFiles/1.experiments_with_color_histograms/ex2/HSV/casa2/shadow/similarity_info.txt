@@ -1,0 +1,9 @@
+Distances: 
+	euclidian_distance = 0.028325
+	cosine_similarity = 0.998202
+	intersection_distance = 0.838756
+------------- 
+Similarities 
+	Images casa2 and shadow are similar based on Euclidean distance: 0.028325 .
+	Images casa2 and shadow are similar based on cosine similarity: 0.998202.
+	Images casa2 and shadow are similar based on intersection distance: 0.838756.

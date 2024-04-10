@@ -1,0 +1,7 @@
+Distances: 
+	euclidian_distance = 0.079111
+	cosine_similarity = 0.226987
+	intersection_distance = 0.332432
+------------- 
+Similarities 
+	Images baby and onion are similar based on Euclidean distance: 0.079111 .

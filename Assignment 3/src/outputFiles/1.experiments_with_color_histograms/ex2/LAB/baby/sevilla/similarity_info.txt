@@ -1,0 +1,8 @@
+Distances: 
+	euclidian_distance = 0.085910
+	cosine_similarity = 0.662155
+	intersection_distance = 0.587825
+------------- 
+Similarities 
+	Images baby and sevilla are similar based on Euclidean distance: 0.085910 .
+	Images baby and sevilla are similar based on intersection distance: 0.587825.

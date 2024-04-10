@@ -1,0 +1,7 @@
+Distances: 
+	euclidian_distance = 0.335418
+	cosine_similarity = 0.244508
+	intersection_distance = 0.140332
+------------- 
+Similarities 
+	Images car_3 and coloredChips are similar based on Euclidean distance: 0.335418 .

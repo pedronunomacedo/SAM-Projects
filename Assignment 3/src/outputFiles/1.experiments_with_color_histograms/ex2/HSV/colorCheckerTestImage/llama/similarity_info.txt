@@ -1,0 +1,8 @@
+Distances: 
+	euclidian_distance = 0.059206
+	cosine_similarity = 0.519453
+	intersection_distance = 0.507657
+------------- 
+Similarities 
+	Images colorCheckerTestImage and llama are similar based on Euclidean distance: 0.059206 .
+	Images colorCheckerTestImage and llama are similar based on intersection distance: 0.507657.

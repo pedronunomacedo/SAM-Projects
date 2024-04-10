@@ -1,0 +1,14 @@
+Distances: 
+	euclidian_distance = 0.471706
+	cosine_similarity = 0.099713
+	intersection_distance = 0.096138
+------------- 
+Similarities 
+	Images DistortedImage and canoe are similar based on Euclidean distance: 0.471706 .
+Distances: 
+	euclidian_distance = 0.471706
+	cosine_similarity = 0.099713
+	intersection_distance = 0.096138
+------------- 
+Similarities 
+	Images DistortedImage and canoe are similar based on Euclidean distance: 0.471706 .

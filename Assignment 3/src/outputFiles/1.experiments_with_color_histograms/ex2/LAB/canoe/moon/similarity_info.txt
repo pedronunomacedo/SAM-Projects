@@ -1,0 +1,9 @@
+Distances: 
+	euclidian_distance = 0.120553
+	cosine_similarity = 0.968609
+	intersection_distance = 0.736971
+------------- 
+Similarities 
+	Images canoe and moon are similar based on Euclidean distance: 0.120553 .
+	Images canoe and moon are similar based on cosine similarity: 0.968609.
+	Images canoe and moon are similar based on intersection distance: 0.736971.

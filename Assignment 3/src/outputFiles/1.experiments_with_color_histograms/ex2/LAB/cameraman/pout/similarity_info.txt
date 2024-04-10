@@ -1,0 +1,9 @@
+Distances: 
+	euclidian_distance = 0.055322
+	cosine_similarity = 0.993178
+	intersection_distance = 0.753339
+------------- 
+Similarities 
+	Images cameraman and pout are similar based on Euclidean distance: 0.055322 .
+	Images cameraman and pout are similar based on cosine similarity: 0.993178.
+	Images cameraman and pout are similar based on intersection distance: 0.753339.

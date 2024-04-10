@@ -1,0 +1,9 @@
+Distances: 
+	euclidian_distance = 0.026669
+	cosine_similarity = 0.998406
+	intersection_distance = 0.839285
+------------- 
+Similarities 
+	Images circuit and casa2 are similar based on Euclidean distance: 0.026669 .
+	Images circuit and casa2 are similar based on cosine similarity: 0.998406.
+	Images circuit and casa2 are similar based on intersection distance: 0.839285.

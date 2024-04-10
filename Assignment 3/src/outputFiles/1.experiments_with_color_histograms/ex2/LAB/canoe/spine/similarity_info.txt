@@ -1,0 +1,9 @@
+Distances: 
+	euclidian_distance = 0.143915
+	cosine_similarity = 0.956073
+	intersection_distance = 0.689541
+------------- 
+Similarities 
+	Images canoe and spine are similar based on Euclidean distance: 0.143915 .
+	Images canoe and spine are similar based on cosine similarity: 0.956073.
+	Images canoe and spine are similar based on intersection distance: 0.689541.

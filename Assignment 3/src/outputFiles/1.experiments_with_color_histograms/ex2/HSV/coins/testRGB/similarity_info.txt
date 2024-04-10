@@ -1,0 +1,7 @@
+Distances: 
+	euclidian_distance = 0.570710
+	cosine_similarity = 0.084640
+	intersection_distance = 0.085194
+------------- 
+Similarities 
+	Images coins and testRGB are similar based on Euclidean distance: 0.570710 .

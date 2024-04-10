@@ -1,0 +1,9 @@
+Distances: 
+	euclidian_distance = 0.278476
+	cosine_similarity = 0.854229
+	intersection_distance = 0.654713
+------------- 
+Similarities 
+	Images car_4 and elephant are similar based on Euclidean distance: 0.278476 .
+	Images /Users/pedromacedo/Desktop/Uni/SAM-Year4Semester2/Projects/Assignment 3/src/resources/car_4.jpg and /Users/pedromacedo/Desktop/Uni/SAM-Year4Semester2/Projects/Assignment 3/src/resources/elephant.bmp are similar based on cosine similarity: 0.854229.
+	Images /Users/pedromacedo/Desktop/Uni/SAM-Year4Semester2/Projects/Assignment 3/src/resources/car_4.jpg and /Users/pedromacedo/Desktop/Uni/SAM-Year4Semester2/Projects/Assignment 3/src/resources/elephant.bmp are similar based on intersection distance: 0.654713.

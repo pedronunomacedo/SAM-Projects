@@ -1,0 +1,7 @@
+Distances: 
+	euclidian_distance = 0.444795
+	cosine_similarity = 0.464902
+	intersection_distance = 0.082676
+------------- 
+Similarities 
+	Images cell and pillsetc are similar based on Euclidean distance: 0.444795 .

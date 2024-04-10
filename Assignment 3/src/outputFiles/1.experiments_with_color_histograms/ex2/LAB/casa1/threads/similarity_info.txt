@@ -1,0 +1,9 @@
+Distances: 
+	euclidian_distance = 0.091791
+	cosine_similarity = 0.981480
+	intersection_distance = 0.768307
+------------- 
+Similarities 
+	Images casa1 and threads are similar based on Euclidean distance: 0.091791 .
+	Images casa1 and threads are similar based on cosine similarity: 0.981480.
+	Images casa1 and threads are similar based on intersection distance: 0.768307.

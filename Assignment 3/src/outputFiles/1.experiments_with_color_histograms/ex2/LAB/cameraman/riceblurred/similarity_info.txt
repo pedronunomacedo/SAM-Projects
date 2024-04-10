@@ -1,0 +1,9 @@
+Distances: 
+	euclidian_distance = 0.040700
+	cosine_similarity = 0.996294
+	intersection_distance = 0.804479
+------------- 
+Similarities 
+	Images cameraman and riceblurred are similar based on Euclidean distance: 0.040700 .
+	Images cameraman and riceblurred are similar based on cosine similarity: 0.996294.
+	Images cameraman and riceblurred are similar based on intersection distance: 0.804479.

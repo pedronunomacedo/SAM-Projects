@@ -1,0 +1,9 @@
+Distances: 
+	euclidian_distance = 0.261161
+	cosine_similarity = 0.874283
+	intersection_distance = 0.670365
+------------- 
+Similarities 
+	Images casa1 and toyobjects are similar based on Euclidean distance: 0.261161 .
+	Images /Users/pedromacedo/Desktop/Uni/SAM-Year4Semester2/Projects/Assignment 3/src/resources/casa1.jpg and /Users/pedromacedo/Desktop/Uni/SAM-Year4Semester2/Projects/Assignment 3/src/resources/toyobjects.png are similar based on cosine similarity: 0.874283.
+	Images /Users/pedromacedo/Desktop/Uni/SAM-Year4Semester2/Projects/Assignment 3/src/resources/casa1.jpg and /Users/pedromacedo/Desktop/Uni/SAM-Year4Semester2/Projects/Assignment 3/src/resources/toyobjects.png are similar based on intersection distance: 0.670365.

@@ -1,0 +1,9 @@
+Distances: 
+	euclidian_distance = 0.035745
+	cosine_similarity = 0.997140
+	intersection_distance = 0.826076
+------------- 
+Similarities 
+	Images circuit and riceblurred are similar based on Euclidean distance: 0.035745 .
+	Images circuit and riceblurred are similar based on cosine similarity: 0.997140.
+	Images circuit and riceblurred are similar based on intersection distance: 0.826076.

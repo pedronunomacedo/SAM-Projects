@@ -1,0 +1,9 @@
+Distances: 
+	euclidian_distance = 0.329824
+	cosine_similarity = 0.808084
+	intersection_distance = 0.695277
+------------- 
+Similarities 
+	Images circlesBrightDark and mri are similar based on Euclidean distance: 0.329824 .
+	Images circlesBrightDark and mri are similar based on cosine similarity: 0.808084.
+	Images circlesBrightDark and mri are similar based on intersection distance: 0.695277.

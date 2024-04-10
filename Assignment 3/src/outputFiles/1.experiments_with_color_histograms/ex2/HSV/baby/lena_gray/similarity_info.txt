@@ -1,0 +1,7 @@
+Distances: 
+	euclidian_distance = 0.466709
+	cosine_similarity = 0.156293
+	intersection_distance = 0.203200
+------------- 
+Similarities 
+	Images baby and lena_gray are similar based on Euclidean distance: 0.466709 .

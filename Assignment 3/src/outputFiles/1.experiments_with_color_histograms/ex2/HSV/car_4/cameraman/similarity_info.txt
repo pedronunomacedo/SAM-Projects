@@ -1,0 +1,9 @@
+Distances: 
+	euclidian_distance = 0.280296
+	cosine_similarity = 0.852244
+	intersection_distance = 0.653153
+------------- 
+Similarities 
+	Images car_4 and cameraman are similar based on Euclidean distance: 0.280296 .
+	Images /Users/pedromacedo/Desktop/Uni/SAM-Year4Semester2/Projects/Assignment 3/src/resources/car_4.jpg and /Users/pedromacedo/Desktop/Uni/SAM-Year4Semester2/Projects/Assignment 3/src/resources/cameraman.tif are similar based on cosine similarity: 0.852244.
+	Images /Users/pedromacedo/Desktop/Uni/SAM-Year4Semester2/Projects/Assignment 3/src/resources/car_4.jpg and /Users/pedromacedo/Desktop/Uni/SAM-Year4Semester2/Projects/Assignment 3/src/resources/cameraman.tif are similar based on intersection distance: 0.653153.

@@ -1,0 +1,7 @@
+Distances: 
+	euclidian_distance = 0.092116
+	cosine_similarity = 0.184767
+	intersection_distance = 0.232523
+------------- 
+Similarities 
+	Images DistortedImage and westconcordaerial are similar based on Euclidean distance: 0.092116 .

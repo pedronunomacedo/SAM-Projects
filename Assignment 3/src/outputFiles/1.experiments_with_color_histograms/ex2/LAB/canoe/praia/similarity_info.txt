@@ -1,0 +1,7 @@
+Distances: 
+	euclidian_distance = 0.460473
+	cosine_similarity = 0.257429
+	intersection_distance = 0.132801
+------------- 
+Similarities 
+	Images canoe and praia are similar based on Euclidean distance: 0.460473 .

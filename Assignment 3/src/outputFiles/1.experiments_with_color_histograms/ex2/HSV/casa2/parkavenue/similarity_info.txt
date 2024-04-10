@@ -1,0 +1,7 @@
+Distances: 
+	euclidian_distance = 0.478848
+	cosine_similarity = 0.032377
+	intersection_distance = 0.138624
+------------- 
+Similarities 
+	Images casa2 and parkavenue are similar based on Euclidean distance: 0.478848 .

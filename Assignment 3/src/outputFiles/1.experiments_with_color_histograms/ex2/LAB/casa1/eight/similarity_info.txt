@@ -1,0 +1,9 @@
+Distances: 
+	euclidian_distance = 0.110471
+	cosine_similarity = 0.973454
+	intersection_distance = 0.743012
+------------- 
+Similarities 
+	Images casa1 and eight are similar based on Euclidean distance: 0.110471 .
+	Images casa1 and eight are similar based on cosine similarity: 0.973454.
+	Images casa1 and eight are similar based on intersection distance: 0.743012.

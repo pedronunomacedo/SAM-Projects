@@ -1,0 +1,9 @@
+Distances: 
+	euclidian_distance = 0.273086
+	cosine_similarity = 0.864595
+	intersection_distance = 0.695001
+------------- 
+Similarities 
+	Images circlesBrightDark and kids are similar based on Euclidean distance: 0.273086 .
+	Images circlesBrightDark and kids are similar based on cosine similarity: 0.864595.
+	Images circlesBrightDark and kids are similar based on intersection distance: 0.695001.

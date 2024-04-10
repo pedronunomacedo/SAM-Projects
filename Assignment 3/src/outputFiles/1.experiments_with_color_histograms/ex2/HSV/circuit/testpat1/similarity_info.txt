@@ -1,0 +1,9 @@
+Distances: 
+	euclidian_distance = 0.221983
+	cosine_similarity = 0.904385
+	intersection_distance = 0.690126
+------------- 
+Similarities 
+	Images circuit and testpat1 are similar based on Euclidean distance: 0.221983 .
+	Images circuit and testpat1 are similar based on cosine similarity: 0.904385.
+	Images circuit and testpat1 are similar based on intersection distance: 0.690126.

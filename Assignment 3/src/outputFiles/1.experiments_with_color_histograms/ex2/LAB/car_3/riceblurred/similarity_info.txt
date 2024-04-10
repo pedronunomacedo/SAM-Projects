@@ -1,0 +1,8 @@
+Distances: 
+	euclidian_distance = 0.174571
+	cosine_similarity = 0.957736
+	intersection_distance = 0.487978
+------------- 
+Similarities 
+	Images car_3 and riceblurred are similar based on Euclidean distance: 0.174571 .
+	Images car_3 and riceblurred are similar based on cosine similarity: 0.957736.

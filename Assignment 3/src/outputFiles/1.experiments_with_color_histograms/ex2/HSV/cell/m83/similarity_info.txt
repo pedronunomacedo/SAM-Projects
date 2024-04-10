@@ -1,0 +1,9 @@
+Distances: 
+	euclidian_distance = 0.131205
+	cosine_similarity = 0.962918
+	intersection_distance = 0.721544
+------------- 
+Similarities 
+	Images cell and m83 are similar based on Euclidean distance: 0.131205 .
+	Images cell and m83 are similar based on cosine similarity: 0.962918.
+	Images cell and m83 are similar based on intersection distance: 0.721544.

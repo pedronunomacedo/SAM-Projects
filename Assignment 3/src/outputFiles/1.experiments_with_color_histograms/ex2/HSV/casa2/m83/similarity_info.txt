@@ -1,0 +1,9 @@
+Distances: 
+	euclidian_distance = 0.104765
+	cosine_similarity = 0.976189
+	intersection_distance = 0.749375
+------------- 
+Similarities 
+	Images casa2 and m83 are similar based on Euclidean distance: 0.104765 .
+	Images casa2 and m83 are similar based on cosine similarity: 0.976189.
+	Images casa2 and m83 are similar based on intersection distance: 0.749375.

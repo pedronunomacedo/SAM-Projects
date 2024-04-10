@@ -1,0 +1,7 @@
+Distances: 
+	euclidian_distance = 0.478722
+	cosine_similarity = 0.039942
+	intersection_distance = 0.219787
+------------- 
+Similarities 
+	Images cameraman and parkavenue are similar based on Euclidean distance: 0.478722 .

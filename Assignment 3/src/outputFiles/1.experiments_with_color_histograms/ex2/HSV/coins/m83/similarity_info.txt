@@ -1,0 +1,9 @@
+Distances: 
+	euclidian_distance = 0.114415
+	cosine_similarity = 0.971584
+	intersection_distance = 0.722413
+------------- 
+Similarities 
+	Images coins and m83 are similar based on Euclidean distance: 0.114415 .
+	Images coins and m83 are similar based on cosine similarity: 0.971584.
+	Images coins and m83 are similar based on intersection distance: 0.722413.

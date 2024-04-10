@@ -1,0 +1,9 @@
+Distances: 
+	euclidian_distance = 0.103738
+	cosine_similarity = 0.976493
+	intersection_distance = 0.719975
+------------- 
+Similarities 
+	Images cell and trees are similar based on Euclidean distance: 0.103738 .
+	Images cell and trees are similar based on cosine similarity: 0.976493.
+	Images cell and trees are similar based on intersection distance: 0.719975.

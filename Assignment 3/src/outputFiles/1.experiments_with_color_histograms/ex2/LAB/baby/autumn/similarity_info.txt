@@ -1,0 +1,8 @@
+Distances: 
+	euclidian_distance = 0.109152
+	cosine_similarity = 0.593611
+	intersection_distance = 0.512172
+------------- 
+Similarities 
+	Images baby and autumn are similar based on Euclidean distance: 0.109152 .
+	Images baby and autumn are similar based on intersection distance: 0.512172.

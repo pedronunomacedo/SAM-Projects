@@ -1,0 +1,9 @@
+Distances: 
+	euclidian_distance = 0.107839
+	cosine_similarity = 0.974774
+	intersection_distance = 0.764095
+------------- 
+Similarities 
+	Images canoe and m83 are similar based on Euclidean distance: 0.107839 .
+	Images canoe and m83 are similar based on cosine similarity: 0.974774.
+	Images canoe and m83 are similar based on intersection distance: 0.764095.

@@ -1,0 +1,7 @@
+Distances: 
+	euclidian_distance = 0.478306
+	cosine_similarity = 0.009083
+	intersection_distance = 0.126967
+------------- 
+Similarities 
+	Images circuit and pears are similar based on Euclidean distance: 0.478306 .

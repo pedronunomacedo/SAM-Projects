@@ -1,0 +1,7 @@
+Distances: 
+	euclidian_distance = 0.480803
+	cosine_similarity = 0.025131
+	intersection_distance = 0.069338
+------------- 
+Similarities 
+	Images canoe and hands2 are similar based on Euclidean distance: 0.480803 .

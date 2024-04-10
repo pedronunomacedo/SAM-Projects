@@ -1,0 +1,9 @@
+Distances: 
+	euclidian_distance = 0.148168
+	cosine_similarity = 0.994274
+	intersection_distance = 0.714733
+------------- 
+Similarities 
+	Images car_4 and pinnochio_ColorAndGray are similar based on Euclidean distance: 0.148168 .
+	Images car_4 and pinnochio_ColorAndGray are similar based on cosine similarity: 0.994274.
+	Images car_4 and pinnochio_ColorAndGray are similar based on intersection distance: 0.714733.

@@ -1,0 +1,7 @@
+Distances: 
+	euclidian_distance = 0.541346
+	cosine_similarity = 0.091620
+	intersection_distance = 0.043109
+------------- 
+Similarities 
+	Images circlesBrightDark and DistortedImage are similar based on Euclidean distance: 0.541346 .

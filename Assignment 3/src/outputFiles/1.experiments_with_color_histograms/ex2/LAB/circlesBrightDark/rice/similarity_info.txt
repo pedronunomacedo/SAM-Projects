@@ -1,0 +1,9 @@
+Distances: 
+	euclidian_distance = 0.271182
+	cosine_similarity = 0.866557
+	intersection_distance = 0.676600
+------------- 
+Similarities 
+	Images circlesBrightDark and rice are similar based on Euclidean distance: 0.271182 .
+	Images circlesBrightDark and rice are similar based on cosine similarity: 0.866557.
+	Images circlesBrightDark and rice are similar based on intersection distance: 0.676600.

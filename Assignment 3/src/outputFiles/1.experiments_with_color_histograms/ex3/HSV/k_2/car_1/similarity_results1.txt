@@ -1,0 +1,24 @@
+main_image = 'car_1.jpg'
+color_space = 'HSV'
+k = 2
+
+images_database = {
+    'baby.jpg',
+    'car_2.jpg', 
+    'board.tif'
+}
+
+------------- 
+
+euclidian_distances = {
+    'baby.jpg': 0.0505,
+    'car_2.jpg': 0.1746, 
+    'board.tif': 0.0744
+}
+
+------------- 
+
+result = [
+    1
+    3
+]

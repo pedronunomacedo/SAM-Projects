@@ -1,0 +1,9 @@
+Distances: 
+	euclidian_distance = 0.064981
+	cosine_similarity = 0.990597
+	intersection_distance = 0.721555
+------------- 
+Similarities 
+	Images coins and canoe are similar based on Euclidean distance: 0.064981 .
+	Images coins and canoe are similar based on cosine similarity: 0.990597.
+	Images coins and canoe are similar based on intersection distance: 0.721555.

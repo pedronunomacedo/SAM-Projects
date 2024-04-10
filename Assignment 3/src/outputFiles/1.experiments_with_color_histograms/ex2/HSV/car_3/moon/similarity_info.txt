@@ -1,0 +1,9 @@
+Distances: 
+	euclidian_distance = 0.215163
+	cosine_similarity = 0.973565
+	intersection_distance = 0.523041
+------------- 
+Similarities 
+	Images car_3 and moon are similar based on Euclidean distance: 0.215163 .
+	Images /Users/pedromacedo/Desktop/Uni/SAM-Year4Semester2/Projects/Assignment 3/src/resources/car_3.jpg and /Users/pedromacedo/Desktop/Uni/SAM-Year4Semester2/Projects/Assignment 3/src/resources/moon.tif are similar based on cosine similarity: 0.973565.
+	Images /Users/pedromacedo/Desktop/Uni/SAM-Year4Semester2/Projects/Assignment 3/src/resources/car_3.jpg and /Users/pedromacedo/Desktop/Uni/SAM-Year4Semester2/Projects/Assignment 3/src/resources/moon.tif are similar based on intersection distance: 0.523041.

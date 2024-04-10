@@ -1,0 +1,9 @@
+Distances: 
+	euclidian_distance = 0.096914
+	cosine_similarity = 0.979471
+	intersection_distance = 0.737365
+------------- 
+Similarities 
+	Images cell and pout are similar based on Euclidean distance: 0.096914 .
+	Images cell and pout are similar based on cosine similarity: 0.979471.
+	Images cell and pout are similar based on intersection distance: 0.737365.

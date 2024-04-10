@@ -1,0 +1,8 @@
+Distances: 
+	euclidian_distance = 0.055467
+	cosine_similarity = 0.533566
+	intersection_distance = 0.551673
+------------- 
+Similarities 
+	Images baby and flamingos are similar based on Euclidean distance: 0.055467 .
+	Images /Users/pedromacedo/Desktop/Uni/SAM-Year4Semester2/Projects/Assignment 3/src/resources/baby.jpg and /Users/pedromacedo/Desktop/Uni/SAM-Year4Semester2/Projects/Assignment 3/src/resources/flamingos.jpg are similar based on intersection distance: 0.551673.

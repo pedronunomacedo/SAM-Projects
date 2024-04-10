@@ -1,0 +1,9 @@
+Distances: 
+	euclidian_distance = 0.093079
+	cosine_similarity = 0.981055
+	intersection_distance = 0.731449
+------------- 
+Similarities 
+	Images cell and printedtext are similar based on Euclidean distance: 0.093079 .
+	Images cell and printedtext are similar based on cosine similarity: 0.981055.
+	Images cell and printedtext are similar based on intersection distance: 0.731449.

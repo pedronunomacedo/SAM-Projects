@@ -1,0 +1,9 @@
+Distances: 
+	euclidian_distance = 0.046506
+	cosine_similarity = 0.995174
+	intersection_distance = 0.793070
+------------- 
+Similarities 
+	Images canoe and shadow are similar based on Euclidean distance: 0.046506 .
+	Images canoe and shadow are similar based on cosine similarity: 0.995174.
+	Images canoe and shadow are similar based on intersection distance: 0.793070.

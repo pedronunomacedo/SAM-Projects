@@ -1,0 +1,7 @@
+Distances: 
+	euclidian_distance = 0.542596
+	cosine_similarity = 0.074005
+	intersection_distance = 0.036483
+------------- 
+Similarities 
+	Images circlesBrightDark and peppers are similar based on Euclidean distance: 0.542596 .

@@ -1,0 +1,9 @@
+Distances: 
+	euclidian_distance = 0.099366
+	cosine_similarity = 0.978344
+	intersection_distance = 0.749878
+------------- 
+Similarities 
+	Images coins and moon are similar based on Euclidean distance: 0.099366 .
+	Images coins and moon are similar based on cosine similarity: 0.978344.
+	Images coins and moon are similar based on intersection distance: 0.749878.

@@ -1,0 +1,8 @@
+Distances: 
+	euclidian_distance = 0.219654
+	cosine_similarity = 0.921942
+	intersection_distance = 0.496400
+------------- 
+Similarities 
+	Images car_3 and forest are similar based on Euclidean distance: 0.219654 .
+	Images car_3 and forest are similar based on cosine similarity: 0.921942.

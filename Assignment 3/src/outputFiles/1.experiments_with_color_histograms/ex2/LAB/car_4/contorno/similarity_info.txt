@@ -1,0 +1,9 @@
+Distances: 
+	euclidian_distance = 0.281591
+	cosine_similarity = 0.854396
+	intersection_distance = 0.665948
+------------- 
+Similarities 
+	Images car_4 and contorno are similar based on Euclidean distance: 0.281591 .
+	Images car_4 and contorno are similar based on cosine similarity: 0.854396.
+	Images car_4 and contorno are similar based on intersection distance: 0.665948.

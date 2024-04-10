@@ -1,0 +1,9 @@
+Distances: 
+	euclidian_distance = 0.270333
+	cosine_similarity = 0.867453
+	intersection_distance = 0.678113
+------------- 
+Similarities 
+	Images circlesBrightDark and cameraman are similar based on Euclidean distance: 0.270333 .
+	Images circlesBrightDark and cameraman are similar based on cosine similarity: 0.867453.
+	Images circlesBrightDark and cameraman are similar based on intersection distance: 0.678113.

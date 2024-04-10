@@ -1,0 +1,8 @@
+Distances: 
+	euclidian_distance = 0.066169
+	cosine_similarity = 0.779017
+	intersection_distance = 0.711172
+------------- 
+Similarities 
+	Images board and sevilla are similar based on Euclidean distance: 0.066169 .
+	Images board and sevilla are similar based on intersection distance: 0.711172.

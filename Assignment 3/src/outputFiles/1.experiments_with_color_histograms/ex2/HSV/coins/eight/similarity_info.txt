@@ -1,0 +1,9 @@
+Distances: 
+	euclidian_distance = 0.110136
+	cosine_similarity = 0.973582
+	intersection_distance = 0.709769
+------------- 
+Similarities 
+	Images coins and eight are similar based on Euclidean distance: 0.110136 .
+	Images coins and eight are similar based on cosine similarity: 0.973582.
+	Images coins and eight are similar based on intersection distance: 0.709769.

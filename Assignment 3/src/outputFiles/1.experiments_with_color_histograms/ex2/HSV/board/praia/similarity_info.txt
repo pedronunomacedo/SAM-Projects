@@ -1,0 +1,7 @@
+Distances: 
+	euclidian_distance = 0.107221
+	cosine_similarity = 0.530316
+	intersection_distance = 0.461808
+------------- 
+Similarities 
+	Images board and praia are similar based on Euclidean distance: 0.107221 .

@@ -1,0 +1,9 @@
+Distances: 
+	euclidian_distance = 0.029162
+	cosine_similarity = 0.998096
+	intersection_distance = 0.836715
+------------- 
+Similarities 
+	Images cameraman and printedtext are similar based on Euclidean distance: 0.029162 .
+	Images cameraman and printedtext are similar based on cosine similarity: 0.998096.
+	Images cameraman and printedtext are similar based on intersection distance: 0.836715.

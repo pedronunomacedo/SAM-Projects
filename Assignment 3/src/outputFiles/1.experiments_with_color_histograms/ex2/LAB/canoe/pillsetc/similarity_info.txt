@@ -1,0 +1,7 @@
+Distances: 
+	euclidian_distance = 0.446918
+	cosine_similarity = 0.334963
+	intersection_distance = 0.137343
+------------- 
+Similarities 
+	Images canoe and pillsetc are similar based on Euclidean distance: 0.446918 .

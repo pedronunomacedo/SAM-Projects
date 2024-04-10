@@ -1,0 +1,14 @@
+Distances: 
+	euclidian_distance = 0.474831
+	cosine_similarity = 0.085031
+	intersection_distance = 0.026787
+------------- 
+Similarities 
+	Images DistortedImage and kids are similar based on Euclidean distance: 0.474831 .
+Distances: 
+	euclidian_distance = 0.474831
+	cosine_similarity = 0.085031
+	intersection_distance = 0.026787
+------------- 
+Similarities 
+	Images DistortedImage and kids are similar based on Euclidean distance: 0.474831 .

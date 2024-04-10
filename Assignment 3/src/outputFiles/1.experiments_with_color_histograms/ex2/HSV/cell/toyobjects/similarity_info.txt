@@ -1,0 +1,9 @@
+Distances: 
+	euclidian_distance = 0.274495
+	cosine_similarity = 0.860643
+	intersection_distance = 0.667764
+------------- 
+Similarities 
+	Images cell and toyobjects are similar based on Euclidean distance: 0.274495 .
+	Images cell and toyobjects are similar based on cosine similarity: 0.860643.
+	Images cell and toyobjects are similar based on intersection distance: 0.667764.

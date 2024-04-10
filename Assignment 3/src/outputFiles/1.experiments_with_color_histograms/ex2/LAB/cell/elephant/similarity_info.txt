@@ -1,0 +1,9 @@
+Distances: 
+	euclidian_distance = 0.092133
+	cosine_similarity = 0.981442
+	intersection_distance = 0.742385
+------------- 
+Similarities 
+	Images cell and elephant are similar based on Euclidean distance: 0.092133 .
+	Images cell and elephant are similar based on cosine similarity: 0.981442.
+	Images cell and elephant are similar based on intersection distance: 0.742385.

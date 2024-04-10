@@ -1,0 +1,8 @@
+Distances: 
+	euclidian_distance = 0.099090
+	cosine_similarity = 0.654816
+	intersection_distance = 0.537640
+------------- 
+Similarities 
+	Images autumn and colorCheckerTestImage are similar based on Euclidean distance: 0.099090 .
+	Images autumn and colorCheckerTestImage are similar based on intersection distance: 0.537640.

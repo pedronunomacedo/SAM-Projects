@@ -1,0 +1,9 @@
+Distances: 
+	euclidian_distance = 0.205819
+	cosine_similarity = 0.978802
+	intersection_distance = 0.617295
+------------- 
+Similarities 
+	Images car_3 and tire are similar based on Euclidean distance: 0.205819 .
+	Images /Users/pedromacedo/Desktop/Uni/SAM-Year4Semester2/Projects/Assignment 3/src/resources/car_3.jpg and /Users/pedromacedo/Desktop/Uni/SAM-Year4Semester2/Projects/Assignment 3/src/resources/tire.tif are similar based on cosine similarity: 0.978802.
+	Images /Users/pedromacedo/Desktop/Uni/SAM-Year4Semester2/Projects/Assignment 3/src/resources/car_3.jpg and /Users/pedromacedo/Desktop/Uni/SAM-Year4Semester2/Projects/Assignment 3/src/resources/tire.tif are similar based on intersection distance: 0.617295.

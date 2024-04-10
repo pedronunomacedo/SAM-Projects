@@ -1,0 +1,9 @@
+Distances: 
+	euclidian_distance = 0.112902
+	cosine_similarity = 0.972166
+	intersection_distance = 0.670091
+------------- 
+Similarities 
+	Images cell and kids are similar based on Euclidean distance: 0.112902 .
+	Images cell and kids are similar based on cosine similarity: 0.972166.
+	Images cell and kids are similar based on intersection distance: 0.670091.

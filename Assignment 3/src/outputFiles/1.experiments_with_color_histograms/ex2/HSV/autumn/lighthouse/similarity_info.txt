@@ -1,0 +1,7 @@
+Distances: 
+	euclidian_distance = 0.097389
+	cosine_similarity = 0.159996
+	intersection_distance = 0.258689
+------------- 
+Similarities 
+	Images autumn and lighthouse are similar based on Euclidean distance: 0.097389 .

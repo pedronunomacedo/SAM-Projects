@@ -1,0 +1,9 @@
+Distances: 
+	euclidian_distance = 0.167881
+	cosine_similarity = 0.940748
+	intersection_distance = 0.735937
+------------- 
+Similarities 
+	Images cell and quantisedLena16 are similar based on Euclidean distance: 0.167881 .
+	Images cell and quantisedLena16 are similar based on cosine similarity: 0.940748.
+	Images cell and quantisedLena16 are similar based on intersection distance: 0.735937.

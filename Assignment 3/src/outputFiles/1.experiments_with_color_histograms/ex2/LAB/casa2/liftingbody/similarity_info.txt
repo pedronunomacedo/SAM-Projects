@@ -1,0 +1,9 @@
+Distances: 
+	euclidian_distance = 0.043924
+	cosine_similarity = 0.995688
+	intersection_distance = 0.765604
+------------- 
+Similarities 
+	Images casa2 and liftingbody are similar based on Euclidean distance: 0.043924 .
+	Images casa2 and liftingbody are similar based on cosine similarity: 0.995688.
+	Images casa2 and liftingbody are similar based on intersection distance: 0.765604.

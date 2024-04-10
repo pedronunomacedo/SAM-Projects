@@ -1,0 +1,14 @@
+Distances: 
+	euclidian_distance = 0.073713
+	cosine_similarity = 0.313044
+	intersection_distance = 0.389881
+------------- 
+Similarities 
+	Images DistortedImage and fabric are similar based on Euclidean distance: 0.073713 .
+Distances: 
+	euclidian_distance = 0.073713
+	cosine_similarity = 0.313044
+	intersection_distance = 0.389881
+------------- 
+Similarities 
+	Images DistortedImage and fabric are similar based on Euclidean distance: 0.073713 .

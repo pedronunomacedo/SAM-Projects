@@ -1,0 +1,9 @@
+Distances: 
+	euclidian_distance = 0.228903
+	cosine_similarity = 0.898645
+	intersection_distance = 0.666667
+------------- 
+Similarities 
+	Images coins and yellowlily-segmented are similar based on Euclidean distance: 0.228903 .
+	Images coins and yellowlily-segmented are similar based on cosine similarity: 0.898645.
+	Images coins and yellowlily-segmented are similar based on intersection distance: 0.666667.

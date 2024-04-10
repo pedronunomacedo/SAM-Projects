@@ -1,0 +1,7 @@
+Distances: 
+	euclidian_distance = 0.548158
+	cosine_similarity = 0.011314
+	intersection_distance = 0.011975
+------------- 
+Similarities 
+	Images circlesBrightDark and pears are similar based on Euclidean distance: 0.548158 .

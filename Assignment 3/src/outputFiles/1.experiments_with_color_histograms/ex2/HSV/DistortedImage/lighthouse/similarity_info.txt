@@ -1,0 +1,9 @@
+Distances: 
+	euclidian_distance = 0.030272
+	cosine_similarity = 0.905184
+	intersection_distance = 0.866558
+------------- 
+Similarities 
+	Images DistortedImage and lighthouse are similar based on Euclidean distance: 0.030272 .
+	Images /Users/pedromacedo/Desktop/Uni/SAM-Year4Semester2/Projects/Assignment 3/src/resources/DistortedImage.png and /Users/pedromacedo/Desktop/Uni/SAM-Year4Semester2/Projects/Assignment 3/src/resources/lighthouse.png are similar based on cosine similarity: 0.905184.
+	Images /Users/pedromacedo/Desktop/Uni/SAM-Year4Semester2/Projects/Assignment 3/src/resources/DistortedImage.png and /Users/pedromacedo/Desktop/Uni/SAM-Year4Semester2/Projects/Assignment 3/src/resources/lighthouse.png are similar based on intersection distance: 0.866558.

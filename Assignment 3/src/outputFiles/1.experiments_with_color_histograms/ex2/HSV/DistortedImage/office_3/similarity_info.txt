@@ -1,0 +1,7 @@
+Distances: 
+	euclidian_distance = 0.076353
+	cosine_similarity = 0.289363
+	intersection_distance = 0.331844
+------------- 
+Similarities 
+	Images DistortedImage and office_3 are similar based on Euclidean distance: 0.076353 .

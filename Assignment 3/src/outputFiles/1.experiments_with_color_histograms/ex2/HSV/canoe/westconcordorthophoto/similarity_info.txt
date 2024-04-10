@@ -1,0 +1,9 @@
+Distances: 
+	euclidian_distance = 0.040448
+	cosine_similarity = 0.996347
+	intersection_distance = 0.804618
+------------- 
+Similarities 
+	Images canoe and westconcordorthophoto are similar based on Euclidean distance: 0.040448 .
+	Images /Users/pedromacedo/Desktop/Uni/SAM-Year4Semester2/Projects/Assignment 3/src/resources/canoe.tif and /Users/pedromacedo/Desktop/Uni/SAM-Year4Semester2/Projects/Assignment 3/src/resources/westconcordorthophoto.png are similar based on cosine similarity: 0.996347.
+	Images /Users/pedromacedo/Desktop/Uni/SAM-Year4Semester2/Projects/Assignment 3/src/resources/canoe.tif and /Users/pedromacedo/Desktop/Uni/SAM-Year4Semester2/Projects/Assignment 3/src/resources/westconcordorthophoto.png are similar based on intersection distance: 0.804618.

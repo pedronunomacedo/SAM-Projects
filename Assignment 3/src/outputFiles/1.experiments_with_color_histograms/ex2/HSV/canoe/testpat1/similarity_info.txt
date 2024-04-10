@@ -1,0 +1,9 @@
+Distances: 
+	euclidian_distance = 0.213515
+	cosine_similarity = 0.911881
+	intersection_distance = 0.711383
+------------- 
+Similarities 
+	Images canoe and testpat1 are similar based on Euclidean distance: 0.213515 .
+	Images /Users/pedromacedo/Desktop/Uni/SAM-Year4Semester2/Projects/Assignment 3/src/resources/canoe.tif and /Users/pedromacedo/Desktop/Uni/SAM-Year4Semester2/Projects/Assignment 3/src/resources/testpat1.png are similar based on cosine similarity: 0.911881.
+	Images /Users/pedromacedo/Desktop/Uni/SAM-Year4Semester2/Projects/Assignment 3/src/resources/canoe.tif and /Users/pedromacedo/Desktop/Uni/SAM-Year4Semester2/Projects/Assignment 3/src/resources/testpat1.png are similar based on intersection distance: 0.711383.

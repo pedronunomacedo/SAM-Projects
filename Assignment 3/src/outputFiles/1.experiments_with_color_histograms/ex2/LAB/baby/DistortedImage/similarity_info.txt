@@ -1,0 +1,8 @@
+Distances: 
+	euclidian_distance = 0.080101
+	cosine_similarity = 0.657631
+	intersection_distance = 0.539177
+------------- 
+Similarities 
+	Images baby and DistortedImage are similar based on Euclidean distance: 0.080101 .
+	Images baby and DistortedImage are similar based on intersection distance: 0.539177.

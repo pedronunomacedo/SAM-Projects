@@ -1,0 +1,7 @@
+Distances: 
+	euclidian_distance = 0.443223
+	cosine_similarity = 0.392516
+	intersection_distance = 0.208114
+------------- 
+Similarities 
+	Images cameraman and office_4 are similar based on Euclidean distance: 0.443223 .

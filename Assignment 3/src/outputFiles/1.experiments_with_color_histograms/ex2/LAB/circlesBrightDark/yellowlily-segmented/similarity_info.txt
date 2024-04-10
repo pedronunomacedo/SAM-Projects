@@ -1,0 +1,8 @@
+Distances: 
+	euclidian_distance = 0.362060
+	cosine_similarity = 0.772524
+	intersection_distance = 0.667360
+------------- 
+Similarities 
+	Images circlesBrightDark and yellowlily-segmented are similar based on Euclidean distance: 0.362060 .
+	Images circlesBrightDark and yellowlily-segmented are similar based on intersection distance: 0.667360.

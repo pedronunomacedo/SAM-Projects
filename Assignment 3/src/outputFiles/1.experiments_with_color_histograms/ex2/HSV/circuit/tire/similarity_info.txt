@@ -1,0 +1,9 @@
+Distances: 
+	euclidian_distance = 0.041265
+	cosine_similarity = 0.996193
+	intersection_distance = 0.817377
+------------- 
+Similarities 
+	Images circuit and tire are similar based on Euclidean distance: 0.041265 .
+	Images circuit and tire are similar based on cosine similarity: 0.996193.
+	Images circuit and tire are similar based on intersection distance: 0.817377.

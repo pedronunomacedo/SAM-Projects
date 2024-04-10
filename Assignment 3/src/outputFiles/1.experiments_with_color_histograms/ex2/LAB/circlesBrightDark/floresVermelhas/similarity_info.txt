@@ -1,0 +1,7 @@
+Distances: 
+	euclidian_distance = 0.546671
+	cosine_similarity = 0.035092
+	intersection_distance = 0.015275
+------------- 
+Similarities 
+	Images circlesBrightDark and floresVermelhas are similar based on Euclidean distance: 0.546671 .

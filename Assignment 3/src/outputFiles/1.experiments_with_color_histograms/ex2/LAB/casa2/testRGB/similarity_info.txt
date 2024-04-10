@@ -1,0 +1,7 @@
+Distances: 
+	euclidian_distance = 0.473659
+	cosine_similarity = 0.039225
+	intersection_distance = 0.205794
+------------- 
+Similarities 
+	Images casa2 and testRGB are similar based on Euclidean distance: 0.473659 .

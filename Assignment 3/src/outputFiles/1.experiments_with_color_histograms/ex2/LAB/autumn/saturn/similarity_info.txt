@@ -1,0 +1,7 @@
+Distances: 
+	euclidian_distance = 0.262790
+	cosine_similarity = 0.555066
+	intersection_distance = 0.354434
+------------- 
+Similarities 
+	Images autumn and saturn are similar based on Euclidean distance: 0.262790 .

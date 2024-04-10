@@ -1,0 +1,9 @@
+Distances: 
+	euclidian_distance = 0.059666
+	cosine_similarity = 0.992066
+	intersection_distance = 0.749000
+------------- 
+Similarities 
+	Images coins and tire are similar based on Euclidean distance: 0.059666 .
+	Images coins and tire are similar based on cosine similarity: 0.992066.
+	Images coins and tire are similar based on intersection distance: 0.749000.

@@ -1,0 +1,7 @@
+Distances: 
+	euclidian_distance = 0.085171
+	cosine_similarity = 0.250348
+	intersection_distance = 0.381818
+------------- 
+Similarities 
+	Images DistortedImage and toysnoflash are similar based on Euclidean distance: 0.085171 .

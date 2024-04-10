@@ -1,0 +1,9 @@
+Distances: 
+	euclidian_distance = 0.044816
+	cosine_similarity = 0.995516
+	intersection_distance = 0.807971
+------------- 
+Similarities 
+	Images canoe and contorno are similar based on Euclidean distance: 0.044816 .
+	Images /Users/pedromacedo/Desktop/Uni/SAM-Year4Semester2/Projects/Assignment 3/src/resources/canoe.tif and /Users/pedromacedo/Desktop/Uni/SAM-Year4Semester2/Projects/Assignment 3/src/resources/contorno.jpg are similar based on cosine similarity: 0.995516.
+	Images /Users/pedromacedo/Desktop/Uni/SAM-Year4Semester2/Projects/Assignment 3/src/resources/canoe.tif and /Users/pedromacedo/Desktop/Uni/SAM-Year4Semester2/Projects/Assignment 3/src/resources/contorno.jpg are similar based on intersection distance: 0.807971.

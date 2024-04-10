@@ -1,0 +1,8 @@
+ 
+  Distances: 
+	euclidian_distance = 0.482208
+	cosine_similarity = 0.035083
+	intersection_distance = 0.070828
+------------- 
+Similarities 
+	Images cell and testRGB are similar based on Euclidean distance: 0.482208 .

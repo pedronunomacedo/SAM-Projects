@@ -1,0 +1,7 @@
+Distances: 
+	euclidian_distance = 0.477665
+	cosine_similarity = 0.014156
+	intersection_distance = 0.108172
+------------- 
+Similarities 
+	Images coins and llama are similar based on Euclidean distance: 0.477665 .

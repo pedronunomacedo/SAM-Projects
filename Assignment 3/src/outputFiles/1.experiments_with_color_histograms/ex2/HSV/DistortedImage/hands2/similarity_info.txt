@@ -1,0 +1,14 @@
+Distances: 
+	euclidian_distance = 0.099490
+	cosine_similarity = 0.288969
+	intersection_distance = 0.275365
+------------- 
+Similarities 
+	Images DistortedImage and hands2 are similar based on Euclidean distance: 0.099490 .
+Distances: 
+	euclidian_distance = 0.099490
+	cosine_similarity = 0.288969
+	intersection_distance = 0.275365
+------------- 
+Similarities 
+	Images DistortedImage and hands2 are similar based on Euclidean distance: 0.099490 .

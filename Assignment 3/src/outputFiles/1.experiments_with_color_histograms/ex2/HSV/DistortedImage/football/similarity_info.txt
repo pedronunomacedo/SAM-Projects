@@ -1,0 +1,14 @@
+Distances: 
+	euclidian_distance = 0.088967
+	cosine_similarity = 0.400007
+	intersection_distance = 0.376310
+------------- 
+Similarities 
+	Images DistortedImage and football are similar based on Euclidean distance: 0.088967 .
+Distances: 
+	euclidian_distance = 0.088967
+	cosine_similarity = 0.400007
+	intersection_distance = 0.376310
+------------- 
+Similarities 
+	Images DistortedImage and football are similar based on Euclidean distance: 0.088967 .

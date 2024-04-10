@@ -1,0 +1,9 @@
+Distances: 
+	euclidian_distance = 0.096929
+	cosine_similarity = 0.979390
+	intersection_distance = 0.763500
+------------- 
+Similarities 
+	Images casa1 and moon are similar based on Euclidean distance: 0.096929 .
+	Images /Users/pedromacedo/Desktop/Uni/SAM-Year4Semester2/Projects/Assignment 3/src/resources/casa1.jpg and /Users/pedromacedo/Desktop/Uni/SAM-Year4Semester2/Projects/Assignment 3/src/resources/moon.tif are similar based on cosine similarity: 0.979390.
+	Images /Users/pedromacedo/Desktop/Uni/SAM-Year4Semester2/Projects/Assignment 3/src/resources/casa1.jpg and /Users/pedromacedo/Desktop/Uni/SAM-Year4Semester2/Projects/Assignment 3/src/resources/moon.tif are similar based on intersection distance: 0.763500.

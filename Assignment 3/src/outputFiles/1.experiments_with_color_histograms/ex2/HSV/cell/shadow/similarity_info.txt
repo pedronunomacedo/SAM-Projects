@@ -1,0 +1,9 @@
+Distances: 
+	euclidian_distance = 0.093521
+	cosine_similarity = 0.980875
+	intersection_distance = 0.738261
+------------- 
+Similarities 
+	Images cell and shadow are similar based on Euclidean distance: 0.093521 .
+	Images cell and shadow are similar based on cosine similarity: 0.980875.
+	Images cell and shadow are similar based on intersection distance: 0.738261.

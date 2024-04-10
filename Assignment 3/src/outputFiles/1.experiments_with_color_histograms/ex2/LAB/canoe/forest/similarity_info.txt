@@ -1,0 +1,9 @@
+Distances: 
+	euclidian_distance = 0.143656
+	cosine_similarity = 0.956333
+	intersection_distance = 0.717565
+------------- 
+Similarities 
+	Images canoe and forest are similar based on Euclidean distance: 0.143656 .
+	Images canoe and forest are similar based on cosine similarity: 0.956333.
+	Images canoe and forest are similar based on intersection distance: 0.717565.

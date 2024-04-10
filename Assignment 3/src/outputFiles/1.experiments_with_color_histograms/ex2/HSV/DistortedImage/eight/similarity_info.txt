@@ -1,0 +1,14 @@
+Distances: 
+	euclidian_distance = 0.479444
+	cosine_similarity = 0.105613
+	intersection_distance = 0.102422
+------------- 
+Similarities 
+	Images DistortedImage and eight are similar based on Euclidean distance: 0.479444 .
+Distances: 
+	euclidian_distance = 0.479444
+	cosine_similarity = 0.105613
+	intersection_distance = 0.102422
+------------- 
+Similarities 
+	Images DistortedImage and eight are similar based on Euclidean distance: 0.479444 .

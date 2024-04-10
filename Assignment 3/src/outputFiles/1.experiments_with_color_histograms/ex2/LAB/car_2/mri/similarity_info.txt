@@ -1,0 +1,8 @@
+Distances: 
+	euclidian_distance = 0.322209
+	cosine_similarity = 0.849709
+	intersection_distance = 0.434066
+------------- 
+Similarities 
+	Images car_2 and mri are similar based on Euclidean distance: 0.322209 .
+	Images car_2 and mri are similar based on cosine similarity: 0.849709.

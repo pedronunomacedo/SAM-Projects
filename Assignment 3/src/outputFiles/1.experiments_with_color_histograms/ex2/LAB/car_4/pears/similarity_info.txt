@@ -1,0 +1,7 @@
+Distances: 
+	euclidian_distance = 0.543768
+	cosine_similarity = 0.073326
+	intersection_distance = 0.022146
+------------- 
+Similarities 
+	Images car_4 and pears are similar based on Euclidean distance: 0.543768 .

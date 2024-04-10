@@ -1,0 +1,9 @@
+Distances: 
+	euclidian_distance = 0.027586
+	cosine_similarity = 0.998295
+	intersection_distance = 0.836715
+------------- 
+Similarities 
+	Images cameraman and printedtext are similar based on Euclidean distance: 0.027586 .
+	Images /Users/pedromacedo/Desktop/Uni/SAM-Year4Semester2/Projects/Assignment 3/src/resources/cameraman.tif and /Users/pedromacedo/Desktop/Uni/SAM-Year4Semester2/Projects/Assignment 3/src/resources/printedtext.png are similar based on cosine similarity: 0.998295.
+	Images /Users/pedromacedo/Desktop/Uni/SAM-Year4Semester2/Projects/Assignment 3/src/resources/cameraman.tif and /Users/pedromacedo/Desktop/Uni/SAM-Year4Semester2/Projects/Assignment 3/src/resources/printedtext.png are similar based on intersection distance: 0.836715.

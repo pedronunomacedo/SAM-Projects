@@ -1,0 +1,9 @@
+Distances: 
+	euclidian_distance = 0.272662
+	cosine_similarity = 0.865007
+	intersection_distance = 0.688613
+------------- 
+Similarities 
+	Images canoe and circlesBrightDark are similar based on Euclidean distance: 0.272662 .
+	Images canoe and circlesBrightDark are similar based on cosine similarity: 0.865007.
+	Images canoe and circlesBrightDark are similar based on intersection distance: 0.688613.

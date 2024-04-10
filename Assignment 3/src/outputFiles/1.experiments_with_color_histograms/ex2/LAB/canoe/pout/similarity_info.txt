@@ -1,0 +1,9 @@
+Distances: 
+	euclidian_distance = 0.059226
+	cosine_similarity = 0.992194
+	intersection_distance = 0.766008
+------------- 
+Similarities 
+	Images canoe and pout are similar based on Euclidean distance: 0.059226 .
+	Images canoe and pout are similar based on cosine similarity: 0.992194.
+	Images canoe and pout are similar based on intersection distance: 0.766008.

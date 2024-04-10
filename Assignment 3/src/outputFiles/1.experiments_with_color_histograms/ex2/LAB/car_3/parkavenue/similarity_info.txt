@@ -1,0 +1,7 @@
+Distances: 
+	euclidian_distance = 0.352840
+	cosine_similarity = 0.048822
+	intersection_distance = 0.138695
+------------- 
+Similarities 
+	Images car_3 and parkavenue are similar based on Euclidean distance: 0.352840 .

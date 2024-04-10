@@ -1,0 +1,8 @@
+Distances: 
+	euclidian_distance = 0.103257
+	cosine_similarity = 0.647351
+	intersection_distance = 0.506544
+------------- 
+Similarities 
+	Images autumn and wagon are similar based on Euclidean distance: 0.103257 .
+	Images autumn and wagon are similar based on intersection distance: 0.506544.

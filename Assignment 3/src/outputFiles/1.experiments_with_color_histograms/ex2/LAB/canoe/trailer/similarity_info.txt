@@ -1,0 +1,7 @@
+Distances: 
+	euclidian_distance = 0.471616
+	cosine_similarity = 0.121111
+	intersection_distance = 0.150788
+------------- 
+Similarities 
+	Images canoe and trailer are similar based on Euclidean distance: 0.471616 .

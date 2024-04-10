@@ -1,0 +1,9 @@
+Distances: 
+	euclidian_distance = 0.220808
+	cosine_similarity = 0.904899
+	intersection_distance = 0.711034
+------------- 
+Similarities 
+	Images casa1 and mri are similar based on Euclidean distance: 0.220808 .
+	Images /Users/pedromacedo/Desktop/Uni/SAM-Year4Semester2/Projects/Assignment 3/src/resources/casa1.jpg and /Users/pedromacedo/Desktop/Uni/SAM-Year4Semester2/Projects/Assignment 3/src/resources/mri.tif are similar based on cosine similarity: 0.904899.
+	Images /Users/pedromacedo/Desktop/Uni/SAM-Year4Semester2/Projects/Assignment 3/src/resources/casa1.jpg and /Users/pedromacedo/Desktop/Uni/SAM-Year4Semester2/Projects/Assignment 3/src/resources/mri.tif are similar based on intersection distance: 0.711034.

@@ -1,0 +1,9 @@
+Distances: 
+	euclidian_distance = 0.271994
+	cosine_similarity = 0.865705
+	intersection_distance = 0.683381
+------------- 
+Similarities 
+	Images circlesBrightDark and tire are similar based on Euclidean distance: 0.271994 .
+	Images circlesBrightDark and tire are similar based on cosine similarity: 0.865705.
+	Images circlesBrightDark and tire are similar based on intersection distance: 0.683381.

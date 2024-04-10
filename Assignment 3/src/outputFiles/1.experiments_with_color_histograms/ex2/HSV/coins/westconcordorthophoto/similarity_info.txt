@@ -1,0 +1,9 @@
+Distances: 
+	euclidian_distance = 0.045137
+	cosine_similarity = 0.995456
+	intersection_distance = 0.812038
+------------- 
+Similarities 
+	Images coins and westconcordorthophoto are similar based on Euclidean distance: 0.045137 .
+	Images coins and westconcordorthophoto are similar based on cosine similarity: 0.995456.
+	Images coins and westconcordorthophoto are similar based on intersection distance: 0.812038.

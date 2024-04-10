@@ -1,0 +1,9 @@
+Distances: 
+	euclidian_distance = 0.126251
+	cosine_similarity = 0.965405
+	intersection_distance = 0.712909
+------------- 
+Similarities 
+	Images cell and moon are similar based on Euclidean distance: 0.126251 .
+	Images cell and moon are similar based on cosine similarity: 0.965405.
+	Images cell and moon are similar based on intersection distance: 0.712909.

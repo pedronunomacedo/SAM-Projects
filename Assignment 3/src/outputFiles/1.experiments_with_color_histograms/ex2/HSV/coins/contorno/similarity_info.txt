@@ -1,0 +1,9 @@
+Distances: 
+	euclidian_distance = 0.054453
+	cosine_similarity = 0.993386
+	intersection_distance = 0.757202
+------------- 
+Similarities 
+	Images coins and contorno are similar based on Euclidean distance: 0.054453 .
+	Images coins and contorno are similar based on cosine similarity: 0.993386.
+	Images coins and contorno are similar based on intersection distance: 0.757202.

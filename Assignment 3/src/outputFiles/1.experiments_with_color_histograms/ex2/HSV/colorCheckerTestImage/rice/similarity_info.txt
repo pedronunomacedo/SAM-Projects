@@ -1,0 +1,7 @@
+Distances: 
+	euclidian_distance = 0.469275
+	cosine_similarity = 0.117534
+	intersection_distance = 0.166413
+------------- 
+Similarities 
+	Images colorCheckerTestImage and rice are similar based on Euclidean distance: 0.469275 .

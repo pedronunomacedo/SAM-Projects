@@ -1,0 +1,8 @@
+Distances: 
+	euclidian_distance = 0.077505
+	cosine_similarity = 0.656459
+	intersection_distance = 0.574869
+------------- 
+Similarities 
+	Images DistortedImage and sevilla are similar based on Euclidean distance: 0.077505 .
+	Images DistortedImage and sevilla are similar based on intersection distance: 0.574869.

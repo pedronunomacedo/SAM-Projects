@@ -1,0 +1,9 @@
+Distances: 
+	euclidian_distance = 0.103695
+	cosine_similarity = 0.976579
+	intersection_distance = 0.725772
+------------- 
+Similarities 
+	Images circuit and eight are similar based on Euclidean distance: 0.103695 .
+	Images circuit and eight are similar based on cosine similarity: 0.976579.
+	Images circuit and eight are similar based on intersection distance: 0.725772.

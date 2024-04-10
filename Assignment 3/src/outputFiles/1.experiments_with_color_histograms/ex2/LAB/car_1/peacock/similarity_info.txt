@@ -1,0 +1,8 @@
+Distances: 
+	euclidian_distance = 0.093012
+	cosine_similarity = 0.716328
+	intersection_distance = 0.652598
+------------- 
+Similarities 
+	Images car_1 and peacock are similar based on Euclidean distance: 0.093012 .
+	Images car_1 and peacock are similar based on intersection distance: 0.652598.

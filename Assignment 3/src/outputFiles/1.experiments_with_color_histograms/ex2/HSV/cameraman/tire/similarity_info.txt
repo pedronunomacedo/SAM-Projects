@@ -1,0 +1,9 @@
+Distances: 
+	euclidian_distance = 0.038349
+	cosine_similarity = 0.996713
+	intersection_distance = 0.823565
+------------- 
+Similarities 
+	Images cameraman and tire are similar based on Euclidean distance: 0.038349 .
+	Images /Users/pedromacedo/Desktop/Uni/SAM-Year4Semester2/Projects/Assignment 3/src/resources/cameraman.tif and /Users/pedromacedo/Desktop/Uni/SAM-Year4Semester2/Projects/Assignment 3/src/resources/tire.tif are similar based on cosine similarity: 0.996713.
+	Images /Users/pedromacedo/Desktop/Uni/SAM-Year4Semester2/Projects/Assignment 3/src/resources/cameraman.tif and /Users/pedromacedo/Desktop/Uni/SAM-Year4Semester2/Projects/Assignment 3/src/resources/tire.tif are similar based on intersection distance: 0.823565.

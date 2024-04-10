@@ -1,0 +1,8 @@
+Distances: 
+	euclidian_distance = 0.063537
+	cosine_similarity = 0.421393
+	intersection_distance = 0.518000
+------------- 
+Similarities 
+	Images colorCheckerTestImage and indiancorn are similar based on Euclidean distance: 0.063537 .
+	Images colorCheckerTestImage and indiancorn are similar based on intersection distance: 0.518000.

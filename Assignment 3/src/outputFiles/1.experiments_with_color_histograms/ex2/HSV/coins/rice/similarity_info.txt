@@ -1,0 +1,9 @@
+Distances: 
+	euclidian_distance = 0.048998
+	cosine_similarity = 0.994646
+	intersection_distance = 0.805567
+------------- 
+Similarities 
+	Images coins and rice are similar based on Euclidean distance: 0.048998 .
+	Images coins and rice are similar based on cosine similarity: 0.994646.
+	Images coins and rice are similar based on intersection distance: 0.805567.

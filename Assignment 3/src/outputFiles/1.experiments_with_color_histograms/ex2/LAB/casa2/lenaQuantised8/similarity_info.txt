@@ -1,0 +1,9 @@
+Distances: 
+	euclidian_distance = 0.144156
+	cosine_similarity = 0.956303
+	intersection_distance = 0.778414
+------------- 
+Similarities 
+	Images casa2 and lenaQuantised8 are similar based on Euclidean distance: 0.144156 .
+	Images casa2 and lenaQuantised8 are similar based on cosine similarity: 0.956303.
+	Images casa2 and lenaQuantised8 are similar based on intersection distance: 0.778414.

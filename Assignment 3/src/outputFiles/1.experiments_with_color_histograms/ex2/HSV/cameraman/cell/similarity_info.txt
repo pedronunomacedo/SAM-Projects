@@ -1,0 +1,9 @@
+Distances: 
+	euclidian_distance = 0.093297
+	cosine_similarity = 0.980968
+	intersection_distance = 0.741894
+------------- 
+Similarities 
+	Images cameraman and cell are similar based on Euclidean distance: 0.093297 .
+	Images /Users/pedromacedo/Desktop/Uni/SAM-Year4Semester2/Projects/Assignment 3/src/resources/cameraman.tif and /Users/pedromacedo/Desktop/Uni/SAM-Year4Semester2/Projects/Assignment 3/src/resources/cell.tif are similar based on cosine similarity: 0.980968.
+	Images /Users/pedromacedo/Desktop/Uni/SAM-Year4Semester2/Projects/Assignment 3/src/resources/cameraman.tif and /Users/pedromacedo/Desktop/Uni/SAM-Year4Semester2/Projects/Assignment 3/src/resources/cell.tif are similar based on intersection distance: 0.741894.

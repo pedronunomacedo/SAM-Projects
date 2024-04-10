@@ -1,0 +1,7 @@
+Distances: 
+	euclidian_distance = 0.489081
+	cosine_similarity = 0.029156
+	intersection_distance = 0.190960
+------------- 
+Similarities 
+	Images cameraman and kobi are similar based on Euclidean distance: 0.489081 .

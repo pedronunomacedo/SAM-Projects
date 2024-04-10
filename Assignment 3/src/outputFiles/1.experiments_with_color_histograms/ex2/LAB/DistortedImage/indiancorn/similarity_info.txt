@@ -1,0 +1,8 @@
+Distances: 
+	euclidian_distance = 0.072120
+	cosine_similarity = 0.577603
+	intersection_distance = 0.573390
+------------- 
+Similarities 
+	Images DistortedImage and indiancorn are similar based on Euclidean distance: 0.072120 .
+	Images DistortedImage and indiancorn are similar based on intersection distance: 0.573390.

@@ -1,0 +1,9 @@
+Distances: 
+	euclidian_distance = 0.231160
+	cosine_similarity = 0.901851
+	intersection_distance = 0.722876
+------------- 
+Similarities 
+	Images car_4 and kids are similar based on Euclidean distance: 0.231160 .
+	Images /Users/pedromacedo/Desktop/Uni/SAM-Year4Semester2/Projects/Assignment 3/src/resources/car_4.jpg and /Users/pedromacedo/Desktop/Uni/SAM-Year4Semester2/Projects/Assignment 3/src/resources/kids.tif are similar based on cosine similarity: 0.901851.
+	Images /Users/pedromacedo/Desktop/Uni/SAM-Year4Semester2/Projects/Assignment 3/src/resources/car_4.jpg and /Users/pedromacedo/Desktop/Uni/SAM-Year4Semester2/Projects/Assignment 3/src/resources/kids.tif are similar based on intersection distance: 0.722876.

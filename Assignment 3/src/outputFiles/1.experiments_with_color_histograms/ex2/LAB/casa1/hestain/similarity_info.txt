@@ -1,0 +1,7 @@
+Distances: 
+	euclidian_distance = 0.480626
+	cosine_similarity = 0.018059
+	intersection_distance = 0.205980
+------------- 
+Similarities 
+	Images casa1 and hestain are similar based on Euclidean distance: 0.480626 .

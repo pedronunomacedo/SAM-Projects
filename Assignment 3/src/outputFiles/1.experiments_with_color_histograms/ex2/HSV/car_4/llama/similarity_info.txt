@@ -1,0 +1,7 @@
+Distances: 
+	euclidian_distance = 0.538694
+	cosine_similarity = 0.002682
+	intersection_distance = 0.011997
+------------- 
+Similarities 
+	Images car_4 and llama are similar based on Euclidean distance: 0.538694 .

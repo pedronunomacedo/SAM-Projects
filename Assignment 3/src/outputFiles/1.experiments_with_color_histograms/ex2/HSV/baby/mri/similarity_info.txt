@@ -1,0 +1,7 @@
+Distances: 
+	euclidian_distance = 0.514259
+	cosine_similarity = 0.132295
+	intersection_distance = 0.074376
+------------- 
+Similarities 
+	Images baby and mri are similar based on Euclidean distance: 0.514259 .

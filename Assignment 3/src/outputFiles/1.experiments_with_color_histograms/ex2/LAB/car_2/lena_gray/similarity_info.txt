@@ -1,0 +1,8 @@
+Distances: 
+	euclidian_distance = 0.240951
+	cosine_similarity = 0.932248
+	intersection_distance = 0.430266
+------------- 
+Similarities 
+	Images car_2 and lena_gray are similar based on Euclidean distance: 0.240951 .
+	Images car_2 and lena_gray are similar based on cosine similarity: 0.932248.

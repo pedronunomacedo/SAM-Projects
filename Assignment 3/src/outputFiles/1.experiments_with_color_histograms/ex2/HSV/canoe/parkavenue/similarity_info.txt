@@ -1,0 +1,7 @@
+Distances: 
+	euclidian_distance = 0.480066
+	cosine_similarity = 0.036219
+	intersection_distance = 0.128804
+------------- 
+Similarities 
+	Images canoe and parkavenue are similar based on Euclidean distance: 0.480066 .

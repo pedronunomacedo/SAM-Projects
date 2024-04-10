@@ -1,0 +1,9 @@
+Distances: 
+	euclidian_distance = 0.268877
+	cosine_similarity = 0.868981
+	intersection_distance = 0.682469
+------------- 
+Similarities 
+	Images circlesBrightDark and westconcordorthophoto are similar based on Euclidean distance: 0.268877 .
+	Images circlesBrightDark and westconcordorthophoto are similar based on cosine similarity: 0.868981.
+	Images circlesBrightDark and westconcordorthophoto are similar based on intersection distance: 0.682469.

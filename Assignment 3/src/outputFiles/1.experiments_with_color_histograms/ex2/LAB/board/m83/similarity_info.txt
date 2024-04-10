@@ -1,0 +1,7 @@
+Distances: 
+	euclidian_distance = 0.434731
+	cosine_similarity = 0.579863
+	intersection_distance = 0.165322
+------------- 
+Similarities 
+	Images board and m83 are similar based on Euclidean distance: 0.434731 .

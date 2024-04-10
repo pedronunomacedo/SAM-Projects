@@ -1,0 +1,8 @@
+Distances: 
+	euclidian_distance = 0.080676
+	cosine_similarity = 0.676517
+	intersection_distance = 0.575118
+------------- 
+Similarities 
+	Images baby and trailer are similar based on Euclidean distance: 0.080676 .
+	Images baby and trailer are similar based on intersection distance: 0.575118.

@@ -1,0 +1,9 @@
+Distances: 
+	euclidian_distance = 0.033108
+	cosine_similarity = 0.997544
+	intersection_distance = 0.813069
+------------- 
+Similarities 
+	Images circuit and elephant are similar based on Euclidean distance: 0.033108 .
+	Images circuit and elephant are similar based on cosine similarity: 0.997544.
+	Images circuit and elephant are similar based on intersection distance: 0.813069.

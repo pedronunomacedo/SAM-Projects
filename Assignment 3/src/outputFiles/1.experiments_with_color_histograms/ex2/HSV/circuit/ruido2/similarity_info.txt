@@ -1,0 +1,9 @@
+Distances: 
+	euclidian_distance = 0.026708
+	cosine_similarity = 0.998401
+	intersection_distance = 0.839615
+------------- 
+Similarities 
+	Images circuit and ruido2 are similar based on Euclidean distance: 0.026708 .
+	Images circuit and ruido2 are similar based on cosine similarity: 0.998401.
+	Images circuit and ruido2 are similar based on intersection distance: 0.839615.

@@ -1,0 +1,7 @@
+Distances: 
+	euclidian_distance = 0.376622
+	cosine_similarity = 0.642227
+	intersection_distance = 0.260294
+------------- 
+Similarities 
+	Images canoe and lowlight_2 are similar based on Euclidean distance: 0.376622 .

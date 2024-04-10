@@ -1,0 +1,8 @@
+Distances: 
+	euclidian_distance = 0.050583
+	cosine_similarity = 0.574388
+	intersection_distance = 0.565633
+------------- 
+Similarities 
+	Images colorCheckerTestImage and baby are similar based on Euclidean distance: 0.050583 .
+	Images colorCheckerTestImage and baby are similar based on intersection distance: 0.565633.

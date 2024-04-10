@@ -1,0 +1,9 @@
+Distances: 
+	euclidian_distance = 0.027090
+	cosine_similarity = 0.998354
+	intersection_distance = 0.848869
+------------- 
+Similarities 
+	Images casa2 and elephant are similar based on Euclidean distance: 0.027090 .
+	Images casa2 and elephant are similar based on cosine similarity: 0.998354.
+	Images casa2 and elephant are similar based on intersection distance: 0.848869.

@@ -1,0 +1,7 @@
+Distances: 
+	euclidian_distance = 0.471437
+	cosine_similarity = 0.266150
+	intersection_distance = 0.138490
+------------- 
+Similarities 
+	Images DistortedImage and moon are similar based on Euclidean distance: 0.471437 .

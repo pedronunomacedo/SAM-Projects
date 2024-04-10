@@ -1,0 +1,14 @@
+Distances: 
+	euclidian_distance = 0.470943
+	cosine_similarity = 0.089980
+	intersection_distance = 0.123370
+------------- 
+Similarities 
+	Images DistortedImage and elephant are similar based on Euclidean distance: 0.470943 .
+Distances: 
+	euclidian_distance = 0.470943
+	cosine_similarity = 0.089980
+	intersection_distance = 0.123370
+------------- 
+Similarities 
+	Images DistortedImage and elephant are similar based on Euclidean distance: 0.470943 .

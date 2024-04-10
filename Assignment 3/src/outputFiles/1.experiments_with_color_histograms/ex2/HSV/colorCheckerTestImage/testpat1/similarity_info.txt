@@ -1,0 +1,7 @@
+Distances: 
+	euclidian_distance = 0.515963
+	cosine_similarity = 0.130668
+	intersection_distance = 0.056356
+------------- 
+Similarities 
+	Images colorCheckerTestImage and testpat1 are similar based on Euclidean distance: 0.515963 .

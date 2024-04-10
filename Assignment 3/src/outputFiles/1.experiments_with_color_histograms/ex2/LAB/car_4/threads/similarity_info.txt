@@ -1,0 +1,9 @@
+Distances: 
+	euclidian_distance = 0.292632
+	cosine_similarity = 0.842473
+	intersection_distance = 0.655554
+------------- 
+Similarities 
+	Images car_4 and threads are similar based on Euclidean distance: 0.292632 .
+	Images car_4 and threads are similar based on cosine similarity: 0.842473.
+	Images car_4 and threads are similar based on intersection distance: 0.655554.

@@ -1,0 +1,8 @@
+Distances: 
+	euclidian_distance = 0.069705
+	cosine_similarity = 0.599091
+	intersection_distance = 0.552725
+------------- 
+Similarities 
+	Images board and office_2 are similar based on Euclidean distance: 0.069705 .
+	Images /Users/pedromacedo/Desktop/Uni/SAM-Year4Semester2/Projects/Assignment 3/src/resources/board.tif and /Users/pedromacedo/Desktop/Uni/SAM-Year4Semester2/Projects/Assignment 3/src/resources/office_2.jpg are similar based on intersection distance: 0.552725.

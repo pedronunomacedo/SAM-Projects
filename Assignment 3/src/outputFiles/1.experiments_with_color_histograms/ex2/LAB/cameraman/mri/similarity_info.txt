@@ -1,0 +1,9 @@
+Distances: 
+	euclidian_distance = 0.219074
+	cosine_similarity = 0.906442
+	intersection_distance = 0.697520
+------------- 
+Similarities 
+	Images cameraman and mri are similar based on Euclidean distance: 0.219074 .
+	Images cameraman and mri are similar based on cosine similarity: 0.906442.
+	Images cameraman and mri are similar based on intersection distance: 0.697520.

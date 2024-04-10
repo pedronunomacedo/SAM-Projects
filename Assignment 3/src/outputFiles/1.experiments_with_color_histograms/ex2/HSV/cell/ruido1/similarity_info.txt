@@ -1,0 +1,9 @@
+Distances: 
+	euclidian_distance = 0.088857
+	cosine_similarity = 0.982748
+	intersection_distance = 0.749931
+------------- 
+Similarities 
+	Images cell and ruido1 are similar based on Euclidean distance: 0.088857 .
+	Images cell and ruido1 are similar based on cosine similarity: 0.982748.
+	Images cell and ruido1 are similar based on intersection distance: 0.749931.

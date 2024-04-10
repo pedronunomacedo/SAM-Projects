@@ -1,0 +1,7 @@
+Distances: 
+	euclidian_distance = 0.486512
+	cosine_similarity = 0.021157
+	intersection_distance = 0.146705
+------------- 
+Similarities 
+	Images cameraman and praia are similar based on Euclidean distance: 0.486512 .

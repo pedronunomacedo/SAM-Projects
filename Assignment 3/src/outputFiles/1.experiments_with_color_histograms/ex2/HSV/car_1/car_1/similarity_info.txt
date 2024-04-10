@@ -1,0 +1,18 @@
+Distances: 
+	euclidian_distance = 0.000000
+	cosine_similarity = 1.000000
+	intersection_distance = 1.000000
+------------- 
+Similarities 
+	Images car_1 and car_1 are similar based on Euclidean distance: 0.000000 .
+	Images /Users/pedromacedo/Desktop/Uni/SAM-Year4Semester2/Projects/Assignment 3/src/resources/car_1.jpg and /Users/pedromacedo/Desktop/Uni/SAM-Year4Semester2/Projects/Assignment 3/src/resources/car_1.jpg are similar based on cosine similarity: 1.000000.
+	Images /Users/pedromacedo/Desktop/Uni/SAM-Year4Semester2/Projects/Assignment 3/src/resources/car_1.jpg and /Users/pedromacedo/Desktop/Uni/SAM-Year4Semester2/Projects/Assignment 3/src/resources/car_1.jpg are similar based on intersection distance: 1.000000.
+Distances: 
+	euclidian_distance = 0.000000
+	cosine_similarity = 1.000000
+	intersection_distance = 1.000000
+------------- 
+Similarities 
+	Images car_1 and car_1 are similar based on Euclidean distance: 0.000000 .
+	Images car_1 and car_1 are similar based on cosine similarity: 1.000000.
+	Images car_1 and car_1 are similar based on intersection distance: 1.000000.

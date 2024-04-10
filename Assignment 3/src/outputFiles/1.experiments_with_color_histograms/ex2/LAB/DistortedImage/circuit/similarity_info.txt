@@ -1,0 +1,7 @@
+Distances: 
+	euclidian_distance = 0.458770
+	cosine_similarity = 0.275672
+	intersection_distance = 0.179273
+------------- 
+Similarities 
+	Images DistortedImage and circuit are similar based on Euclidean distance: 0.458770 .

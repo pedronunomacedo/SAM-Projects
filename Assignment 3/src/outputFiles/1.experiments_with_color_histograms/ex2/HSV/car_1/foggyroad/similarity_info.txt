@@ -1,0 +1,7 @@
+Distances: 
+	euclidian_distance = 0.122059
+	cosine_similarity = 0.430110
+	intersection_distance = 0.499940
+------------- 
+Similarities 
+	Images car_1 and foggyroad are similar based on Euclidean distance: 0.122059 .

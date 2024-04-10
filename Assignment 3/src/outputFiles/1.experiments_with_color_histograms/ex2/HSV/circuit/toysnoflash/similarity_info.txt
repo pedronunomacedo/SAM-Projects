@@ -1,0 +1,7 @@
+Distances: 
+	euclidian_distance = 0.467714
+	cosine_similarity = 0.142103
+	intersection_distance = 0.208390
+------------- 
+Similarities 
+	Images circuit and toysnoflash are similar based on Euclidean distance: 0.467714 .

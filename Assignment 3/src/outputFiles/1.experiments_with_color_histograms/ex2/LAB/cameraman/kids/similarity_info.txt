@@ -1,0 +1,9 @@
+Distances: 
+	euclidian_distance = 0.069888
+	cosine_similarity = 0.989170
+	intersection_distance = 0.719087
+------------- 
+Similarities 
+	Images cameraman and kids are similar based on Euclidean distance: 0.069888 .
+	Images cameraman and kids are similar based on cosine similarity: 0.989170.
+	Images cameraman and kids are similar based on intersection distance: 0.719087.

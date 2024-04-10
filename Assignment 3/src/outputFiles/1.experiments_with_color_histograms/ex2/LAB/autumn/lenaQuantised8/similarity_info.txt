@@ -1,0 +1,7 @@
+Distances: 
+	euclidian_distance = 0.454627
+	cosine_similarity = 0.414755
+	intersection_distance = 0.152971
+------------- 
+Similarities 
+	Images autumn and lenaQuantised8 are similar based on Euclidean distance: 0.454627 .

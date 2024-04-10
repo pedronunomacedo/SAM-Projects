@@ -1,0 +1,7 @@
+Distances: 
+	euclidian_distance = 0.430981
+	cosine_similarity = 0.438759
+	intersection_distance = 0.267743
+------------- 
+Similarities 
+	Images autumn and ruido2 are similar based on Euclidean distance: 0.430981 .

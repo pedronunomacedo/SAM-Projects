@@ -1,0 +1,9 @@
+Distances: 
+	euclidian_distance = 0.022865
+	cosine_similarity = 0.998827
+	intersection_distance = 0.850775
+------------- 
+Similarities 
+	Images casa2 and lena_gray are similar based on Euclidean distance: 0.022865 .
+	Images casa2 and lena_gray are similar based on cosine similarity: 0.998827.
+	Images casa2 and lena_gray are similar based on intersection distance: 0.850775.

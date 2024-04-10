@@ -1,0 +1,7 @@
+Distances: 
+	euclidian_distance = 0.544601
+	cosine_similarity = 0.097010
+	intersection_distance = 0.033171
+------------- 
+Similarities 
+	Images circlesBrightDark and toysflash are similar based on Euclidean distance: 0.544601 .

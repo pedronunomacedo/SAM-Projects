@@ -1,0 +1,9 @@
+Distances: 
+	euclidian_distance = 0.093297
+	cosine_similarity = 0.980968
+	intersection_distance = 0.741894
+------------- 
+Similarities 
+	Images cell and cameraman are similar based on Euclidean distance: 0.093297 .
+	Images cell and cameraman are similar based on cosine similarity: 0.980968.
+	Images cell and cameraman are similar based on intersection distance: 0.741894.

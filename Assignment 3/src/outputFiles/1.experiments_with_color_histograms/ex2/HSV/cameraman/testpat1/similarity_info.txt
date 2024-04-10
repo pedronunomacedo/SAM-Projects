@@ -1,0 +1,9 @@
+Distances: 
+	euclidian_distance = 0.222331
+	cosine_similarity = 0.904072
+	intersection_distance = 0.701950
+------------- 
+Similarities 
+	Images cameraman and testpat1 are similar based on Euclidean distance: 0.222331 .
+	Images /Users/pedromacedo/Desktop/Uni/SAM-Year4Semester2/Projects/Assignment 3/src/resources/cameraman.tif and /Users/pedromacedo/Desktop/Uni/SAM-Year4Semester2/Projects/Assignment 3/src/resources/testpat1.png are similar based on cosine similarity: 0.904072.
+	Images /Users/pedromacedo/Desktop/Uni/SAM-Year4Semester2/Projects/Assignment 3/src/resources/cameraman.tif and /Users/pedromacedo/Desktop/Uni/SAM-Year4Semester2/Projects/Assignment 3/src/resources/testpat1.png are similar based on intersection distance: 0.701950.

@@ -1,0 +1,8 @@
+Distances: 
+	euclidian_distance = 0.294182
+	cosine_similarity = 0.817603
+	intersection_distance = 0.360011
+------------- 
+Similarities 
+	Images circuit and pinnochio_color are similar based on Euclidean distance: 0.294182 .
+	Images circuit and pinnochio_color are similar based on cosine similarity: 0.817603.

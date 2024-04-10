@@ -1,0 +1,9 @@
+Distances: 
+	euclidian_distance = 0.045665
+	cosine_similarity = 0.995346
+	intersection_distance = 0.784001
+------------- 
+Similarities 
+	Images canoe and casa2 are similar based on Euclidean distance: 0.045665 .
+	Images canoe and casa2 are similar based on cosine similarity: 0.995346.
+	Images canoe and casa2 are similar based on intersection distance: 0.784001.

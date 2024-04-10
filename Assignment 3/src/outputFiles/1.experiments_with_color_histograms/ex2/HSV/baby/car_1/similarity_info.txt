@@ -1,0 +1,8 @@
+Distances: 
+	euclidian_distance = 0.050546
+	cosine_similarity = 0.686182
+	intersection_distance = 0.632460
+------------- 
+Similarities 
+	Images baby and car_1 are similar based on Euclidean distance: 0.050546 .
+	Images /Users/pedromacedo/Desktop/Uni/SAM-Year4Semester2/Projects/Assignment 3/src/resources/baby.jpg and /Users/pedromacedo/Desktop/Uni/SAM-Year4Semester2/Projects/Assignment 3/src/resources/car_1.jpg are similar based on intersection distance: 0.632460.

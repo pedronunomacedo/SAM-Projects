@@ -1,0 +1,9 @@
+Distances: 
+	euclidian_distance = 0.061242
+	cosine_similarity = 0.991683
+	intersection_distance = 0.801146
+------------- 
+Similarities 
+	Images circuit and kids are similar based on Euclidean distance: 0.061242 .
+	Images circuit and kids are similar based on cosine similarity: 0.991683.
+	Images circuit and kids are similar based on intersection distance: 0.801146.

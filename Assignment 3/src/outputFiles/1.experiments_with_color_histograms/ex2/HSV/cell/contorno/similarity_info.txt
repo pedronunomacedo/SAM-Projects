@@ -1,0 +1,9 @@
+Distances: 
+	euclidian_distance = 0.092677
+	cosine_similarity = 0.981221
+	intersection_distance = 0.742104
+------------- 
+Similarities 
+	Images cell and contorno are similar based on Euclidean distance: 0.092677 .
+	Images cell and contorno are similar based on cosine similarity: 0.981221.
+	Images cell and contorno are similar based on intersection distance: 0.742104.

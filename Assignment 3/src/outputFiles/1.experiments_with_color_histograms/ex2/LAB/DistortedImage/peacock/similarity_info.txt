@@ -1,0 +1,8 @@
+Distances: 
+	euclidian_distance = 0.072637
+	cosine_similarity = 0.637888
+	intersection_distance = 0.530505
+------------- 
+Similarities 
+	Images DistortedImage and peacock are similar based on Euclidean distance: 0.072637 .
+	Images DistortedImage and peacock are similar based on intersection distance: 0.530505.

@@ -1,0 +1,9 @@
+Distances: 
+	euclidian_distance = 0.293970
+	cosine_similarity = 0.843434
+	intersection_distance = 0.701153
+------------- 
+Similarities 
+	Images circlesBrightDark and lenaQuantised8 are similar based on Euclidean distance: 0.293970 .
+	Images circlesBrightDark and lenaQuantised8 are similar based on cosine similarity: 0.843434.
+	Images circlesBrightDark and lenaQuantised8 are similar based on intersection distance: 0.701153.

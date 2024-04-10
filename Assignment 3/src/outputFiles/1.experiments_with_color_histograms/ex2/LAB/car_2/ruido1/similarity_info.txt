@@ -1,0 +1,8 @@
+Distances: 
+	euclidian_distance = 0.240340
+	cosine_similarity = 0.933008
+	intersection_distance = 0.444770
+------------- 
+Similarities 
+	Images car_2 and ruido1 are similar based on Euclidean distance: 0.240340 .
+	Images car_2 and ruido1 are similar based on cosine similarity: 0.933008.

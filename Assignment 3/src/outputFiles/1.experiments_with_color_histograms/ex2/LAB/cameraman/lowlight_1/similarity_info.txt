@@ -1,0 +1,7 @@
+Distances: 
+	euclidian_distance = 0.449502
+	cosine_similarity = 0.310356
+	intersection_distance = 0.163304
+------------- 
+Similarities 
+	Images cameraman and lowlight_1 are similar based on Euclidean distance: 0.449502 .

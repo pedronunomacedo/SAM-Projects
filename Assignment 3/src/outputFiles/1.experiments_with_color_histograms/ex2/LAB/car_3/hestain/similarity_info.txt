@@ -1,0 +1,7 @@
+Distances: 
+	euclidian_distance = 0.354319
+	cosine_similarity = 0.006627
+	intersection_distance = 0.043004
+------------- 
+Similarities 
+	Images car_3 and hestain are similar based on Euclidean distance: 0.354319 .

@@ -1,0 +1,7 @@
+Distances: 
+	euclidian_distance = 0.496457
+	cosine_similarity = 0.028684
+	intersection_distance = 0.082634
+------------- 
+Similarities 
+	Images cell and kobi are similar based on Euclidean distance: 0.496457 .

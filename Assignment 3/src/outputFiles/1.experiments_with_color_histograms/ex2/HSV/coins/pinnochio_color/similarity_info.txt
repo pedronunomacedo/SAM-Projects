@@ -1,0 +1,8 @@
+Distances: 
+	euclidian_distance = 0.296630
+	cosine_similarity = 0.814998
+	intersection_distance = 0.391224
+------------- 
+Similarities 
+	Images coins and pinnochio_color are similar based on Euclidean distance: 0.296630 .
+	Images coins and pinnochio_color are similar based on cosine similarity: 0.814998.

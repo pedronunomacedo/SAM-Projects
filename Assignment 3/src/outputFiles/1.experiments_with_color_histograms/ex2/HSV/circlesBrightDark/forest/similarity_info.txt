@@ -1,0 +1,9 @@
+Distances: 
+	euclidian_distance = 0.288901
+	cosine_similarity = 0.847908
+	intersection_distance = 0.675604
+------------- 
+Similarities 
+	Images circlesBrightDark and forest are similar based on Euclidean distance: 0.288901 .
+	Images circlesBrightDark and forest are similar based on cosine similarity: 0.847908.
+	Images circlesBrightDark and forest are similar based on intersection distance: 0.675604.

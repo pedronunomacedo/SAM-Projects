@@ -1,0 +1,7 @@
+Distances: 
+	euclidian_distance = 0.432045
+	cosine_similarity = 0.435725
+	intersection_distance = 0.203476
+------------- 
+Similarities 
+	Images autumn and riceblurred are similar based on Euclidean distance: 0.432045 .

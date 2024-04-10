@@ -1,0 +1,9 @@
+Distances: 
+	euclidian_distance = 0.042991
+	cosine_similarity = 0.995876
+	intersection_distance = 0.801198
+------------- 
+Similarities 
+	Images canoe and lena_gray are similar based on Euclidean distance: 0.042991 .
+	Images canoe and lena_gray are similar based on cosine similarity: 0.995876.
+	Images canoe and lena_gray are similar based on intersection distance: 0.801198.

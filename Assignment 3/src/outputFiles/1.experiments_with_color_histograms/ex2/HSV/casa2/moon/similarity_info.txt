@@ -1,0 +1,9 @@
+Distances: 
+	euclidian_distance = 0.088950
+	cosine_similarity = 0.982643
+	intersection_distance = 0.769290
+------------- 
+Similarities 
+	Images casa2 and moon are similar based on Euclidean distance: 0.088950 .
+	Images casa2 and moon are similar based on cosine similarity: 0.982643.
+	Images casa2 and moon are similar based on intersection distance: 0.769290.

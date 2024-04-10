@@ -1,0 +1,7 @@
+Distances: 
+	euclidian_distance = 0.470058
+	cosine_similarity = 0.123650
+	intersection_distance = 0.104532
+------------- 
+Similarities 
+	Images canoe and lena are similar based on Euclidean distance: 0.470058 .

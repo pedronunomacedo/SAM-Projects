@@ -1,0 +1,8 @@
+Distances: 
+	euclidian_distance = 0.110209
+	cosine_similarity = 0.589297
+	intersection_distance = 0.570529
+------------- 
+Similarities 
+	Images autumn and greens are similar based on Euclidean distance: 0.110209 .
+	Images autumn and greens are similar based on intersection distance: 0.570529.

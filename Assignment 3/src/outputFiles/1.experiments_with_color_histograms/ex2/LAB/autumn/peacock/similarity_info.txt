@@ -1,0 +1,8 @@
+Distances: 
+	euclidian_distance = 0.091629
+	cosine_similarity = 0.714423
+	intersection_distance = 0.550420
+------------- 
+Similarities 
+	Images autumn and peacock are similar based on Euclidean distance: 0.091629 .
+	Images autumn and peacock are similar based on intersection distance: 0.550420.

@@ -1,0 +1,14 @@
+Distances: 
+	euclidian_distance = 0.087162
+	cosine_similarity = 0.291571
+	intersection_distance = 0.320921
+------------- 
+Similarities 
+	Images DistortedImage and coloredChips are similar based on Euclidean distance: 0.087162 .
+Distances: 
+	euclidian_distance = 0.087162
+	cosine_similarity = 0.291571
+	intersection_distance = 0.320921
+------------- 
+Similarities 
+	Images DistortedImage and coloredChips are similar based on Euclidean distance: 0.087162 .

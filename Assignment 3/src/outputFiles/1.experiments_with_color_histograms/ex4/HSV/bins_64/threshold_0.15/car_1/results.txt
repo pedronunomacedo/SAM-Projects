@@ -1,0 +1,20 @@
+retrieved_images:
+expected:    
+    {'../resources/llama.jpg'}    
+    {'../resources/office_5.jpg'}    
+    {'../resources/parkavenue.jpg'}
+
+
+TP: 0
+FP: 0
+FN: 3
+TN: 94
+
+
+Accuracy: 0.97
+Precision: NaN
+Recall: 0.00
+F1 Score: NaN
+
+ans =
+    1×0 empty double row vector

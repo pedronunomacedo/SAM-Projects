@@ -1,0 +1,9 @@
+Distances: 
+	euclidian_distance = 0.270492
+	cosine_similarity = 0.867284
+	intersection_distance = 0.682674
+------------- 
+Similarities 
+	Images circlesBrightDark and shadow are similar based on Euclidean distance: 0.270492 .
+	Images circlesBrightDark and shadow are similar based on cosine similarity: 0.867284.
+	Images circlesBrightDark and shadow are similar based on intersection distance: 0.682674.

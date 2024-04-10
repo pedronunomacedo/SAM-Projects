@@ -1,0 +1,21 @@
+Distances: 
+	euclidian_distance = 0.071873
+	cosine_similarity = 0.517323
+	intersection_distance = 0.469769
+------------- 
+Similarities 
+	Images DistortedImage and board are similar based on Euclidean distance: 0.071873 .
+Distances: 
+	euclidian_distance = 0.071873
+	cosine_similarity = 0.517323
+	intersection_distance = 0.469769
+------------- 
+Similarities 
+	Images DistortedImage and board are similar based on Euclidean distance: 0.071873 .
+Distances: 
+	euclidian_distance = 0.071873
+	cosine_similarity = 0.517323
+	intersection_distance = 0.469769
+------------- 
+Similarities 
+	Images DistortedImage and board are similar based on Euclidean distance: 0.071873 .

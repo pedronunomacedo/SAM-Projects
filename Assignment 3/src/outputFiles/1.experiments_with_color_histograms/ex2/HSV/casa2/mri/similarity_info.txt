@@ -1,0 +1,9 @@
+Distances: 
+	euclidian_distance = 0.216581
+	cosine_similarity = 0.908650
+	intersection_distance = 0.748936
+------------- 
+Similarities 
+	Images casa2 and mri are similar based on Euclidean distance: 0.216581 .
+	Images casa2 and mri are similar based on cosine similarity: 0.908650.
+	Images casa2 and mri are similar based on intersection distance: 0.748936.

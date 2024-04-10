@@ -1,0 +1,7 @@
+Distances: 
+	euclidian_distance = 0.454917
+	cosine_similarity = 0.303636
+	intersection_distance = 0.108760
+------------- 
+Similarities 
+	Images autumn and cameraman are similar based on Euclidean distance: 0.454917 .

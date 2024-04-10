@@ -1,0 +1,7 @@
+Distances: 
+	euclidian_distance = 0.444926
+	cosine_similarity = 0.499738
+	intersection_distance = 0.130351
+------------- 
+Similarities 
+	Images board and threads are similar based on Euclidean distance: 0.444926 .

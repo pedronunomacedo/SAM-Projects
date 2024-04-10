@@ -1,0 +1,7 @@
+Distances: 
+	euclidian_distance = 0.112885
+	cosine_similarity = 0.176404
+	intersection_distance = 0.277561
+------------- 
+Similarities 
+	Images baby and testRGB are similar based on Euclidean distance: 0.112885 .

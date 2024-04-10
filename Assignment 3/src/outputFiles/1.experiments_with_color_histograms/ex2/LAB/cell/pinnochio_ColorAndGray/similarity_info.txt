@@ -1,0 +1,9 @@
+Distances: 
+	euclidian_distance = 0.228962
+	cosine_similarity = 0.880206
+	intersection_distance = 0.563907
+------------- 
+Similarities 
+	Images cell and pinnochio_ColorAndGray are similar based on Euclidean distance: 0.228962 .
+	Images cell and pinnochio_ColorAndGray are similar based on cosine similarity: 0.880206.
+	Images cell and pinnochio_ColorAndGray are similar based on intersection distance: 0.563907.

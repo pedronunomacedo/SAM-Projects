@@ -1,0 +1,7 @@
+Distances: 
+	euclidian_distance = 0.108166
+	cosine_similarity = 0.273611
+	intersection_distance = 0.377136
+------------- 
+Similarities 
+	Images board and lena are similar based on Euclidean distance: 0.108166 .

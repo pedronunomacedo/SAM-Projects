@@ -1,0 +1,7 @@
+Distances: 
+	euclidian_distance = 0.086795
+	cosine_similarity = 0.281167
+	intersection_distance = 0.398384
+------------- 
+Similarities 
+	Images board and llama are similar based on Euclidean distance: 0.086795 .

@@ -1,0 +1,7 @@
+Distances: 
+	euclidian_distance = 0.473500
+	cosine_similarity = 0.046243
+	intersection_distance = 0.145247
+------------- 
+Similarities 
+	Images cameraman and sevilla are similar based on Euclidean distance: 0.473500 .

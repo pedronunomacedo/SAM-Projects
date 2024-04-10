@@ -1,0 +1,14 @@
+Distances: 
+	euclidian_distance = 0.470862
+	cosine_similarity = 0.090997
+	intersection_distance = 0.114207
+------------- 
+Similarities 
+	Images DistortedImage and lena_gray are similar based on Euclidean distance: 0.470862 .
+Distances: 
+	euclidian_distance = 0.470862
+	cosine_similarity = 0.090997
+	intersection_distance = 0.114207
+------------- 
+Similarities 
+	Images DistortedImage and lena_gray are similar based on Euclidean distance: 0.470862 .

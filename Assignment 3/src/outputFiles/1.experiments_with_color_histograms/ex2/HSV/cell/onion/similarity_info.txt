@@ -1,0 +1,7 @@
+Distances: 
+	euclidian_distance = 0.480826
+	cosine_similarity = 0.066674
+	intersection_distance = 0.089801
+------------- 
+Similarities 
+	Images cell and onion are similar based on Euclidean distance: 0.480826 .

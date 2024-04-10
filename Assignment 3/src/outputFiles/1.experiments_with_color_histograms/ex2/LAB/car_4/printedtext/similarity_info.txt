@@ -1,0 +1,9 @@
+Distances: 
+	euclidian_distance = 0.280792
+	cosine_similarity = 0.855254
+	intersection_distance = 0.668568
+------------- 
+Similarities 
+	Images car_4 and printedtext are similar based on Euclidean distance: 0.280792 .
+	Images car_4 and printedtext are similar based on cosine similarity: 0.855254.
+	Images car_4 and printedtext are similar based on intersection distance: 0.668568.

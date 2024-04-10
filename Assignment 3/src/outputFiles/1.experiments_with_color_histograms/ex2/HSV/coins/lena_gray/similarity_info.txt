@@ -1,0 +1,9 @@
+Distances: 
+	euclidian_distance = 0.046787
+	cosine_similarity = 0.995118
+	intersection_distance = 0.806019
+------------- 
+Similarities 
+	Images coins and lena_gray are similar based on Euclidean distance: 0.046787 .
+	Images coins and lena_gray are similar based on cosine similarity: 0.995118.
+	Images coins and lena_gray are similar based on intersection distance: 0.806019.

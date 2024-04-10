@@ -1,0 +1,7 @@
+Distances: 
+	euclidian_distance = 0.357593
+	cosine_similarity = 0.136378
+	intersection_distance = 0.218543
+------------- 
+Similarities 
+	Images car_1 and testRGB are similar based on Euclidean distance: 0.357593 .

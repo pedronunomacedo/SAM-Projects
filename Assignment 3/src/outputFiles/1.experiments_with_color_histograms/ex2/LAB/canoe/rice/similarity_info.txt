@@ -1,0 +1,9 @@
+Distances: 
+	euclidian_distance = 0.051068
+	cosine_similarity = 0.994180
+	intersection_distance = 0.758329
+------------- 
+Similarities 
+	Images canoe and rice are similar based on Euclidean distance: 0.051068 .
+	Images canoe and rice are similar based on cosine similarity: 0.994180.
+	Images canoe and rice are similar based on intersection distance: 0.758329.

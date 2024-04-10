@@ -1,0 +1,24 @@
+retrieved_images:    
+    {'../resources/office_2.jpg'}
+    {'../resources/sevilla.jpg' }
+    {'../resources/board.tif'   }
+
+
+expected:    
+    {'../resources/yellowlily-segmented.png'}    
+    {'../resources/folhasVerdes.bmp'}
+
+
+TP: 0
+FP: 3
+FN: 2
+TN: 92
+
+
+Accuracy: 0.95
+Precision: 0.00
+Recall: 0.00
+F1 Score: NaN
+
+ans =
+    54    77     4

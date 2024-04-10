@@ -1,0 +1,7 @@
+Distances: 
+	euclidian_distance = 0.103215
+	cosine_similarity = 0.183215
+	intersection_distance = 0.311149
+------------- 
+Similarities 
+	Images baby and floresVermelhas are similar based on Euclidean distance: 0.103215 .

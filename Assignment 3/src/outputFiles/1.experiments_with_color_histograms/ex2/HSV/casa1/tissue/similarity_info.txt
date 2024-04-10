@@ -1,0 +1,7 @@
+Distances: 
+	euclidian_distance = 0.483556
+	cosine_similarity = 0.014711
+	intersection_distance = 0.120819
+------------- 
+Similarities 
+	Images casa1 and tissue are similar based on Euclidean distance: 0.483556 .

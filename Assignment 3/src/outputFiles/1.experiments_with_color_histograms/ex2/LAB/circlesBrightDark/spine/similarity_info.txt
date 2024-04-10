@@ -1,0 +1,9 @@
+Distances: 
+	euclidian_distance = 0.291334
+	cosine_similarity = 0.846032
+	intersection_distance = 0.694923
+------------- 
+Similarities 
+	Images circlesBrightDark and spine are similar based on Euclidean distance: 0.291334 .
+	Images circlesBrightDark and spine are similar based on cosine similarity: 0.846032.
+	Images circlesBrightDark and spine are similar based on intersection distance: 0.694923.

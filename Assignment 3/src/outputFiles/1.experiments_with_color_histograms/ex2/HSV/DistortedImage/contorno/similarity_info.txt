@@ -1,0 +1,14 @@
+Distances: 
+	euclidian_distance = 0.471553
+	cosine_similarity = 0.085921
+	intersection_distance = 0.076767
+------------- 
+Similarities 
+	Images DistortedImage and contorno are similar based on Euclidean distance: 0.471553 .
+Distances: 
+	euclidian_distance = 0.471553
+	cosine_similarity = 0.085921
+	intersection_distance = 0.076767
+------------- 
+Similarities 
+	Images DistortedImage and contorno are similar based on Euclidean distance: 0.471553 .

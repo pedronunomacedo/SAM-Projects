@@ -1,0 +1,14 @@
+Distances: 
+	euclidian_distance = 0.081193
+	cosine_similarity = 0.407162
+	intersection_distance = 0.465971
+------------- 
+Similarities 
+	Images DistortedImage and foggysf1 are similar based on Euclidean distance: 0.081193 .
+Distances: 
+	euclidian_distance = 0.081193
+	cosine_similarity = 0.407162
+	intersection_distance = 0.465971
+------------- 
+Similarities 
+	Images DistortedImage and foggysf1 are similar based on Euclidean distance: 0.081193 .

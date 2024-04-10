@@ -1,0 +1,7 @@
+Distances: 
+	euclidian_distance = 0.463993
+	cosine_similarity = 0.371754
+	intersection_distance = 0.150931
+------------- 
+Similarities 
+	Images baby and quantisedLena are similar based on Euclidean distance: 0.463993 .

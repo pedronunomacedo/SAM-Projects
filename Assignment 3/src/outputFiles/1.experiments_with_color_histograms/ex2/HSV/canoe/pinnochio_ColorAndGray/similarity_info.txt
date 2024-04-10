@@ -1,0 +1,9 @@
+Distances: 
+	euclidian_distance = 0.211867
+	cosine_similarity = 0.897718
+	intersection_distance = 0.575035
+------------- 
+Similarities 
+	Images canoe and pinnochio_ColorAndGray are similar based on Euclidean distance: 0.211867 .
+	Images /Users/pedromacedo/Desktop/Uni/SAM-Year4Semester2/Projects/Assignment 3/src/resources/canoe.tif and /Users/pedromacedo/Desktop/Uni/SAM-Year4Semester2/Projects/Assignment 3/src/resources/pinnochio_ColorAndGray.jpg are similar based on cosine similarity: 0.897718.
+	Images /Users/pedromacedo/Desktop/Uni/SAM-Year4Semester2/Projects/Assignment 3/src/resources/canoe.tif and /Users/pedromacedo/Desktop/Uni/SAM-Year4Semester2/Projects/Assignment 3/src/resources/pinnochio_ColorAndGray.jpg are similar based on intersection distance: 0.575035.

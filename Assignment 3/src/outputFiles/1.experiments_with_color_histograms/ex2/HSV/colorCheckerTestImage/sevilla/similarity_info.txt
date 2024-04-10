@@ -1,0 +1,8 @@
+Distances: 
+	euclidian_distance = 0.049887
+	cosine_similarity = 0.593976
+	intersection_distance = 0.627207
+------------- 
+Similarities 
+	Images colorCheckerTestImage and sevilla are similar based on Euclidean distance: 0.049887 .
+	Images colorCheckerTestImage and sevilla are similar based on intersection distance: 0.627207.

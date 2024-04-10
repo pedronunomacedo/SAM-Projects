@@ -1,0 +1,9 @@
+Distances: 
+	euclidian_distance = 0.033822
+	cosine_similarity = 0.997438
+	intersection_distance = 0.826148
+------------- 
+Similarities 
+	Images circuit and rice are similar based on Euclidean distance: 0.033822 .
+	Images circuit and rice are similar based on cosine similarity: 0.997438.
+	Images circuit and rice are similar based on intersection distance: 0.826148.

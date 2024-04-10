@@ -1,0 +1,9 @@
+Distances: 
+	euclidian_distance = 0.259868
+	cosine_similarity = 0.875597
+	intersection_distance = 0.669179
+------------- 
+Similarities 
+	Images cameraman and toyobjects are similar based on Euclidean distance: 0.259868 .
+	Images cameraman and toyobjects are similar based on cosine similarity: 0.875597.
+	Images cameraman and toyobjects are similar based on intersection distance: 0.669179.

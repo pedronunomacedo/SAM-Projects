@@ -1,0 +1,9 @@
+Distances: 
+	euclidian_distance = 0.170672
+	cosine_similarity = 0.964740
+	intersection_distance = 0.615224
+------------- 
+Similarities 
+	Images car_3 and kids are similar based on Euclidean distance: 0.170672 .
+	Images car_3 and kids are similar based on cosine similarity: 0.964740.
+	Images car_3 and kids are similar based on intersection distance: 0.615224.

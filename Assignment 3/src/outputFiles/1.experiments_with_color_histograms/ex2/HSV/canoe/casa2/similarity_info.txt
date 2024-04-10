@@ -1,0 +1,9 @@
+Distances: 
+	euclidian_distance = 0.043570
+	cosine_similarity = 0.995761
+	intersection_distance = 0.783617
+------------- 
+Similarities 
+	Images canoe and casa2 are similar based on Euclidean distance: 0.043570 .
+	Images /Users/pedromacedo/Desktop/Uni/SAM-Year4Semester2/Projects/Assignment 3/src/resources/canoe.tif and /Users/pedromacedo/Desktop/Uni/SAM-Year4Semester2/Projects/Assignment 3/src/resources/casa2.jpg are similar based on cosine similarity: 0.995761.
+	Images /Users/pedromacedo/Desktop/Uni/SAM-Year4Semester2/Projects/Assignment 3/src/resources/canoe.tif and /Users/pedromacedo/Desktop/Uni/SAM-Year4Semester2/Projects/Assignment 3/src/resources/casa2.jpg are similar based on intersection distance: 0.783617.

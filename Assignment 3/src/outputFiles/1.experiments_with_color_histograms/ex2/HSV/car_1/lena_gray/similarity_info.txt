@@ -1,0 +1,7 @@
+Distances: 
+	euclidian_distance = 0.455390
+	cosine_similarity = 0.314685
+	intersection_distance = 0.288256
+------------- 
+Similarities 
+	Images car_1 and lena_gray are similar based on Euclidean distance: 0.455390 .

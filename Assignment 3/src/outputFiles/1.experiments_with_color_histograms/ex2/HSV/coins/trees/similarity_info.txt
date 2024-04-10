@@ -1,0 +1,9 @@
+Distances: 
+	euclidian_distance = 0.073655
+	cosine_similarity = 0.987963
+	intersection_distance = 0.714493
+------------- 
+Similarities 
+	Images coins and trees are similar based on Euclidean distance: 0.073655 .
+	Images coins and trees are similar based on cosine similarity: 0.987963.
+	Images coins and trees are similar based on intersection distance: 0.714493.

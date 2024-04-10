@@ -1,0 +1,7 @@
+Distances: 
+	euclidian_distance = 0.470246
+	cosine_similarity = 0.150617
+	intersection_distance = 0.198537
+------------- 
+Similarities 
+	Images casa1 and sherlock are similar based on Euclidean distance: 0.470246 .

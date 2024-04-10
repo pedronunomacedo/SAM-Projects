@@ -1,0 +1,8 @@
+Distances: 
+	euclidian_distance = 0.094800
+	cosine_similarity = 0.730119
+	intersection_distance = 0.675134
+------------- 
+Similarities 
+	Images board and foggysf1 are similar based on Euclidean distance: 0.094800 .
+	Images board and foggysf1 are similar based on intersection distance: 0.675134.

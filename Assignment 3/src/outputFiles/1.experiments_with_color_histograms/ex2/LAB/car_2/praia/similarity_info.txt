@@ -1,0 +1,7 @@
+Distances: 
+	euclidian_distance = 0.250831
+	cosine_similarity = 0.392436
+	intersection_distance = 0.303871
+------------- 
+Similarities 
+	Images car_2 and praia are similar based on Euclidean distance: 0.250831 .

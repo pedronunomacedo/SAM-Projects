@@ -1,0 +1,8 @@
+Distances: 
+	euclidian_distance = 0.080284
+	cosine_similarity = 0.791299
+	intersection_distance = 0.670154
+------------- 
+Similarities 
+	Images autumn and office_3 are similar based on Euclidean distance: 0.080284 .
+	Images autumn and office_3 are similar based on intersection distance: 0.670154.

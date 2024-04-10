@@ -1,0 +1,14 @@
+Distances: 
+	euclidian_distance = 0.479270
+	cosine_similarity = 0.087221
+	intersection_distance = 0.056903
+------------- 
+Similarities 
+	Images DistortedImage and cell are similar based on Euclidean distance: 0.479270 .
+Distances: 
+	euclidian_distance = 0.479270
+	cosine_similarity = 0.087221
+	intersection_distance = 0.056903
+------------- 
+Similarities 
+	Images DistortedImage and cell are similar based on Euclidean distance: 0.479270 .

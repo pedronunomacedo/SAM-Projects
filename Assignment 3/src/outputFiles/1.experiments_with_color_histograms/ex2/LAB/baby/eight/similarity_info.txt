@@ -1,0 +1,7 @@
+Distances: 
+	euclidian_distance = 0.451846
+	cosine_similarity = 0.387829
+	intersection_distance = 0.154132
+------------- 
+Similarities 
+	Images baby and eight are similar based on Euclidean distance: 0.451846 .

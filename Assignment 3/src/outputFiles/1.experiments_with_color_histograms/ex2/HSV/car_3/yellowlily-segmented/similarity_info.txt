@@ -1,0 +1,8 @@
+Distances: 
+	euclidian_distance = 0.294080
+	cosine_similarity = 0.901820
+	intersection_distance = 0.423900
+------------- 
+Similarities 
+	Images car_3 and yellowlily-segmented are similar based on Euclidean distance: 0.294080 .
+	Images /Users/pedromacedo/Desktop/Uni/SAM-Year4Semester2/Projects/Assignment 3/src/resources/car_3.jpg and /Users/pedromacedo/Desktop/Uni/SAM-Year4Semester2/Projects/Assignment 3/src/resources/yellowlily-segmented.png are similar based on cosine similarity: 0.901820.

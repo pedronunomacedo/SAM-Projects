@@ -1,0 +1,7 @@
+Distances: 
+	euclidian_distance = 0.471572
+	cosine_similarity = 0.135527
+	intersection_distance = 0.157889
+------------- 
+Similarities 
+	Images colorCheckerTestImage and kids are similar based on Euclidean distance: 0.471572 .

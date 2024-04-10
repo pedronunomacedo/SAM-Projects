@@ -1,0 +1,9 @@
+Distances: 
+	euclidian_distance = 0.017466
+	cosine_similarity = 0.999315
+	intersection_distance = 0.881077
+------------- 
+Similarities 
+	Images casa2 and westconcordorthophoto are similar based on Euclidean distance: 0.017466 .
+	Images casa2 and westconcordorthophoto are similar based on cosine similarity: 0.999315.
+	Images casa2 and westconcordorthophoto are similar based on intersection distance: 0.881077.

@@ -1,0 +1,7 @@
+Distances: 
+	euclidian_distance = 0.423399
+	cosine_similarity = 0.463308
+	intersection_distance = 0.249181
+------------- 
+Similarities 
+	Images cameraman and yellowlily are similar based on Euclidean distance: 0.423399 .

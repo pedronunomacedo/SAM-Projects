@@ -1,0 +1,9 @@
+Distances: 
+	euclidian_distance = 0.043366
+	cosine_similarity = 0.995804
+	intersection_distance = 0.793673
+------------- 
+Similarities 
+	Images canoe and ruido1 are similar based on Euclidean distance: 0.043366 .
+	Images canoe and ruido1 are similar based on cosine similarity: 0.995804.
+	Images canoe and ruido1 are similar based on intersection distance: 0.793673.

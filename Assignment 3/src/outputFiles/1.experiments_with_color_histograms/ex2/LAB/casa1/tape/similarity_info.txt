@@ -1,0 +1,7 @@
+Distances: 
+	euclidian_distance = 0.432058
+	cosine_similarity = 0.418200
+	intersection_distance = 0.233533
+------------- 
+Similarities 
+	Images casa1 and tape are similar based on Euclidean distance: 0.432058 .

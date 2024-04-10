@@ -1,0 +1,9 @@
+Distances: 
+	euclidian_distance = 0.115268
+	cosine_similarity = 0.971311
+	intersection_distance = 0.767956
+------------- 
+Similarities 
+	Images cameraman and moon are similar based on Euclidean distance: 0.115268 .
+	Images cameraman and moon are similar based on cosine similarity: 0.971311.
+	Images cameraman and moon are similar based on intersection distance: 0.767956.

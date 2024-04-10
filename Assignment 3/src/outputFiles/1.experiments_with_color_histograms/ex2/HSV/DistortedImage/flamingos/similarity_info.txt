@@ -1,0 +1,14 @@
+Distances: 
+	euclidian_distance = 0.071809
+	cosine_similarity = 0.347525
+	intersection_distance = 0.426463
+------------- 
+Similarities 
+	Images DistortedImage and flamingos are similar based on Euclidean distance: 0.071809 .
+Distances: 
+	euclidian_distance = 0.071809
+	cosine_similarity = 0.347525
+	intersection_distance = 0.426463
+------------- 
+Similarities 
+	Images DistortedImage and flamingos are similar based on Euclidean distance: 0.071809 .

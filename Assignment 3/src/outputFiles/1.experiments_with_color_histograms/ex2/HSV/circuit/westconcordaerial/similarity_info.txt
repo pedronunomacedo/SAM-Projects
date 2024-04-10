@@ -1,0 +1,7 @@
+Distances: 
+	euclidian_distance = 0.471849
+	cosine_similarity = 0.089493
+	intersection_distance = 0.119523
+------------- 
+Similarities 
+	Images circuit and westconcordaerial are similar based on Euclidean distance: 0.471849 .

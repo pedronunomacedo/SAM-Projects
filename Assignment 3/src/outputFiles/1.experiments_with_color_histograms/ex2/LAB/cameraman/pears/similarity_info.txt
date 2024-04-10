@@ -1,0 +1,7 @@
+Distances: 
+	euclidian_distance = 0.473642
+	cosine_similarity = 0.100492
+	intersection_distance = 0.249945
+------------- 
+Similarities 
+	Images cameraman and pears are similar based on Euclidean distance: 0.473642 .

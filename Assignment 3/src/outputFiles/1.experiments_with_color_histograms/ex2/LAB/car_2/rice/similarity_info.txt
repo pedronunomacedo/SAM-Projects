@@ -1,0 +1,8 @@
+Distances: 
+	euclidian_distance = 0.241441
+	cosine_similarity = 0.931872
+	intersection_distance = 0.433417
+------------- 
+Similarities 
+	Images car_2 and rice are similar based on Euclidean distance: 0.241441 .
+	Images car_2 and rice are similar based on cosine similarity: 0.931872.

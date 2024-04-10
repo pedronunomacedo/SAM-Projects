@@ -1,0 +1,8 @@
+Distances: 
+	euclidian_distance = 0.062932
+	cosine_similarity = 0.778924
+	intersection_distance = 0.659477
+------------- 
+Similarities 
+	Images board and peacock are similar based on Euclidean distance: 0.062932 .
+	Images board and peacock are similar based on intersection distance: 0.659477.

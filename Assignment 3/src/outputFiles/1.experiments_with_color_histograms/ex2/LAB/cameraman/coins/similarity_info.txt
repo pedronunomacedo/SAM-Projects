@@ -1,0 +1,9 @@
+Distances: 
+	euclidian_distance = 0.056437
+	cosine_similarity = 0.992898
+	intersection_distance = 0.757353
+------------- 
+Similarities 
+	Images cameraman and coins are similar based on Euclidean distance: 0.056437 .
+	Images cameraman and coins are similar based on cosine similarity: 0.992898.
+	Images cameraman and coins are similar based on intersection distance: 0.757353.

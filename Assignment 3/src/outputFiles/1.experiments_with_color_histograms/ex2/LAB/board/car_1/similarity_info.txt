@@ -1,0 +1,8 @@
+Distances: 
+	euclidian_distance = 0.080911
+	cosine_similarity = 0.799175
+	intersection_distance = 0.619998
+------------- 
+Similarities 
+	Images board and car_1 are similar based on Euclidean distance: 0.080911 .
+	Images board and car_1 are similar based on intersection distance: 0.619998.

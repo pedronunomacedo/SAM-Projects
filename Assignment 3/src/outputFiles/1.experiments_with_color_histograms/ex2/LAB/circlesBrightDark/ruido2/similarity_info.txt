@@ -1,0 +1,9 @@
+Distances: 
+	euclidian_distance = 0.269638
+	cosine_similarity = 0.868182
+	intersection_distance = 0.688684
+------------- 
+Similarities 
+	Images circlesBrightDark and ruido2 are similar based on Euclidean distance: 0.269638 .
+	Images circlesBrightDark and ruido2 are similar based on cosine similarity: 0.868182.
+	Images circlesBrightDark and ruido2 are similar based on intersection distance: 0.688684.

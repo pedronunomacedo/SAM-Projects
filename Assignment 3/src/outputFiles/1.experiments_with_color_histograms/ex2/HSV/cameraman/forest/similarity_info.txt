@@ -1,0 +1,9 @@
+Distances: 
+	euclidian_distance = 0.108299
+	cosine_similarity = 0.974526
+	intersection_distance = 0.731079
+------------- 
+Similarities 
+	Images cameraman and forest are similar based on Euclidean distance: 0.108299 .
+	Images /Users/pedromacedo/Desktop/Uni/SAM-Year4Semester2/Projects/Assignment 3/src/resources/cameraman.tif and /Users/pedromacedo/Desktop/Uni/SAM-Year4Semester2/Projects/Assignment 3/src/resources/forest.tif are similar based on cosine similarity: 0.974526.
+	Images /Users/pedromacedo/Desktop/Uni/SAM-Year4Semester2/Projects/Assignment 3/src/resources/cameraman.tif and /Users/pedromacedo/Desktop/Uni/SAM-Year4Semester2/Projects/Assignment 3/src/resources/forest.tif are similar based on intersection distance: 0.731079.

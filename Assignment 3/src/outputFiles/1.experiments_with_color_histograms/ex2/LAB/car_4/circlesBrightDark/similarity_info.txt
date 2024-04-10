@@ -1,0 +1,8 @@
+Distances: 
+	euclidian_distance = 0.370498
+	cosine_similarity = 0.766766
+	intersection_distance = 0.683208
+------------- 
+Similarities 
+	Images car_4 and circlesBrightDark are similar based on Euclidean distance: 0.370498 .
+	Images car_4 and circlesBrightDark are similar based on intersection distance: 0.683208.

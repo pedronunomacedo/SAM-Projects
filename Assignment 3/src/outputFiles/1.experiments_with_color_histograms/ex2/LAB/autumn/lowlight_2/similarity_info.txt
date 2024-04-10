@@ -1,0 +1,8 @@
+Distances: 
+	euclidian_distance = 0.143995
+	cosine_similarity = 0.714817
+	intersection_distance = 0.501188
+------------- 
+Similarities 
+	Images autumn and lowlight_2 are similar based on Euclidean distance: 0.143995 .
+	Images autumn and lowlight_2 are similar based on intersection distance: 0.501188.

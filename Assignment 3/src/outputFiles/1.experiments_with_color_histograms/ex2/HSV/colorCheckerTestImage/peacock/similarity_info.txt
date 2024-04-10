@@ -1,0 +1,8 @@
+Distances: 
+	euclidian_distance = 0.049435
+	cosine_similarity = 0.570235
+	intersection_distance = 0.542935
+------------- 
+Similarities 
+	Images colorCheckerTestImage and peacock are similar based on Euclidean distance: 0.049435 .
+	Images colorCheckerTestImage and peacock are similar based on intersection distance: 0.542935.

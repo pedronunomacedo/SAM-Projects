@@ -1,0 +1,7 @@
+Distances: 
+	euclidian_distance = 0.479052
+	cosine_similarity = 0.112896
+	intersection_distance = 0.081761
+------------- 
+Similarities 
+	Images cell and foggysf2 are similar based on Euclidean distance: 0.479052 .

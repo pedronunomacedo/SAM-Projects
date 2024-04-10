@@ -1,0 +1,7 @@
+Distances: 
+	euclidian_distance = 0.445174
+	cosine_similarity = 0.335485
+	intersection_distance = 0.192220
+------------- 
+Similarities 
+	Images casa2 and pillsetc are similar based on Euclidean distance: 0.445174 .

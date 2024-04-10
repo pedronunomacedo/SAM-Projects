@@ -1,0 +1,7 @@
+Distances: 
+	euclidian_distance = 0.508216
+	cosine_similarity = 0.372988
+	intersection_distance = 0.093648
+------------- 
+Similarities 
+	Images circlesBrightDark and foggysf1 are similar based on Euclidean distance: 0.508216 .

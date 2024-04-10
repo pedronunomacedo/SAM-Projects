@@ -1,0 +1,8 @@
+Distances: 
+	euclidian_distance = 0.285978
+	cosine_similarity = 0.819168
+	intersection_distance = 0.430920
+------------- 
+Similarities 
+	Images cameraman and pinnochio_color are similar based on Euclidean distance: 0.285978 .
+	Images cameraman and pinnochio_color are similar based on cosine similarity: 0.819168.

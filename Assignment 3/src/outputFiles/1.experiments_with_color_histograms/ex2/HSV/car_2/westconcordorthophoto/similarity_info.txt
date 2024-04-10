@@ -1,0 +1,8 @@
+Distances: 
+	euclidian_distance = 0.296596
+	cosine_similarity = 0.944198
+	intersection_distance = 0.348166
+------------- 
+Similarities 
+	Images car_2 and westconcordorthophoto are similar based on Euclidean distance: 0.296596 .
+	Images /Users/pedromacedo/Desktop/Uni/SAM-Year4Semester2/Projects/Assignment 3/src/resources/car_2.jpg and /Users/pedromacedo/Desktop/Uni/SAM-Year4Semester2/Projects/Assignment 3/src/resources/westconcordorthophoto.png are similar based on cosine similarity: 0.944198.

@@ -1,0 +1,7 @@
+Distances: 
+	euclidian_distance = 0.481282
+	cosine_similarity = 0.019195
+	intersection_distance = 0.107047
+------------- 
+Similarities 
+	Images canoe and kobi are similar based on Euclidean distance: 0.481282 .

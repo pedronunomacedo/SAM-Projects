@@ -1,0 +1,9 @@
+Distances: 
+	euclidian_distance = 0.035988
+	cosine_similarity = 0.997099
+	intersection_distance = 0.793811
+------------- 
+Similarities 
+	Images circuit and shadow are similar based on Euclidean distance: 0.035988 .
+	Images circuit and shadow are similar based on cosine similarity: 0.997099.
+	Images circuit and shadow are similar based on intersection distance: 0.793811.

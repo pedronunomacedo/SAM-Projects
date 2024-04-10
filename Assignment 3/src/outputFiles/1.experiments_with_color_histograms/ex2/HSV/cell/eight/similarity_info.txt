@@ -1,0 +1,9 @@
+Distances: 
+	euclidian_distance = 0.134448
+	cosine_similarity = 0.960964
+	intersection_distance = 0.712305
+------------- 
+Similarities 
+	Images cell and eight are similar based on Euclidean distance: 0.134448 .
+	Images cell and eight are similar based on cosine similarity: 0.960964.
+	Images cell and eight are similar based on intersection distance: 0.712305.

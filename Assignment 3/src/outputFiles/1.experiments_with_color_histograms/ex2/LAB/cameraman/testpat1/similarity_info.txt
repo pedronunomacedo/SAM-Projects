@@ -1,0 +1,9 @@
+Distances: 
+	euclidian_distance = 0.222660
+	cosine_similarity = 0.903777
+	intersection_distance = 0.701950
+------------- 
+Similarities 
+	Images cameraman and testpat1 are similar based on Euclidean distance: 0.222660 .
+	Images cameraman and testpat1 are similar based on cosine similarity: 0.903777.
+	Images cameraman and testpat1 are similar based on intersection distance: 0.701950.

@@ -1,0 +1,7 @@
+Distances: 
+	euclidian_distance = 0.475224
+	cosine_similarity = 0.040113
+	intersection_distance = 0.061627
+------------- 
+Similarities 
+	Images circuit and trailer are similar based on Euclidean distance: 0.475224 .

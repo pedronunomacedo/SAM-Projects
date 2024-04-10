@@ -1,0 +1,9 @@
+Distances: 
+	euclidian_distance = 0.258654
+	cosine_similarity = 0.876834
+	intersection_distance = 0.671354
+------------- 
+Similarities 
+	Images circuit and toyobjects are similar based on Euclidean distance: 0.258654 .
+	Images circuit and toyobjects are similar based on cosine similarity: 0.876834.
+	Images circuit and toyobjects are similar based on intersection distance: 0.671354.

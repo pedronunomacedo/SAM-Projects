@@ -1,0 +1,8 @@
+Distances: 
+	euclidian_distance = 0.067559
+	cosine_similarity = 0.780188
+	intersection_distance = 0.628187
+------------- 
+Similarities 
+	Images baby and board are similar based on Euclidean distance: 0.067559 .
+	Images baby and board are similar based on intersection distance: 0.628187.

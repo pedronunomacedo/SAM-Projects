@@ -1,0 +1,8 @@
+Distances: 
+	euclidian_distance = 0.207114
+	cosine_similarity = 0.645558
+	intersection_distance = 0.539230
+------------- 
+Similarities 
+	Images car_2 and yellowlily are similar based on Euclidean distance: 0.207114 .
+	Images car_2 and yellowlily are similar based on intersection distance: 0.539230.

@@ -1,0 +1,9 @@
+Distances: 
+	euclidian_distance = 0.027467
+	cosine_similarity = 0.998310
+	intersection_distance = 0.854175
+------------- 
+Similarities 
+	Images cameraman and westconcordorthophoto are similar based on Euclidean distance: 0.027467 .
+	Images /Users/pedromacedo/Desktop/Uni/SAM-Year4Semester2/Projects/Assignment 3/src/resources/cameraman.tif and /Users/pedromacedo/Desktop/Uni/SAM-Year4Semester2/Projects/Assignment 3/src/resources/westconcordorthophoto.png are similar based on cosine similarity: 0.998310.
+	Images /Users/pedromacedo/Desktop/Uni/SAM-Year4Semester2/Projects/Assignment 3/src/resources/cameraman.tif and /Users/pedromacedo/Desktop/Uni/SAM-Year4Semester2/Projects/Assignment 3/src/resources/westconcordorthophoto.png are similar based on intersection distance: 0.854175.

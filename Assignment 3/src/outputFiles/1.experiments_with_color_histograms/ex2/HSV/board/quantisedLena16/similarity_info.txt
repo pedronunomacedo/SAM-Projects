@@ -1,0 +1,7 @@
+Distances: 
+	euclidian_distance = 0.449493
+	cosine_similarity = 0.606495
+	intersection_distance = 0.221692
+------------- 
+Similarities 
+	Images board and quantisedLena16 are similar based on Euclidean distance: 0.449493 .

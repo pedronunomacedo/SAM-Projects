@@ -1,0 +1,9 @@
+Distances: 
+	euclidian_distance = 0.050781
+	cosine_similarity = 0.994250
+	intersection_distance = 0.800099
+------------- 
+Similarities 
+	Images coins and riceblurred are similar based on Euclidean distance: 0.050781 .
+	Images coins and riceblurred are similar based on cosine similarity: 0.994250.
+	Images coins and riceblurred are similar based on intersection distance: 0.800099.

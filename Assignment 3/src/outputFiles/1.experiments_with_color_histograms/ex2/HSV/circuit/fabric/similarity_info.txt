@@ -1,0 +1,7 @@
+Distances: 
+	euclidian_distance = 0.472947
+	cosine_similarity = 0.053522
+	intersection_distance = 0.192449
+------------- 
+Similarities 
+	Images circuit and fabric are similar based on Euclidean distance: 0.472947 .

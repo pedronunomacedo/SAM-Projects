@@ -1,0 +1,9 @@
+Distances: 
+	euclidian_distance = 0.035630
+	cosine_similarity = 0.997158
+	intersection_distance = 0.809439
+------------- 
+Similarities 
+	Images cameraman and circuit are similar based on Euclidean distance: 0.035630 .
+	Images /Users/pedromacedo/Desktop/Uni/SAM-Year4Semester2/Projects/Assignment 3/src/resources/cameraman.tif and /Users/pedromacedo/Desktop/Uni/SAM-Year4Semester2/Projects/Assignment 3/src/resources/circuit.tif are similar based on cosine similarity: 0.997158.
+	Images /Users/pedromacedo/Desktop/Uni/SAM-Year4Semester2/Projects/Assignment 3/src/resources/cameraman.tif and /Users/pedromacedo/Desktop/Uni/SAM-Year4Semester2/Projects/Assignment 3/src/resources/circuit.tif are similar based on intersection distance: 0.809439.

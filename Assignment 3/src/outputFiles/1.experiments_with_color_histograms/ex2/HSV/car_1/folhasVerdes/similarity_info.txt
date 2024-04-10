@@ -1,0 +1,7 @@
+Distances: 
+	euclidian_distance = 0.121888
+	cosine_similarity = 0.084186
+	intersection_distance = 0.225781
+------------- 
+Similarities 
+	Images car_1 and folhasVerdes are similar based on Euclidean distance: 0.121888 .

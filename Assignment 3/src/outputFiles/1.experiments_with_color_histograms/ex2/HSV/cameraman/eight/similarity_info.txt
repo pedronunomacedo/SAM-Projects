@@ -1,0 +1,9 @@
+Distances: 
+	euclidian_distance = 0.104416
+	cosine_similarity = 0.976251
+	intersection_distance = 0.718581
+------------- 
+Similarities 
+	Images cameraman and eight are similar based on Euclidean distance: 0.104416 .
+	Images /Users/pedromacedo/Desktop/Uni/SAM-Year4Semester2/Projects/Assignment 3/src/resources/cameraman.tif and /Users/pedromacedo/Desktop/Uni/SAM-Year4Semester2/Projects/Assignment 3/src/resources/eight.tif are similar based on cosine similarity: 0.976251.
+	Images /Users/pedromacedo/Desktop/Uni/SAM-Year4Semester2/Projects/Assignment 3/src/resources/cameraman.tif and /Users/pedromacedo/Desktop/Uni/SAM-Year4Semester2/Projects/Assignment 3/src/resources/eight.tif are similar based on intersection distance: 0.718581.

@@ -1,0 +1,7 @@
+Distances: 
+	euclidian_distance = 0.411917
+	cosine_similarity = 0.498917
+	intersection_distance = 0.213477
+------------- 
+Similarities 
+	Images canoe and saturn are similar based on Euclidean distance: 0.411917 .

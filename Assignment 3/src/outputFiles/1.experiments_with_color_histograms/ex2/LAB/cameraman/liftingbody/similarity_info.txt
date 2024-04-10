@@ -1,0 +1,9 @@
+Distances: 
+	euclidian_distance = 0.043545
+	cosine_similarity = 0.995766
+	intersection_distance = 0.809191
+------------- 
+Similarities 
+	Images cameraman and liftingbody are similar based on Euclidean distance: 0.043545 .
+	Images cameraman and liftingbody are similar based on cosine similarity: 0.995766.
+	Images cameraman and liftingbody are similar based on intersection distance: 0.809191.

@@ -1,0 +1,7 @@
+Distances: 
+	euclidian_distance = 0.528405
+	cosine_similarity = 0.267806
+	intersection_distance = 0.045538
+------------- 
+Similarities 
+	Images circlesBrightDark and lighthouse are similar based on Euclidean distance: 0.528405 .

@@ -1,0 +1,7 @@
+Distances: 
+	euclidian_distance = 0.444170
+	cosine_similarity = 0.385217
+	intersection_distance = 0.130512
+------------- 
+Similarities 
+	Images baby and pout are similar based on Euclidean distance: 0.444170 .

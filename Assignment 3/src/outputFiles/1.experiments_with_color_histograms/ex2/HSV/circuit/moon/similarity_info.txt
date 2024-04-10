@@ -1,0 +1,9 @@
+Distances: 
+	euclidian_distance = 0.091918
+	cosine_similarity = 0.981460
+	intersection_distance = 0.721502
+------------- 
+Similarities 
+	Images circuit and moon are similar based on Euclidean distance: 0.091918 .
+	Images circuit and moon are similar based on cosine similarity: 0.981460.
+	Images circuit and moon are similar based on intersection distance: 0.721502.

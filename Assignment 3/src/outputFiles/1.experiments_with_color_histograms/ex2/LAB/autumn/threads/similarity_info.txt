@@ -1,0 +1,7 @@
+Distances: 
+	euclidian_distance = 0.439227
+	cosine_similarity = 0.426083
+	intersection_distance = 0.127586
+------------- 
+Similarities 
+	Images autumn and threads are similar based on Euclidean distance: 0.439227 .

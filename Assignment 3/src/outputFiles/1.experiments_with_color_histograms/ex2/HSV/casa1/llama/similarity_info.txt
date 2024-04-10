@@ -1,0 +1,7 @@
+Distances: 
+	euclidian_distance = 0.477243
+	cosine_similarity = 0.015505
+	intersection_distance = 0.174835
+------------- 
+Similarities 
+	Images casa1 and llama are similar based on Euclidean distance: 0.477243 .

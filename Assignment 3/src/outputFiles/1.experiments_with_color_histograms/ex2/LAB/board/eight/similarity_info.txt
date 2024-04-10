@@ -1,0 +1,7 @@
+Distances: 
+	euclidian_distance = 0.434718
+	cosine_similarity = 0.573779
+	intersection_distance = 0.156007
+------------- 
+Similarities 
+	Images board and eight are similar based on Euclidean distance: 0.434718 .

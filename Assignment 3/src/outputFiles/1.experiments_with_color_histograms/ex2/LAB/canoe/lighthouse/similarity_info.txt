@@ -1,0 +1,7 @@
+Distances: 
+	euclidian_distance = 0.456805
+	cosine_similarity = 0.304850
+	intersection_distance = 0.169990
+------------- 
+Similarities 
+	Images canoe and lighthouse are similar based on Euclidean distance: 0.456805 .

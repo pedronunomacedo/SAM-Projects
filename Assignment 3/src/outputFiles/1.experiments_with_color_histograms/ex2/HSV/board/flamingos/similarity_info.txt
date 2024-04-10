@@ -1,0 +1,8 @@
+Distances: 
+	euclidian_distance = 0.073300
+	cosine_similarity = 0.449850
+	intersection_distance = 0.592646
+------------- 
+Similarities 
+	Images board and flamingos are similar based on Euclidean distance: 0.073300 .
+	Images /Users/pedromacedo/Desktop/Uni/SAM-Year4Semester2/Projects/Assignment 3/src/resources/board.tif and /Users/pedromacedo/Desktop/Uni/SAM-Year4Semester2/Projects/Assignment 3/src/resources/flamingos.jpg are similar based on intersection distance: 0.592646.

@@ -1,0 +1,9 @@
+Distances: 
+	euclidian_distance = 0.284599
+	cosine_similarity = 0.852446
+	intersection_distance = 0.676040
+------------- 
+Similarities 
+	Images circlesBrightDark and cell are similar based on Euclidean distance: 0.284599 .
+	Images circlesBrightDark and cell are similar based on cosine similarity: 0.852446.
+	Images circlesBrightDark and cell are similar based on intersection distance: 0.676040.

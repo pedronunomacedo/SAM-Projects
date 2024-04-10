@@ -1,0 +1,8 @@
+Distances: 
+	euclidian_distance = 0.190373
+	cosine_similarity = 0.764497
+	intersection_distance = 0.587682
+------------- 
+Similarities 
+	Images car_3 and office_1 are similar based on Euclidean distance: 0.190373 .
+	Images /Users/pedromacedo/Desktop/Uni/SAM-Year4Semester2/Projects/Assignment 3/src/resources/car_3.jpg and /Users/pedromacedo/Desktop/Uni/SAM-Year4Semester2/Projects/Assignment 3/src/resources/office_1.jpg are similar based on intersection distance: 0.587682.

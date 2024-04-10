@@ -1,0 +1,9 @@
+Distances: 
+	euclidian_distance = 0.146289
+	cosine_similarity = 0.954974
+	intersection_distance = 0.761020
+------------- 
+Similarities 
+	Images circuit and lenaQuantised8 are similar based on Euclidean distance: 0.146289 .
+	Images circuit and lenaQuantised8 are similar based on cosine similarity: 0.954974.
+	Images circuit and lenaQuantised8 are similar based on intersection distance: 0.761020.

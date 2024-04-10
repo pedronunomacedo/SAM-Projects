@@ -1,0 +1,9 @@
+Distances: 
+	euclidian_distance = 0.050290
+	cosine_similarity = 0.994358
+	intersection_distance = 0.781548
+------------- 
+Similarities 
+	Images coins and printedtext are similar based on Euclidean distance: 0.050290 .
+	Images coins and printedtext are similar based on cosine similarity: 0.994358.
+	Images coins and printedtext are similar based on intersection distance: 0.781548.

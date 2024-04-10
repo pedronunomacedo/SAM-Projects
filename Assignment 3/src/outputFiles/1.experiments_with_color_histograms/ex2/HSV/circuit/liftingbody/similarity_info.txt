@@ -1,0 +1,9 @@
+Distances: 
+	euclidian_distance = 0.042231
+	cosine_similarity = 0.996014
+	intersection_distance = 0.776850
+------------- 
+Similarities 
+	Images circuit and liftingbody are similar based on Euclidean distance: 0.042231 .
+	Images circuit and liftingbody are similar based on cosine similarity: 0.996014.
+	Images circuit and liftingbody are similar based on intersection distance: 0.776850.

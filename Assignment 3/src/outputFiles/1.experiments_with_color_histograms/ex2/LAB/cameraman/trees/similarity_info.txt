@@ -1,0 +1,9 @@
+Distances: 
+	euclidian_distance = 0.066827
+	cosine_similarity = 0.990103
+	intersection_distance = 0.754843
+------------- 
+Similarities 
+	Images cameraman and trees are similar based on Euclidean distance: 0.066827 .
+	Images cameraman and trees are similar based on cosine similarity: 0.990103.
+	Images cameraman and trees are similar based on intersection distance: 0.754843.

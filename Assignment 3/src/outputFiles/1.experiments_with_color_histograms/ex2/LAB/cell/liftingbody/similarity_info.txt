@@ -1,0 +1,9 @@
+Distances: 
+	euclidian_distance = 0.091770
+	cosine_similarity = 0.981596
+	intersection_distance = 0.750216
+------------- 
+Similarities 
+	Images cell and liftingbody are similar based on Euclidean distance: 0.091770 .
+	Images cell and liftingbody are similar based on cosine similarity: 0.981596.
+	Images cell and liftingbody are similar based on intersection distance: 0.750216.

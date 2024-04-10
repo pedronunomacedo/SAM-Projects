@@ -1,0 +1,9 @@
+Distances: 
+	euclidian_distance = 0.045608
+	cosine_similarity = 0.995361
+	intersection_distance = 0.785980
+------------- 
+Similarities 
+	Images coins and ruido2 are similar based on Euclidean distance: 0.045608 .
+	Images coins and ruido2 are similar based on cosine similarity: 0.995361.
+	Images coins and ruido2 are similar based on intersection distance: 0.785980.

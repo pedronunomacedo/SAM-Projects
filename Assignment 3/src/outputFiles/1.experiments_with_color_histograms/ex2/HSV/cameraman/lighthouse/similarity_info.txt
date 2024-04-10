@@ -1,0 +1,7 @@
+Distances: 
+	euclidian_distance = 0.475370
+	cosine_similarity = 0.036426
+	intersection_distance = 0.067451
+------------- 
+Similarities 
+	Images cameraman and lighthouse are similar based on Euclidean distance: 0.475370 .

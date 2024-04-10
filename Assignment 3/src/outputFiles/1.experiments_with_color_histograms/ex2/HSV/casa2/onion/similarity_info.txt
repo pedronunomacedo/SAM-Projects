@@ -1,0 +1,7 @@
+Distances: 
+	euclidian_distance = 0.472867
+	cosine_similarity = 0.061453
+	intersection_distance = 0.196074
+------------- 
+Similarities 
+	Images casa2 and onion are similar based on Euclidean distance: 0.472867 .

@@ -1,0 +1,8 @@
+Distances: 
+	euclidian_distance = 0.097831
+	cosine_similarity = 0.737635
+	intersection_distance = 0.610625
+------------- 
+Similarities 
+	Images autumn and foggysf1 are similar based on Euclidean distance: 0.097831 .
+	Images autumn and foggysf1 are similar based on intersection distance: 0.610625.

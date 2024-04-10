@@ -1,0 +1,7 @@
+Distances: 
+	euclidian_distance = 0.308040
+	cosine_similarity = 0.731651
+	intersection_distance = 0.366617
+------------- 
+Similarities 
+	Images board and testRGB are similar based on Euclidean distance: 0.308040 .

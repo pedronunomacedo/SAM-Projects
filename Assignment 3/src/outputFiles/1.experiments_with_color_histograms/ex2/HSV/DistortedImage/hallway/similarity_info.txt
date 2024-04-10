@@ -1,0 +1,14 @@
+Distances: 
+	euclidian_distance = 0.085999
+	cosine_similarity = 0.317697
+	intersection_distance = 0.386311
+------------- 
+Similarities 
+	Images DistortedImage and hallway are similar based on Euclidean distance: 0.085999 .
+Distances: 
+	euclidian_distance = 0.085999
+	cosine_similarity = 0.317697
+	intersection_distance = 0.386311
+------------- 
+Similarities 
+	Images DistortedImage and hallway are similar based on Euclidean distance: 0.085999 .

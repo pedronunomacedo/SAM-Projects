@@ -1,0 +1,35 @@
+Distances: 
+	euclidian_distance = 0.060559
+	cosine_similarity = 0.532712
+	intersection_distance = 0.477497
+------------- 
+Similarities 
+	Images DistortedImage and baby are similar based on Euclidean distance: 0.060559 .
+Distances: 
+	euclidian_distance = 0.060559
+	cosine_similarity = 0.532712
+	intersection_distance = 0.477497
+------------- 
+Similarities 
+	Images DistortedImage and baby are similar based on Euclidean distance: 0.060559 .
+Distances: 
+	euclidian_distance = 0.060559
+	cosine_similarity = 0.532712
+	intersection_distance = 0.477497
+------------- 
+Similarities 
+	Images DistortedImage and baby are similar based on Euclidean distance: 0.060559 .
+Distances: 
+	euclidian_distance = 0.060559
+	cosine_similarity = 0.532712
+	intersection_distance = 0.477497
+------------- 
+Similarities 
+	Images DistortedImage and baby are similar based on Euclidean distance: 0.060559 .
+Distances: 
+	euclidian_distance = 0.060559
+	cosine_similarity = 0.532712
+	intersection_distance = 0.477497
+------------- 
+Similarities 
+	Images DistortedImage and baby are similar based on Euclidean distance: 0.060559 .

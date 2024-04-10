@@ -1,0 +1,9 @@
+Distances: 
+	euclidian_distance = 0.269520
+	cosine_similarity = 0.983649
+	intersection_distance = 0.518217
+------------- 
+Similarities 
+	Images car_4 and pinnochio_color are similar based on Euclidean distance: 0.269520 .
+	Images /Users/pedromacedo/Desktop/Uni/SAM-Year4Semester2/Projects/Assignment 3/src/resources/car_4.jpg and /Users/pedromacedo/Desktop/Uni/SAM-Year4Semester2/Projects/Assignment 3/src/resources/pinnochio_color.jpg are similar based on cosine similarity: 0.983649.
+	Images /Users/pedromacedo/Desktop/Uni/SAM-Year4Semester2/Projects/Assignment 3/src/resources/car_4.jpg and /Users/pedromacedo/Desktop/Uni/SAM-Year4Semester2/Projects/Assignment 3/src/resources/pinnochio_color.jpg are similar based on intersection distance: 0.518217.

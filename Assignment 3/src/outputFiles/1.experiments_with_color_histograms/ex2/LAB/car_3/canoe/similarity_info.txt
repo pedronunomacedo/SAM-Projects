@@ -1,0 +1,8 @@
+Distances: 
+	euclidian_distance = 0.176537
+	cosine_similarity = 0.956626
+	intersection_distance = 0.499450
+------------- 
+Similarities 
+	Images car_3 and canoe are similar based on Euclidean distance: 0.176537 .
+	Images car_3 and canoe are similar based on cosine similarity: 0.956626.

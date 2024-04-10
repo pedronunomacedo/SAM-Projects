@@ -1,0 +1,9 @@
+Distances: 
+	euclidian_distance = 0.041105
+	cosine_similarity = 0.996221
+	intersection_distance = 0.828281
+------------- 
+Similarities 
+	Images casa2 and tire are similar based on Euclidean distance: 0.041105 .
+	Images casa2 and tire are similar based on cosine similarity: 0.996221.
+	Images casa2 and tire are similar based on intersection distance: 0.828281.

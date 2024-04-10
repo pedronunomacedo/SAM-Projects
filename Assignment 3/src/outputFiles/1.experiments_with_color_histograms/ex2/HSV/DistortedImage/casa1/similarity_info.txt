@@ -1,0 +1,14 @@
+Distances: 
+	euclidian_distance = 0.472312
+	cosine_similarity = 0.091325
+	intersection_distance = 0.122234
+------------- 
+Similarities 
+	Images DistortedImage and casa1 are similar based on Euclidean distance: 0.472312 .
+Distances: 
+	euclidian_distance = 0.472312
+	cosine_similarity = 0.091325
+	intersection_distance = 0.122234
+------------- 
+Similarities 
+	Images DistortedImage and casa1 are similar based on Euclidean distance: 0.472312 .

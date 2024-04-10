@@ -1,0 +1,14 @@
+Distances: 
+	euclidian_distance = 0.107632
+	cosine_similarity = 0.151354
+	intersection_distance = 0.266339
+------------- 
+Similarities 
+	Images DistortedImage and kobi are similar based on Euclidean distance: 0.107632 .
+Distances: 
+	euclidian_distance = 0.107632
+	cosine_similarity = 0.151354
+	intersection_distance = 0.266339
+------------- 
+Similarities 
+	Images DistortedImage and kobi are similar based on Euclidean distance: 0.107632 .

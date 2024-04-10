@@ -1,0 +1,9 @@
+Distances: 
+	euclidian_distance = 0.268310
+	cosine_similarity = 0.869574
+	intersection_distance = 0.679440
+------------- 
+Similarities 
+	Images circlesBrightDark and lena_gray are similar based on Euclidean distance: 0.268310 .
+	Images circlesBrightDark and lena_gray are similar based on cosine similarity: 0.869574.
+	Images circlesBrightDark and lena_gray are similar based on intersection distance: 0.679440.

@@ -1,0 +1,9 @@
+Distances: 
+	euclidian_distance = 0.164783
+	cosine_similarity = 0.942634
+	intersection_distance = 0.669272
+------------- 
+Similarities 
+	Images cell and spine are similar based on Euclidean distance: 0.164783 .
+	Images cell and spine are similar based on cosine similarity: 0.942634.
+	Images cell and spine are similar based on intersection distance: 0.669272.

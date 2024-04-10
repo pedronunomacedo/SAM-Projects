@@ -1,0 +1,7 @@
+Distances: 
+	euclidian_distance = 0.478943
+	cosine_similarity = 0.015658
+	intersection_distance = 0.134877
+------------- 
+Similarities 
+	Images canoe and pears are similar based on Euclidean distance: 0.478943 .

@@ -1,0 +1,7 @@
+Distances: 
+	euclidian_distance = 0.092138
+	cosine_similarity = 0.354139
+	intersection_distance = 0.324118
+------------- 
+Similarities 
+	Images baby and hands2 are similar based on Euclidean distance: 0.092138 .

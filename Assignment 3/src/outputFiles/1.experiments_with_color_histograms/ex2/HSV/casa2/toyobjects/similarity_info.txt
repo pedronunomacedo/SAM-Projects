@@ -1,0 +1,9 @@
+Distances: 
+	euclidian_distance = 0.259131
+	cosine_similarity = 0.876346
+	intersection_distance = 0.671167
+------------- 
+Similarities 
+	Images casa2 and toyobjects are similar based on Euclidean distance: 0.259131 .
+	Images casa2 and toyobjects are similar based on cosine similarity: 0.876346.
+	Images casa2 and toyobjects are similar based on intersection distance: 0.671167.

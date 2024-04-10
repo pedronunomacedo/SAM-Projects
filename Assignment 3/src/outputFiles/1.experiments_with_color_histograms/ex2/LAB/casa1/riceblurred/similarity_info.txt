@@ -1,0 +1,9 @@
+Distances: 
+	euclidian_distance = 0.049059
+	cosine_similarity = 0.994628
+	intersection_distance = 0.843274
+------------- 
+Similarities 
+	Images casa1 and riceblurred are similar based on Euclidean distance: 0.049059 .
+	Images casa1 and riceblurred are similar based on cosine similarity: 0.994628.
+	Images casa1 and riceblurred are similar based on intersection distance: 0.843274.

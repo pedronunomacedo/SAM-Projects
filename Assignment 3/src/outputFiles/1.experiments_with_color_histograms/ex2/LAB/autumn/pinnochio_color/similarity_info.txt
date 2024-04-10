@@ -1,0 +1,7 @@
+Distances: 
+	euclidian_distance = 0.270041
+	cosine_similarity = 0.414088
+	intersection_distance = 0.331082
+------------- 
+Similarities 
+	Images autumn and pinnochio_color are similar based on Euclidean distance: 0.270041 .

@@ -1,0 +1,7 @@
+Distances: 
+	euclidian_distance = 0.082221
+	cosine_similarity = 0.257501
+	intersection_distance = 0.436940
+------------- 
+Similarities 
+	Images baby and strawberries are similar based on Euclidean distance: 0.082221 .

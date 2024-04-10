@@ -1,0 +1,8 @@
+Distances: 
+	euclidian_distance = 0.110520
+	cosine_similarity = 0.625429
+	intersection_distance = 0.504169
+------------- 
+Similarities 
+	Images board and lowlight_1 are similar based on Euclidean distance: 0.110520 .
+	Images board and lowlight_1 are similar based on intersection distance: 0.504169.

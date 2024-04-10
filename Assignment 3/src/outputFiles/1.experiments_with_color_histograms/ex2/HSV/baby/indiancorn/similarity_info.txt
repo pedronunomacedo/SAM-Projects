@@ -1,0 +1,7 @@
+Distances: 
+	euclidian_distance = 0.069559
+	cosine_similarity = 0.344755
+	intersection_distance = 0.454749
+------------- 
+Similarities 
+	Images baby and indiancorn are similar based on Euclidean distance: 0.069559 .

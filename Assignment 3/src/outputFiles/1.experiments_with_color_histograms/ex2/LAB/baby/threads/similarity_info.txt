@@ -1,0 +1,7 @@
+Distances: 
+	euclidian_distance = 0.448610
+	cosine_similarity = 0.385776
+	intersection_distance = 0.169221
+------------- 
+Similarities 
+	Images baby and threads are similar based on Euclidean distance: 0.448610 .

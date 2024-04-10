@@ -1,0 +1,9 @@
+Distances: 
+	euclidian_distance = 0.144291
+	cosine_similarity = 0.956122
+	intersection_distance = 0.783772
+------------- 
+Similarities 
+	Images circuit and quantisedLena16 are similar based on Euclidean distance: 0.144291 .
+	Images circuit and quantisedLena16 are similar based on cosine similarity: 0.956122.
+	Images circuit and quantisedLena16 are similar based on intersection distance: 0.783772.

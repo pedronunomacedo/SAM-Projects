@@ -1,0 +1,9 @@
+Distances: 
+	euclidian_distance = 0.299480
+	cosine_similarity = 0.835118
+	intersection_distance = 0.657569
+------------- 
+Similarities 
+	Images car_4 and m83 are similar based on Euclidean distance: 0.299480 .
+	Images car_4 and m83 are similar based on cosine similarity: 0.835118.
+	Images car_4 and m83 are similar based on intersection distance: 0.657569.

@@ -1,0 +1,9 @@
+Distances: 
+	euclidian_distance = 0.053744
+	cosine_similarity = 0.993559
+	intersection_distance = 0.753339
+------------- 
+Similarities 
+	Images cameraman and pout are similar based on Euclidean distance: 0.053744 .
+	Images /Users/pedromacedo/Desktop/Uni/SAM-Year4Semester2/Projects/Assignment 3/src/resources/cameraman.tif and /Users/pedromacedo/Desktop/Uni/SAM-Year4Semester2/Projects/Assignment 3/src/resources/pout.tif are similar based on cosine similarity: 0.993559.
+	Images /Users/pedromacedo/Desktop/Uni/SAM-Year4Semester2/Projects/Assignment 3/src/resources/cameraman.tif and /Users/pedromacedo/Desktop/Uni/SAM-Year4Semester2/Projects/Assignment 3/src/resources/pout.tif are similar based on intersection distance: 0.753339.

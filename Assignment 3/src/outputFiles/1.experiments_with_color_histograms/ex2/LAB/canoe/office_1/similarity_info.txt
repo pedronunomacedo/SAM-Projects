@@ -1,0 +1,8 @@
+Distances: 
+	euclidian_distance = 0.293341
+	cosine_similarity = 0.825540
+	intersection_distance = 0.340477
+------------- 
+Similarities 
+	Images canoe and office_1 are similar based on Euclidean distance: 0.293341 .
+	Images canoe and office_1 are similar based on cosine similarity: 0.825540.

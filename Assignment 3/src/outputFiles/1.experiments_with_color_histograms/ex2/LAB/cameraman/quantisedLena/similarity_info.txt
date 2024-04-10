@@ -1,0 +1,9 @@
+Distances: 
+	euclidian_distance = 0.146398
+	cosine_similarity = 0.954879
+	intersection_distance = 0.754046
+------------- 
+Similarities 
+	Images cameraman and quantisedLena are similar based on Euclidean distance: 0.146398 .
+	Images cameraman and quantisedLena are similar based on cosine similarity: 0.954879.
+	Images cameraman and quantisedLena are similar based on intersection distance: 0.754046.

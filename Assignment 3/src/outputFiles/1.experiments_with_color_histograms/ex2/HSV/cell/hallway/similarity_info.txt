@@ -1,0 +1,7 @@
+Distances: 
+	euclidian_distance = 0.481204
+	cosine_similarity = 0.072790
+	intersection_distance = 0.113218
+------------- 
+Similarities 
+	Images cell and hallway are similar based on Euclidean distance: 0.481204 .

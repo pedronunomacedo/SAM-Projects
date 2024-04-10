@@ -1,0 +1,14 @@
+Distances: 
+	euclidian_distance = 0.083466
+	cosine_similarity = 0.415456
+	intersection_distance = 0.342282
+------------- 
+Similarities 
+	Images DistortedImage and hestain are similar based on Euclidean distance: 0.083466 .
+Distances: 
+	euclidian_distance = 0.083466
+	cosine_similarity = 0.415456
+	intersection_distance = 0.342282
+------------- 
+Similarities 
+	Images DistortedImage and hestain are similar based on Euclidean distance: 0.083466 .

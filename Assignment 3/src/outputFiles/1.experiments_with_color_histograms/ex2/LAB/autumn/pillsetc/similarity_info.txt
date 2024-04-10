@@ -1,0 +1,7 @@
+Distances: 
+	euclidian_distance = 0.168348
+	cosine_similarity = 0.442266
+	intersection_distance = 0.399851
+------------- 
+Similarities 
+	Images autumn and pillsetc are similar based on Euclidean distance: 0.168348 .

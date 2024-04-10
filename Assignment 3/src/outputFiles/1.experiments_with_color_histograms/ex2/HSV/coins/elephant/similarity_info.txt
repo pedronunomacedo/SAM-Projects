@@ -1,0 +1,9 @@
+Distances: 
+	euclidian_distance = 0.047298
+	cosine_similarity = 0.995010
+	intersection_distance = 0.796655
+------------- 
+Similarities 
+	Images coins and elephant are similar based on Euclidean distance: 0.047298 .
+	Images coins and elephant are similar based on cosine similarity: 0.995010.
+	Images coins and elephant are similar based on intersection distance: 0.796655.

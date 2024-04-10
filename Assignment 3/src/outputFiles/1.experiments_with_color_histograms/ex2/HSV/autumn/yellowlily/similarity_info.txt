@@ -1,0 +1,7 @@
+Distances: 
+	euclidian_distance = 0.106532
+	cosine_similarity = 0.264650
+	intersection_distance = 0.358460
+------------- 
+Similarities 
+	Images autumn and yellowlily are similar based on Euclidean distance: 0.106532 .

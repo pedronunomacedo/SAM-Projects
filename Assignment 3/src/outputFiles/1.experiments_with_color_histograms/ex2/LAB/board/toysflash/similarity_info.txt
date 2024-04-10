@@ -1,0 +1,8 @@
+Distances: 
+	euclidian_distance = 0.083444
+	cosine_similarity = 0.537884
+	intersection_distance = 0.542365
+------------- 
+Similarities 
+	Images board and toysflash are similar based on Euclidean distance: 0.083444 .
+	Images board and toysflash are similar based on intersection distance: 0.542365.

@@ -1,0 +1,9 @@
+Distances: 
+	euclidian_distance = 0.086680
+	cosine_similarity = 0.983479
+	intersection_distance = 0.763222
+------------- 
+Similarities 
+	Images cameraman and threads are similar based on Euclidean distance: 0.086680 .
+	Images /Users/pedromacedo/Desktop/Uni/SAM-Year4Semester2/Projects/Assignment 3/src/resources/cameraman.tif and /Users/pedromacedo/Desktop/Uni/SAM-Year4Semester2/Projects/Assignment 3/src/resources/threads.png are similar based on cosine similarity: 0.983479.
+	Images /Users/pedromacedo/Desktop/Uni/SAM-Year4Semester2/Projects/Assignment 3/src/resources/cameraman.tif and /Users/pedromacedo/Desktop/Uni/SAM-Year4Semester2/Projects/Assignment 3/src/resources/threads.png are similar based on intersection distance: 0.763222.

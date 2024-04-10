@@ -1,0 +1,9 @@
+Distances: 
+	euclidian_distance = 0.034306
+	cosine_similarity = 0.997364
+	intersection_distance = 0.811133
+------------- 
+Similarities 
+	Images circuit and contorno are similar based on Euclidean distance: 0.034306 .
+	Images circuit and contorno are similar based on cosine similarity: 0.997364.
+	Images circuit and contorno are similar based on intersection distance: 0.811133.

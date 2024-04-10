@@ -1,0 +1,7 @@
+Distances: 
+	euclidian_distance = 0.144767
+	cosine_similarity = 0.138534
+	intersection_distance = 0.256150
+------------- 
+Similarities 
+	Images autumn and folhasVerdes are similar based on Euclidean distance: 0.144767 .

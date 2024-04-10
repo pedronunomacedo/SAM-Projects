@@ -1,0 +1,9 @@
+Distances: 
+	euclidian_distance = 0.258387
+	cosine_similarity = 0.873514
+	intersection_distance = 0.666667
+------------- 
+Similarities 
+	Images cell and yellowlily-segmented are similar based on Euclidean distance: 0.258387 .
+	Images cell and yellowlily-segmented are similar based on cosine similarity: 0.873514.
+	Images cell and yellowlily-segmented are similar based on intersection distance: 0.666667.

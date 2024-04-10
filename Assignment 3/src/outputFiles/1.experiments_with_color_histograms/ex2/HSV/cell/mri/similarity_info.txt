@@ -1,0 +1,9 @@
+Distances: 
+	euclidian_distance = 0.235270
+	cosine_similarity = 0.891874
+	intersection_distance = 0.677753
+------------- 
+Similarities 
+	Images cell and mri are similar based on Euclidean distance: 0.235270 .
+	Images cell and mri are similar based on cosine similarity: 0.891874.
+	Images cell and mri are similar based on intersection distance: 0.677753.

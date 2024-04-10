@@ -1,0 +1,9 @@
+Distances: 
+	euclidian_distance = 0.046954
+	cosine_similarity = 0.995082
+	intersection_distance = 0.808507
+------------- 
+Similarities 
+	Images canoe and cameraman are similar based on Euclidean distance: 0.046954 .
+	Images canoe and cameraman are similar based on cosine similarity: 0.995082.
+	Images canoe and cameraman are similar based on intersection distance: 0.808507.

@@ -1,0 +1,7 @@
+Distances: 
+	euclidian_distance = 0.106066
+	cosine_similarity = 0.477128
+	intersection_distance = 0.493154
+------------- 
+Similarities 
+	Images board and football are similar based on Euclidean distance: 0.106066 .

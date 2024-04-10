@@ -1,0 +1,7 @@
+Distances: 
+	euclidian_distance = 0.121367
+	cosine_similarity = 0.550609
+	intersection_distance = 0.471474
+------------- 
+Similarities 
+	Images baby and lowlight_1 are similar based on Euclidean distance: 0.121367 .

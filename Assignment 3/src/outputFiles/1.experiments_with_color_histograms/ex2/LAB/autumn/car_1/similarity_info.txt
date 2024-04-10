@@ -1,0 +1,8 @@
+Distances: 
+	euclidian_distance = 0.087372
+	cosine_similarity = 0.781466
+	intersection_distance = 0.589032
+------------- 
+Similarities 
+	Images autumn and car_1 are similar based on Euclidean distance: 0.087372 .
+	Images autumn and car_1 are similar based on intersection distance: 0.589032.

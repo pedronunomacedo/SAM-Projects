@@ -1,0 +1,7 @@
+Distances: 
+	euclidian_distance = 0.484691
+	cosine_similarity = 0.048735
+	intersection_distance = 0.080572
+------------- 
+Similarities 
+	Images cell and peppers are similar based on Euclidean distance: 0.484691 .

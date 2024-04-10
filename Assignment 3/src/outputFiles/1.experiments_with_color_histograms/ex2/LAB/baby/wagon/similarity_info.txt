@@ -1,0 +1,8 @@
+Distances: 
+	euclidian_distance = 0.110524
+	cosine_similarity = 0.483913
+	intersection_distance = 0.541954
+------------- 
+Similarities 
+	Images baby and wagon are similar based on Euclidean distance: 0.110524 .
+	Images baby and wagon are similar based on intersection distance: 0.541954.

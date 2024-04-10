@@ -1,0 +1,7 @@
+Distances: 
+	euclidian_distance = 0.444603
+	cosine_similarity = 0.564147
+	intersection_distance = 0.154032
+------------- 
+Similarities 
+	Images board and forest are similar based on Euclidean distance: 0.444603 .

@@ -1,0 +1,7 @@
+Distances: 
+	euclidian_distance = 0.466563
+	cosine_similarity = 0.157188
+	intersection_distance = 0.255662
+------------- 
+Similarities 
+	Images baby and printedtext are similar based on Euclidean distance: 0.466563 .

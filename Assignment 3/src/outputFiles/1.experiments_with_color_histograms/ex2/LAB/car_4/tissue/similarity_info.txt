@@ -1,0 +1,7 @@
+Distances: 
+	euclidian_distance = 0.537946
+	cosine_similarity = 0.117823
+	intersection_distance = 0.028055
+------------- 
+Similarities 
+	Images car_4 and tissue are similar based on Euclidean distance: 0.537946 .

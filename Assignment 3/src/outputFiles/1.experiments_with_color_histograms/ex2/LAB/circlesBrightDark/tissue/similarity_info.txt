@@ -1,0 +1,7 @@
+Distances: 
+	euclidian_distance = 0.538928
+	cosine_similarity = 0.128005
+	intersection_distance = 0.027080
+------------- 
+Similarities 
+	Images circlesBrightDark and tissue are similar based on Euclidean distance: 0.538928 .

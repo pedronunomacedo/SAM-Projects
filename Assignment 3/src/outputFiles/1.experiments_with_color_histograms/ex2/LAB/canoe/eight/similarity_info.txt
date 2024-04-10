@@ -1,0 +1,9 @@
+Distances: 
+	euclidian_distance = 0.110082
+	cosine_similarity = 0.973644
+	intersection_distance = 0.723845
+------------- 
+Similarities 
+	Images canoe and eight are similar based on Euclidean distance: 0.110082 .
+	Images canoe and eight are similar based on cosine similarity: 0.973644.
+	Images canoe and eight are similar based on intersection distance: 0.723845.

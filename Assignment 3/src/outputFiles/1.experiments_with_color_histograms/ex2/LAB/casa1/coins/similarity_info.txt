@@ -1,0 +1,9 @@
+Distances: 
+	euclidian_distance = 0.063363
+	cosine_similarity = 0.991061
+	intersection_distance = 0.763305
+------------- 
+Similarities 
+	Images casa1 and coins are similar based on Euclidean distance: 0.063363 .
+	Images casa1 and coins are similar based on cosine similarity: 0.991061.
+	Images casa1 and coins are similar based on intersection distance: 0.763305.

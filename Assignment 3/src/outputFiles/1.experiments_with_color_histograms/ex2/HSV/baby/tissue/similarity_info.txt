@@ -1,0 +1,8 @@
+Distances: 
+	euclidian_distance = 0.101606
+	cosine_similarity = 0.320615
+	intersection_distance = 0.543342
+------------- 
+Similarities 
+	Images baby and tissue are similar based on Euclidean distance: 0.101606 .
+	Images /Users/pedromacedo/Desktop/Uni/SAM-Year4Semester2/Projects/Assignment 3/src/resources/baby.jpg and /Users/pedromacedo/Desktop/Uni/SAM-Year4Semester2/Projects/Assignment 3/src/resources/tissue.png are similar based on intersection distance: 0.543342.

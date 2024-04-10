@@ -1,0 +1,9 @@
+Distances: 
+	euclidian_distance = 0.238482
+	cosine_similarity = 0.889378
+	intersection_distance = 0.687293
+------------- 
+Similarities 
+	Images cell and testpat1 are similar based on Euclidean distance: 0.238482 .
+	Images cell and testpat1 are similar based on cosine similarity: 0.889378.
+	Images cell and testpat1 are similar based on intersection distance: 0.687293.

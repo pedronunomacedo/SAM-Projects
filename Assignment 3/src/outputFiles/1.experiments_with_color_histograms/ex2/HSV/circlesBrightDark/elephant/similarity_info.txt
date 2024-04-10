@@ -1,0 +1,9 @@
+Distances: 
+	euclidian_distance = 0.270452
+	cosine_similarity = 0.867326
+	intersection_distance = 0.680102
+------------- 
+Similarities 
+	Images circlesBrightDark and elephant are similar based on Euclidean distance: 0.270452 .
+	Images circlesBrightDark and elephant are similar based on cosine similarity: 0.867326.
+	Images circlesBrightDark and elephant are similar based on intersection distance: 0.680102.

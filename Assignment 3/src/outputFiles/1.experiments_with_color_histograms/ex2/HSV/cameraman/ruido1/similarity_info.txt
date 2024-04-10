@@ -1,0 +1,9 @@
+Distances: 
+	euclidian_distance = 0.028425
+	cosine_similarity = 0.998190
+	intersection_distance = 0.840210
+------------- 
+Similarities 
+	Images cameraman and ruido1 are similar based on Euclidean distance: 0.028425 .
+	Images /Users/pedromacedo/Desktop/Uni/SAM-Year4Semester2/Projects/Assignment 3/src/resources/cameraman.tif and /Users/pedromacedo/Desktop/Uni/SAM-Year4Semester2/Projects/Assignment 3/src/resources/ruido1.jpg are similar based on cosine similarity: 0.998190.
+	Images /Users/pedromacedo/Desktop/Uni/SAM-Year4Semester2/Projects/Assignment 3/src/resources/cameraman.tif and /Users/pedromacedo/Desktop/Uni/SAM-Year4Semester2/Projects/Assignment 3/src/resources/ruido1.jpg are similar based on intersection distance: 0.840210.

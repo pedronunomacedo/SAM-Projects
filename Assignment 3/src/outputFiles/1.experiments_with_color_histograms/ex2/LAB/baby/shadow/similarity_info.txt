@@ -1,0 +1,7 @@
+Distances: 
+	euclidian_distance = 0.442097
+	cosine_similarity = 0.389855
+	intersection_distance = 0.254531
+------------- 
+Similarities 
+	Images baby and shadow are similar based on Euclidean distance: 0.442097 .

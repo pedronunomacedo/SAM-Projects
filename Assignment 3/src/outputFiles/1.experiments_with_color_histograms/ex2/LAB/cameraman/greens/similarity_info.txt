@@ -1,0 +1,7 @@
+Distances: 
+	euclidian_distance = 0.474269
+	cosine_similarity = 0.100794
+	intersection_distance = 0.136785
+------------- 
+Similarities 
+	Images cameraman and greens are similar based on Euclidean distance: 0.474269 .

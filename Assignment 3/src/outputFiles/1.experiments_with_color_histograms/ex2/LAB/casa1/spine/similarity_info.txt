@@ -1,0 +1,9 @@
+Distances: 
+	euclidian_distance = 0.143583
+	cosine_similarity = 0.956276
+	intersection_distance = 0.683045
+------------- 
+Similarities 
+	Images casa1 and spine are similar based on Euclidean distance: 0.143583 .
+	Images casa1 and spine are similar based on cosine similarity: 0.956276.
+	Images casa1 and spine are similar based on intersection distance: 0.683045.

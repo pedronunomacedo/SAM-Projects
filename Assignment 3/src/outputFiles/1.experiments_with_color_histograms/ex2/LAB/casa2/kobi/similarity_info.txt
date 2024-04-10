@@ -1,0 +1,7 @@
+Distances: 
+	euclidian_distance = 0.488618
+	cosine_similarity = 0.027328
+	intersection_distance = 0.165461
+------------- 
+Similarities 
+	Images casa2 and kobi are similar based on Euclidean distance: 0.488618 .

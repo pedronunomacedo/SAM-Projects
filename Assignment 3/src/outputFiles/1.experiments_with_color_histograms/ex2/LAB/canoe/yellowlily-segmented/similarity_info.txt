@@ -1,0 +1,9 @@
+Distances: 
+	euclidian_distance = 0.245921
+	cosine_similarity = 0.885659
+	intersection_distance = 0.666667
+------------- 
+Similarities 
+	Images canoe and yellowlily-segmented are similar based on Euclidean distance: 0.245921 .
+	Images canoe and yellowlily-segmented are similar based on cosine similarity: 0.885659.
+	Images canoe and yellowlily-segmented are similar based on intersection distance: 0.666667.

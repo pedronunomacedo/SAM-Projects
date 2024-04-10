@@ -1,0 +1,9 @@
+Distances: 
+	euclidian_distance = 0.093795
+	cosine_similarity = 0.980771
+	intersection_distance = 0.742445
+------------- 
+Similarities 
+	Images canoe and cell are similar based on Euclidean distance: 0.093795 .
+	Images /Users/pedromacedo/Desktop/Uni/SAM-Year4Semester2/Projects/Assignment 3/src/resources/canoe.tif and /Users/pedromacedo/Desktop/Uni/SAM-Year4Semester2/Projects/Assignment 3/src/resources/cell.tif are similar based on cosine similarity: 0.980771.
+	Images /Users/pedromacedo/Desktop/Uni/SAM-Year4Semester2/Projects/Assignment 3/src/resources/canoe.tif and /Users/pedromacedo/Desktop/Uni/SAM-Year4Semester2/Projects/Assignment 3/src/resources/cell.tif are similar based on intersection distance: 0.742445.

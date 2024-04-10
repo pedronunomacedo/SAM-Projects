@@ -1,0 +1,9 @@
+Distances: 
+	euclidian_distance = 0.210034
+	cosine_similarity = 0.899141
+	intersection_distance = 0.579560
+------------- 
+Similarities 
+	Images cameraman and pinnochio_ColorAndGray are similar based on Euclidean distance: 0.210034 .
+	Images /Users/pedromacedo/Desktop/Uni/SAM-Year4Semester2/Projects/Assignment 3/src/resources/cameraman.tif and /Users/pedromacedo/Desktop/Uni/SAM-Year4Semester2/Projects/Assignment 3/src/resources/pinnochio_ColorAndGray.jpg are similar based on cosine similarity: 0.899141.
+	Images /Users/pedromacedo/Desktop/Uni/SAM-Year4Semester2/Projects/Assignment 3/src/resources/cameraman.tif and /Users/pedromacedo/Desktop/Uni/SAM-Year4Semester2/Projects/Assignment 3/src/resources/pinnochio_ColorAndGray.jpg are similar based on intersection distance: 0.579560.

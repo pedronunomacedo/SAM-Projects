@@ -1,0 +1,9 @@
+Distances: 
+	euclidian_distance = 0.045273
+	cosine_similarity = 0.995424
+	intersection_distance = 0.790988
+------------- 
+Similarities 
+	Images canoe and shadow are similar based on Euclidean distance: 0.045273 .
+	Images /Users/pedromacedo/Desktop/Uni/SAM-Year4Semester2/Projects/Assignment 3/src/resources/canoe.tif and /Users/pedromacedo/Desktop/Uni/SAM-Year4Semester2/Projects/Assignment 3/src/resources/shadow.tif are similar based on cosine similarity: 0.995424.
+	Images /Users/pedromacedo/Desktop/Uni/SAM-Year4Semester2/Projects/Assignment 3/src/resources/canoe.tif and /Users/pedromacedo/Desktop/Uni/SAM-Year4Semester2/Projects/Assignment 3/src/resources/shadow.tif are similar based on intersection distance: 0.790988.

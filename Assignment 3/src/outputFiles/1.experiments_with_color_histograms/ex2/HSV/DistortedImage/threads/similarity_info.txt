@@ -1,0 +1,7 @@
+Distances: 
+	euclidian_distance = 0.477668
+	cosine_similarity = 0.085884
+	intersection_distance = 0.048784
+------------- 
+Similarities 
+	Images DistortedImage and threads are similar based on Euclidean distance: 0.477668 .

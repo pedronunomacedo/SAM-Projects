@@ -1,0 +1,9 @@
+Distances: 
+	euclidian_distance = 0.000000
+	cosine_similarity = 1.000000
+	intersection_distance = 1.000000
+------------- 
+Similarities 
+	Images autumn and autumn are similar based on Euclidean distance: 0.000000 .
+	Images /Users/pedromacedo/Desktop/Uni/SAM-Year4Semester2/Projects/Assignment 3/src/resources2/autumn.tif and /Users/pedromacedo/Desktop/Uni/SAM-Year4Semester2/Projects/Assignment 3/src/resources2/autumn.tif are similar based on cosine similarity: 1.000000.
+	Images /Users/pedromacedo/Desktop/Uni/SAM-Year4Semester2/Projects/Assignment 3/src/resources2/autumn.tif and /Users/pedromacedo/Desktop/Uni/SAM-Year4Semester2/Projects/Assignment 3/src/resources2/autumn.tif are similar based on intersection distance: 1.000000.

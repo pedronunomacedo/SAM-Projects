@@ -1,0 +1,8 @@
+Distances: 
+	euclidian_distance = 0.086294
+	cosine_similarity = 0.752589
+	intersection_distance = 0.627172
+------------- 
+Similarities 
+	Images board and autumn are similar based on Euclidean distance: 0.086294 .
+	Images board and autumn are similar based on intersection distance: 0.627172.

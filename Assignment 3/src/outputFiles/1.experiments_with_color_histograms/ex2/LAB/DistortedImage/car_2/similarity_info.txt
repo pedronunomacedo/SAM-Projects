@@ -1,0 +1,7 @@
+Distances: 
+	euclidian_distance = 0.252580
+	cosine_similarity = 0.383603
+	intersection_distance = 0.260683
+------------- 
+Similarities 
+	Images DistortedImage and car_2 are similar based on Euclidean distance: 0.252580 .

@@ -1,0 +1,7 @@
+Distances: 
+	euclidian_distance = 0.556432
+	cosine_similarity = 0.021025
+	intersection_distance = 0.016403
+------------- 
+Similarities 
+	Images car_4 and kobi are similar based on Euclidean distance: 0.556432 .

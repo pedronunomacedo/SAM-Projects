@@ -1,0 +1,7 @@
+Distances: 
+	euclidian_distance = 0.267859
+	cosine_similarity = 0.196701
+	intersection_distance = 0.206032
+------------- 
+Similarities 
+	Images car_2 and trailer are similar based on Euclidean distance: 0.267859 .

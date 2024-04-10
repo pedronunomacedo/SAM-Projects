@@ -1,0 +1,7 @@
+Distances: 
+	euclidian_distance = 0.138970
+	cosine_similarity = 0.311340
+	intersection_distance = 0.282805
+------------- 
+Similarities 
+	Images autumn and pears are similar based on Euclidean distance: 0.138970 .

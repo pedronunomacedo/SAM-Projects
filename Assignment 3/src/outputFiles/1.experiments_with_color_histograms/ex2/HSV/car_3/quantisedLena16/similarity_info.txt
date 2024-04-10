@@ -1,0 +1,8 @@
+Distances: 
+	euclidian_distance = 0.255007
+	cosine_similarity = 0.925897
+	intersection_distance = 0.415732
+------------- 
+Similarities 
+	Images car_3 and quantisedLena16 are similar based on Euclidean distance: 0.255007 .
+	Images /Users/pedromacedo/Desktop/Uni/SAM-Year4Semester2/Projects/Assignment 3/src/resources/car_3.jpg and /Users/pedromacedo/Desktop/Uni/SAM-Year4Semester2/Projects/Assignment 3/src/resources/quantisedLena16.jpg are similar based on cosine similarity: 0.925897.

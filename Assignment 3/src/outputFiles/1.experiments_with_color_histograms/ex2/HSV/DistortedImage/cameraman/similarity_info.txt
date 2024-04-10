@@ -1,0 +1,21 @@
+Distances: 
+	euclidian_distance = 0.471645
+	cosine_similarity = 0.085808
+	intersection_distance = 0.074713
+------------- 
+Similarities 
+	Images DistortedImage and cameraman are similar based on Euclidean distance: 0.471645 .
+Distances: 
+	euclidian_distance = 0.471645
+	cosine_similarity = 0.085808
+	intersection_distance = 0.074713
+------------- 
+Similarities 
+	Images DistortedImage and cameraman are similar based on Euclidean distance: 0.471645 .
+Distances: 
+	euclidian_distance = 0.471645
+	cosine_similarity = 0.085808
+	intersection_distance = 0.074713
+------------- 
+Similarities 
+	Images DistortedImage and cameraman are similar based on Euclidean distance: 0.471645 .

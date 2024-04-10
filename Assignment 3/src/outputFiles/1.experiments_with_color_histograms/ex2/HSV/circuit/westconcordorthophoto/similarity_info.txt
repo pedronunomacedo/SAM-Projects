@@ -1,0 +1,9 @@
+Distances: 
+	euclidian_distance = 0.027418
+	cosine_similarity = 0.998315
+	intersection_distance = 0.845516
+------------- 
+Similarities 
+	Images circuit and westconcordorthophoto are similar based on Euclidean distance: 0.027418 .
+	Images circuit and westconcordorthophoto are similar based on cosine similarity: 0.998315.
+	Images circuit and westconcordorthophoto are similar based on intersection distance: 0.845516.

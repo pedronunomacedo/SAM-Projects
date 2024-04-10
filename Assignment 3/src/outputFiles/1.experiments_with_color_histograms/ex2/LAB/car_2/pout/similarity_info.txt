@@ -1,0 +1,8 @@
+Distances: 
+	euclidian_distance = 0.244832
+	cosine_similarity = 0.928153
+	intersection_distance = 0.376391
+------------- 
+Similarities 
+	Images car_2 and pout are similar based on Euclidean distance: 0.244832 .
+	Images car_2 and pout are similar based on cosine similarity: 0.928153.

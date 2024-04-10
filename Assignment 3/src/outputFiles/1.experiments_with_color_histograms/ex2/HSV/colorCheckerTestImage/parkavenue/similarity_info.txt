@@ -1,0 +1,7 @@
+Distances: 
+	euclidian_distance = 0.096790
+	cosine_similarity = 0.278317
+	intersection_distance = 0.381633
+------------- 
+Similarities 
+	Images colorCheckerTestImage and parkavenue are similar based on Euclidean distance: 0.096790 .

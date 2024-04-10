@@ -1,0 +1,7 @@
+Distances: 
+	euclidian_distance = 0.454825
+	cosine_similarity = 0.303727
+	intersection_distance = 0.109611
+------------- 
+Similarities 
+	Images autumn and contorno are similar based on Euclidean distance: 0.454825 .

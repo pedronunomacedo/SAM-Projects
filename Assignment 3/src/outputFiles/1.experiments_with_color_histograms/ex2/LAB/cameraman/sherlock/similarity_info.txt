@@ -1,0 +1,7 @@
+Distances: 
+	euclidian_distance = 0.468993
+	cosine_similarity = 0.153840
+	intersection_distance = 0.199852
+------------- 
+Similarities 
+	Images cameraman and sherlock are similar based on Euclidean distance: 0.468993 .

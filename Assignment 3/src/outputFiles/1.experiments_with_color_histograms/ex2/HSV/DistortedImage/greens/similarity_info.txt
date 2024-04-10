@@ -1,0 +1,14 @@
+Distances: 
+	euclidian_distance = 0.073503
+	cosine_similarity = 0.335859
+	intersection_distance = 0.388320
+------------- 
+Similarities 
+	Images DistortedImage and greens are similar based on Euclidean distance: 0.073503 .
+Distances: 
+	euclidian_distance = 0.073503
+	cosine_similarity = 0.335859
+	intersection_distance = 0.388320
+------------- 
+Similarities 
+	Images DistortedImage and greens are similar based on Euclidean distance: 0.073503 .

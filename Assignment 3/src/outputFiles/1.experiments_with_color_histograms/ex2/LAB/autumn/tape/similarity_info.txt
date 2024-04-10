@@ -1,0 +1,8 @@
+Distances: 
+	euclidian_distance = 0.112624
+	cosine_similarity = 0.715291
+	intersection_distance = 0.532848
+------------- 
+Similarities 
+	Images autumn and tape are similar based on Euclidean distance: 0.112624 .
+	Images autumn and tape are similar based on intersection distance: 0.532848.

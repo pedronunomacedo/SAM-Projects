@@ -1,0 +1,7 @@
+Distances: 
+	euclidian_distance = 0.458454
+	cosine_similarity = 0.281194
+	intersection_distance = 0.230584
+------------- 
+Similarities 
+	Images DistortedImage and shadow are similar based on Euclidean distance: 0.458454 .

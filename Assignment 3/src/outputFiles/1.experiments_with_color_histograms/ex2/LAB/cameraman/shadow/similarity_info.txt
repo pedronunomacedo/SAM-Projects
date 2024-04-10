@@ -1,0 +1,9 @@
+Distances: 
+	euclidian_distance = 0.037457
+	cosine_similarity = 0.996860
+	intersection_distance = 0.823098
+------------- 
+Similarities 
+	Images cameraman and shadow are similar based on Euclidean distance: 0.037457 .
+	Images cameraman and shadow are similar based on cosine similarity: 0.996860.
+	Images cameraman and shadow are similar based on intersection distance: 0.823098.

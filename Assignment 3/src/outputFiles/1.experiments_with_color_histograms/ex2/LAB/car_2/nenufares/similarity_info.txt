@@ -1,0 +1,7 @@
+Distances: 
+	euclidian_distance = 0.252728
+	cosine_similarity = 0.359392
+	intersection_distance = 0.337697
+------------- 
+Similarities 
+	Images car_2 and nenufares are similar based on Euclidean distance: 0.252728 .

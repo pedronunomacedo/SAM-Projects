@@ -1,0 +1,7 @@
+Distances: 
+	euclidian_distance = 0.148202
+	cosine_similarity = 0.386402
+	intersection_distance = 0.373833
+------------- 
+Similarities 
+	Images autumn and gantrycrane are similar based on Euclidean distance: 0.148202 .

@@ -1,0 +1,9 @@
+Distances: 
+	euclidian_distance = 0.052427
+	cosine_similarity = 0.993869
+	intersection_distance = 0.780608
+------------- 
+Similarities 
+	Images coins and shadow are similar based on Euclidean distance: 0.052427 .
+	Images coins and shadow are similar based on cosine similarity: 0.993869.
+	Images coins and shadow are similar based on intersection distance: 0.780608.

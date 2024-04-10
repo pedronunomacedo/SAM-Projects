@@ -1,0 +1,7 @@
+Distances: 
+	euclidian_distance = 0.478629
+	cosine_similarity = 0.004425
+	intersection_distance = 0.031038
+------------- 
+Similarities 
+	Images circuit and coloredChips are similar based on Euclidean distance: 0.478629 .

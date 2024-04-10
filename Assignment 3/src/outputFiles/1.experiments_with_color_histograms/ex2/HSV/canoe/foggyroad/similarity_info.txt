@@ -1,0 +1,7 @@
+Distances: 
+	euclidian_distance = 0.485070
+	cosine_similarity = 0.056456
+	intersection_distance = 0.139314
+------------- 
+Similarities 
+	Images canoe and foggyroad are similar based on Euclidean distance: 0.485070 .

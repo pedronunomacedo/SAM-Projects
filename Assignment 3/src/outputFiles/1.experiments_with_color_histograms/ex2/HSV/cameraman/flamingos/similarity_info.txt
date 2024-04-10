@@ -1,0 +1,7 @@
+Distances: 
+	euclidian_distance = 0.468685
+	cosine_similarity = 0.129314
+	intersection_distance = 0.137571
+------------- 
+Similarities 
+	Images cameraman and flamingos are similar based on Euclidean distance: 0.468685 .

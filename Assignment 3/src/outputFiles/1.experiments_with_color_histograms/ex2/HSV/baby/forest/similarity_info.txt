@@ -1,0 +1,7 @@
+Distances: 
+	euclidian_distance = 0.476717
+	cosine_similarity = 0.165129
+	intersection_distance = 0.132942
+------------- 
+Similarities 
+	Images baby and forest are similar based on Euclidean distance: 0.476717 .

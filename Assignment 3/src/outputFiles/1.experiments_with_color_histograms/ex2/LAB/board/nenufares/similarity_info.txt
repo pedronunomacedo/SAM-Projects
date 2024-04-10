@@ -1,0 +1,8 @@
+Distances: 
+	euclidian_distance = 0.082922
+	cosine_similarity = 0.572003
+	intersection_distance = 0.522281
+------------- 
+Similarities 
+	Images board and nenufares are similar based on Euclidean distance: 0.082922 .
+	Images board and nenufares are similar based on intersection distance: 0.522281.

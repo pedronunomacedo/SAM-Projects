@@ -1,0 +1,9 @@
+Distances: 
+	euclidian_distance = 0.280109
+	cosine_similarity = 0.852441
+	intersection_distance = 0.651840
+------------- 
+Similarities 
+	Images car_4 and shadow are similar based on Euclidean distance: 0.280109 .
+	Images /Users/pedromacedo/Desktop/Uni/SAM-Year4Semester2/Projects/Assignment 3/src/resources/car_4.jpg and /Users/pedromacedo/Desktop/Uni/SAM-Year4Semester2/Projects/Assignment 3/src/resources/shadow.tif are similar based on cosine similarity: 0.852441.
+	Images /Users/pedromacedo/Desktop/Uni/SAM-Year4Semester2/Projects/Assignment 3/src/resources/car_4.jpg and /Users/pedromacedo/Desktop/Uni/SAM-Year4Semester2/Projects/Assignment 3/src/resources/shadow.tif are similar based on intersection distance: 0.651840.

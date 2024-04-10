@@ -1,0 +1,8 @@
+Distances: 
+	euclidian_distance = 0.077062
+	cosine_similarity = 0.413583
+	intersection_distance = 0.524007
+------------- 
+Similarities 
+	Images baby and foggysf1 are similar based on Euclidean distance: 0.077062 .
+	Images /Users/pedromacedo/Desktop/Uni/SAM-Year4Semester2/Projects/Assignment 3/src/resources/baby.jpg and /Users/pedromacedo/Desktop/Uni/SAM-Year4Semester2/Projects/Assignment 3/src/resources/foggysf1.jpg are similar based on intersection distance: 0.524007.

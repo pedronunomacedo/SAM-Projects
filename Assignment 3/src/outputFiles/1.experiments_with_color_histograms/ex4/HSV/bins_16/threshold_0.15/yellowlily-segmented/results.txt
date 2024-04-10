@@ -1,0 +1,19 @@
+retrieved_images:
+expected:    
+    {'../resources/yellowlily-segmented.png'}    
+    {'../resources/folhasVerdes.bmp'}
+
+
+TP: 0
+FP: 0
+FN: 2
+TN: 95
+
+
+Accuracy: 0.98
+Precision: NaN
+Recall: 0.00
+F1 Score: NaN
+
+ans =
+    1×0 empty double row vector

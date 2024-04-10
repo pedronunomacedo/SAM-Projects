@@ -1,0 +1,9 @@
+Distances: 
+	euclidian_distance = 0.000000
+	cosine_similarity = 1.000000
+	intersection_distance = 1.000000
+------------- 
+Similarities 
+	Images car_4 and car_4 are similar based on Euclidean distance: 0.000000 .
+	Images car_4 and car_4 are similar based on cosine similarity: 1.000000.
+	Images car_4 and car_4 are similar based on intersection distance: 1.000000.

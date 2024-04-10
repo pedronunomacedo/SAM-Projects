@@ -1,0 +1,7 @@
+Distances: 
+	euclidian_distance = 0.122683
+	cosine_similarity = 0.448929
+	intersection_distance = 0.436525
+------------- 
+Similarities 
+	Images baby and coloredChips are similar based on Euclidean distance: 0.122683 .

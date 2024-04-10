@@ -1,0 +1,9 @@
+Distances: 
+	euclidian_distance = 0.288286
+	cosine_similarity = 0.848598
+	intersection_distance = 0.686457
+------------- 
+Similarities 
+	Images circlesBrightDark and m83 are similar based on Euclidean distance: 0.288286 .
+	Images circlesBrightDark and m83 are similar based on cosine similarity: 0.848598.
+	Images circlesBrightDark and m83 are similar based on intersection distance: 0.686457.

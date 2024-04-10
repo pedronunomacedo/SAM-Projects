@@ -1,0 +1,7 @@
+Distances: 
+	euclidian_distance = 0.549497
+	cosine_similarity = 0.030471
+	intersection_distance = 0.016087
+------------- 
+Similarities 
+	Images circlesBrightDark and parkavenue are similar based on Euclidean distance: 0.549497 .

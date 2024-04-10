@@ -1,0 +1,9 @@
+Distances: 
+	euclidian_distance = 0.108098
+	cosine_similarity = 0.974621
+	intersection_distance = 0.707062
+------------- 
+Similarities 
+	Images circuit and forest are similar based on Euclidean distance: 0.108098 .
+	Images circuit and forest are similar based on cosine similarity: 0.974621.
+	Images circuit and forest are similar based on intersection distance: 0.707062.

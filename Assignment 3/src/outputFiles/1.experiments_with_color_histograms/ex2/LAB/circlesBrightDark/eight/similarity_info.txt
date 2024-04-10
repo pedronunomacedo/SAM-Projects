@@ -1,0 +1,9 @@
+Distances: 
+	euclidian_distance = 0.287783
+	cosine_similarity = 0.849097
+	intersection_distance = 0.674004
+------------- 
+Similarities 
+	Images circlesBrightDark and eight are similar based on Euclidean distance: 0.287783 .
+	Images circlesBrightDark and eight are similar based on cosine similarity: 0.849097.
+	Images circlesBrightDark and eight are similar based on intersection distance: 0.674004.

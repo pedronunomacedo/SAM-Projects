@@ -1,0 +1,7 @@
+Distances: 
+	euclidian_distance = 0.477855
+	cosine_similarity = 0.009120
+	intersection_distance = 0.154748
+------------- 
+Similarities 
+	Images casa2 and pears are similar based on Euclidean distance: 0.477855 .

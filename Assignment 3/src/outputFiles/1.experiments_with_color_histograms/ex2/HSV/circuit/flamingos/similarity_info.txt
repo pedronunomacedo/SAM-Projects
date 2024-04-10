@@ -1,0 +1,7 @@
+Distances: 
+	euclidian_distance = 0.468269
+	cosine_similarity = 0.133740
+	intersection_distance = 0.167573
+------------- 
+Similarities 
+	Images circuit and flamingos are similar based on Euclidean distance: 0.468269 .

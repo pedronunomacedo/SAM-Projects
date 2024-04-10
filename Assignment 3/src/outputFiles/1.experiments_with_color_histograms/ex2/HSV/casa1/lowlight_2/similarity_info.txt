@@ -1,0 +1,7 @@
+Distances: 
+	euclidian_distance = 0.454470
+	cosine_similarity = 0.283276
+	intersection_distance = 0.155801
+------------- 
+Similarities 
+	Images casa1 and lowlight_2 are similar based on Euclidean distance: 0.454470 .

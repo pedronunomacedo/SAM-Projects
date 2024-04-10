@@ -1,0 +1,7 @@
+Distances: 
+	euclidian_distance = 0.161117
+	cosine_similarity = 0.436293
+	intersection_distance = 0.223937
+------------- 
+Similarities 
+	Images DistortedImage and pillsetc are similar based on Euclidean distance: 0.161117 .

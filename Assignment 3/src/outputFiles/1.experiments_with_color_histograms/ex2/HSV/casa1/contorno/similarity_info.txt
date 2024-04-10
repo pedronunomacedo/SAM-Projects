@@ -1,0 +1,9 @@
+Distances: 
+	euclidian_distance = 0.047562
+	cosine_similarity = 0.994950
+	intersection_distance = 0.858114
+------------- 
+Similarities 
+	Images casa1 and contorno are similar based on Euclidean distance: 0.047562 .
+	Images /Users/pedromacedo/Desktop/Uni/SAM-Year4Semester2/Projects/Assignment 3/src/resources/casa1.jpg and /Users/pedromacedo/Desktop/Uni/SAM-Year4Semester2/Projects/Assignment 3/src/resources/contorno.jpg are similar based on cosine similarity: 0.994950.
+	Images /Users/pedromacedo/Desktop/Uni/SAM-Year4Semester2/Projects/Assignment 3/src/resources/casa1.jpg and /Users/pedromacedo/Desktop/Uni/SAM-Year4Semester2/Projects/Assignment 3/src/resources/contorno.jpg are similar based on intersection distance: 0.858114.

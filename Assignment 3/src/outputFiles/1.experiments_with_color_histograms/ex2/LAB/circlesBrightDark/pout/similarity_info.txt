@@ -1,0 +1,9 @@
+Distances: 
+	euclidian_distance = 0.261619
+	cosine_similarity = 0.876461
+	intersection_distance = 0.686232
+------------- 
+Similarities 
+	Images circlesBrightDark and pout are similar based on Euclidean distance: 0.261619 .
+	Images circlesBrightDark and pout are similar based on cosine similarity: 0.876461.
+	Images circlesBrightDark and pout are similar based on intersection distance: 0.686232.

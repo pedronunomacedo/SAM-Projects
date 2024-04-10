@@ -1,0 +1,27 @@
+retrieved_images:    
+    {'../resources/office_5.jpg'}
+    {'../resources/office_4.jpg'}
+    {'../resources/office_3.jpg'}
+    {'../resources/baby.jpg'    }
+    {'../resources/peacock.jpg' }
+
+
+expected:    
+    {'../resources/llama.jpg'}    
+    {'../resources/office_5.jpg'}    
+    {'../resources/parkavenue.jpg'}
+
+
+TP: 1
+FP: 4
+FN: 2
+TN: 90
+
+
+Accuracy: 0.94
+Precision: 0.20
+Recall: 0.33
+F1 Score: 0.25
+
+ans =
+    56    55    54     3    60

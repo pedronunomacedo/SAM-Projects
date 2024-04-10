@@ -1,0 +1,7 @@
+Distances: 
+	euclidian_distance = 0.456368
+	cosine_similarity = 0.316461
+	intersection_distance = 0.192685
+------------- 
+Similarities 
+	Images car_1 and liftingbody are similar based on Euclidean distance: 0.456368 .

@@ -1,0 +1,9 @@
+Distances: 
+	euclidian_distance = 0.087968
+	cosine_similarity = 0.983095
+	intersection_distance = 0.753545
+------------- 
+Similarities 
+	Images cell and westconcordorthophoto are similar based on Euclidean distance: 0.087968 .
+	Images cell and westconcordorthophoto are similar based on cosine similarity: 0.983095.
+	Images cell and westconcordorthophoto are similar based on intersection distance: 0.753545.

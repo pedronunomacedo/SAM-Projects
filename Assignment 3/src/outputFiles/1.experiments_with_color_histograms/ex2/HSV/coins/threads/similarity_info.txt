@@ -1,0 +1,9 @@
+Distances: 
+	euclidian_distance = 0.092170
+	cosine_similarity = 0.981331
+	intersection_distance = 0.748892
+------------- 
+Similarities 
+	Images coins and threads are similar based on Euclidean distance: 0.092170 .
+	Images coins and threads are similar based on cosine similarity: 0.981331.
+	Images coins and threads are similar based on intersection distance: 0.748892.

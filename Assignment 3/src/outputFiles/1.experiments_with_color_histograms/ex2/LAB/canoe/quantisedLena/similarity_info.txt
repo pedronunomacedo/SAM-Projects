@@ -1,0 +1,9 @@
+Distances: 
+	euclidian_distance = 0.149702
+	cosine_similarity = 0.952796
+	intersection_distance = 0.730373
+------------- 
+Similarities 
+	Images canoe and quantisedLena are similar based on Euclidean distance: 0.149702 .
+	Images canoe and quantisedLena are similar based on cosine similarity: 0.952796.
+	Images canoe and quantisedLena are similar based on intersection distance: 0.730373.

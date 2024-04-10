@@ -1,0 +1,7 @@
+Distances: 
+	euclidian_distance = 0.156232
+	cosine_similarity = 0.036673
+	intersection_distance = 0.119763
+------------- 
+Similarities 
+	Images autumn and hestain are similar based on Euclidean distance: 0.156232 .

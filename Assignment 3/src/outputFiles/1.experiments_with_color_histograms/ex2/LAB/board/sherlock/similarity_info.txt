@@ -1,0 +1,7 @@
+Distances: 
+	euclidian_distance = 0.114019
+	cosine_similarity = 0.416236
+	intersection_distance = 0.459241
+------------- 
+Similarities 
+	Images board and sherlock are similar based on Euclidean distance: 0.114019 .

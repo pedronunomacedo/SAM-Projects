@@ -1,0 +1,7 @@
+Distances: 
+	euclidian_distance = 0.276653
+	cosine_similarity = 0.199144
+	intersection_distance = 0.158680
+------------- 
+Similarities 
+	Images car_3 and strawberries are similar based on Euclidean distance: 0.276653 .

@@ -1,0 +1,7 @@
+Distances: 
+	euclidian_distance = 0.473067
+	cosine_similarity = 0.051032
+	intersection_distance = 0.188340
+------------- 
+Similarities 
+	Images circuit and sevilla are similar based on Euclidean distance: 0.473067 .

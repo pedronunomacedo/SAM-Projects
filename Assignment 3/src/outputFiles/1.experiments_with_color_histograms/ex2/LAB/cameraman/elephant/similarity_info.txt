@@ -1,0 +1,9 @@
+Distances: 
+	euclidian_distance = 0.029315
+	cosine_similarity = 0.998076
+	intersection_distance = 0.867055
+------------- 
+Similarities 
+	Images cameraman and elephant are similar based on Euclidean distance: 0.029315 .
+	Images cameraman and elephant are similar based on cosine similarity: 0.998076.
+	Images cameraman and elephant are similar based on intersection distance: 0.867055.

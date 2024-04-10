@@ -1,0 +1,14 @@
+Distances: 
+	euclidian_distance = 0.485107
+	cosine_similarity = 0.185358
+	intersection_distance = 0.104500
+------------- 
+Similarities 
+	Images DistortedImage and lenaQuantised8 are similar based on Euclidean distance: 0.485107 .
+Distances: 
+	euclidian_distance = 0.485107
+	cosine_similarity = 0.185358
+	intersection_distance = 0.104500
+------------- 
+Similarities 
+	Images DistortedImage and lenaQuantised8 are similar based on Euclidean distance: 0.485107 .

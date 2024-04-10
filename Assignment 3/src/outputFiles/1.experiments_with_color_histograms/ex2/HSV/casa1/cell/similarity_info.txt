@@ -1,0 +1,9 @@
+Distances: 
+	euclidian_distance = 0.097802
+	cosine_similarity = 0.979085
+	intersection_distance = 0.748961
+------------- 
+Similarities 
+	Images casa1 and cell are similar based on Euclidean distance: 0.097802 .
+	Images /Users/pedromacedo/Desktop/Uni/SAM-Year4Semester2/Projects/Assignment 3/src/resources/casa1.jpg and /Users/pedromacedo/Desktop/Uni/SAM-Year4Semester2/Projects/Assignment 3/src/resources/cell.tif are similar based on cosine similarity: 0.979085.
+	Images /Users/pedromacedo/Desktop/Uni/SAM-Year4Semester2/Projects/Assignment 3/src/resources/casa1.jpg and /Users/pedromacedo/Desktop/Uni/SAM-Year4Semester2/Projects/Assignment 3/src/resources/cell.tif are similar based on intersection distance: 0.748961.

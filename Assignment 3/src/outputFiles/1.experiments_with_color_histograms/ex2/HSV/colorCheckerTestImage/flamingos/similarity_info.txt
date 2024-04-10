@@ -1,0 +1,8 @@
+Distances: 
+	euclidian_distance = 0.053802
+	cosine_similarity = 0.529291
+	intersection_distance = 0.564300
+------------- 
+Similarities 
+	Images colorCheckerTestImage and flamingos are similar based on Euclidean distance: 0.053802 .
+	Images colorCheckerTestImage and flamingos are similar based on intersection distance: 0.564300.

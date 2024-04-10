@@ -1,0 +1,8 @@
+Distances: 
+	euclidian_distance = 0.056409
+	cosine_similarity = 0.511628
+	intersection_distance = 0.559132
+------------- 
+Similarities 
+	Images colorCheckerTestImage and office_3 are similar based on Euclidean distance: 0.056409 .
+	Images colorCheckerTestImage and office_3 are similar based on intersection distance: 0.559132.

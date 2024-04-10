@@ -1,0 +1,14 @@
+Distances: 
+	euclidian_distance = 0.127871
+	cosine_similarity = 0.348655
+	intersection_distance = 0.292199
+------------- 
+Similarities 
+	Images DistortedImage and foggyroad are similar based on Euclidean distance: 0.127871 .
+Distances: 
+	euclidian_distance = 0.127871
+	cosine_similarity = 0.348655
+	intersection_distance = 0.292199
+------------- 
+Similarities 
+	Images DistortedImage and foggyroad are similar based on Euclidean distance: 0.127871 .

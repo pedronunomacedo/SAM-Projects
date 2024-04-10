@@ -1,0 +1,7 @@
+Distances: 
+	euclidian_distance = 0.485898
+	cosine_similarity = 0.012385
+	intersection_distance = 0.071544
+------------- 
+Similarities 
+	Images cell and pears are similar based on Euclidean distance: 0.485898 .

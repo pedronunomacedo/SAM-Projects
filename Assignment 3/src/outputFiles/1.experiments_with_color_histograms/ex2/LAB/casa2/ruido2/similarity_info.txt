@@ -1,0 +1,9 @@
+Distances: 
+	euclidian_distance = 0.006574
+	cosine_similarity = 0.999903
+	intersection_distance = 0.985177
+------------- 
+Similarities 
+	Images casa2 and ruido2 are similar based on Euclidean distance: 0.006574 .
+	Images casa2 and ruido2 are similar based on cosine similarity: 0.999903.
+	Images casa2 and ruido2 are similar based on intersection distance: 0.985177.

@@ -1,0 +1,9 @@
+Distances: 
+	euclidian_distance = 0.266841
+	cosine_similarity = 0.871104
+	intersection_distance = 0.684676
+------------- 
+Similarities 
+	Images circlesBrightDark and liftingbody are similar based on Euclidean distance: 0.266841 .
+	Images circlesBrightDark and liftingbody are similar based on cosine similarity: 0.871104.
+	Images circlesBrightDark and liftingbody are similar based on intersection distance: 0.684676.

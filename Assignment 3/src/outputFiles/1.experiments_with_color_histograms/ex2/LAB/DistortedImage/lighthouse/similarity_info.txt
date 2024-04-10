@@ -1,0 +1,9 @@
+Distances: 
+	euclidian_distance = 0.020182
+	cosine_similarity = 0.964872
+	intersection_distance = 0.908235
+------------- 
+Similarities 
+	Images DistortedImage and lighthouse are similar based on Euclidean distance: 0.020182 .
+	Images DistortedImage and lighthouse are similar based on cosine similarity: 0.964872.
+	Images DistortedImage and lighthouse are similar based on intersection distance: 0.908235.

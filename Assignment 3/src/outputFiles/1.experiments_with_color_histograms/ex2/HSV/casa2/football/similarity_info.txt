@@ -1,0 +1,7 @@
+Distances: 
+	euclidian_distance = 0.474133
+	cosine_similarity = 0.073432
+	intersection_distance = 0.211790
+------------- 
+Similarities 
+	Images casa2 and football are similar based on Euclidean distance: 0.474133 .

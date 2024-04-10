@@ -1,0 +1,7 @@
+Distances: 
+	euclidian_distance = 0.475982
+	cosine_similarity = 0.074667
+	intersection_distance = 0.125694
+------------- 
+Similarities 
+	Images coins and football are similar based on Euclidean distance: 0.475982 .

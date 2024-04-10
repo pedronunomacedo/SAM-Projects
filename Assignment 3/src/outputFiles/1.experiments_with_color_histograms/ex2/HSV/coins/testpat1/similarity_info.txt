@@ -1,0 +1,9 @@
+Distances: 
+	euclidian_distance = 0.224983
+	cosine_similarity = 0.901684
+	intersection_distance = 0.700517
+------------- 
+Similarities 
+	Images coins and testpat1 are similar based on Euclidean distance: 0.224983 .
+	Images coins and testpat1 are similar based on cosine similarity: 0.901684.
+	Images coins and testpat1 are similar based on intersection distance: 0.700517.

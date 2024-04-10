@@ -1,0 +1,9 @@
+Distances: 
+	euclidian_distance = 0.041861
+	cosine_similarity = 0.996090
+	intersection_distance = 0.806317
+------------- 
+Similarities 
+	Images canoe and westconcordorthophoto are similar based on Euclidean distance: 0.041861 .
+	Images canoe and westconcordorthophoto are similar based on cosine similarity: 0.996090.
+	Images canoe and westconcordorthophoto are similar based on intersection distance: 0.806317.

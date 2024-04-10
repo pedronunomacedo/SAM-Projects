@@ -1,0 +1,7 @@
+Distances: 
+	euclidian_distance = 0.472792
+	cosine_similarity = 0.070131
+	intersection_distance = 0.132648
+------------- 
+Similarities 
+	Images cameraman and peppers are similar based on Euclidean distance: 0.472792 .

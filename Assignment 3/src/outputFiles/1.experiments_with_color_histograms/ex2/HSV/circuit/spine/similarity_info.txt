@@ -1,0 +1,9 @@
+Distances: 
+	euclidian_distance = 0.134706
+	cosine_similarity = 0.961518
+	intersection_distance = 0.750110
+------------- 
+Similarities 
+	Images circuit and spine are similar based on Euclidean distance: 0.134706 .
+	Images circuit and spine are similar based on cosine similarity: 0.961518.
+	Images circuit and spine are similar based on intersection distance: 0.750110.

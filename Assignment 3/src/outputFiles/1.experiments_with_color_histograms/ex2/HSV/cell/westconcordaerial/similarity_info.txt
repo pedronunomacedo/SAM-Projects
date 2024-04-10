@@ -1,0 +1,7 @@
+Distances: 
+	euclidian_distance = 0.479266
+	cosine_similarity = 0.095153
+	intersection_distance = 0.079093
+------------- 
+Similarities 
+	Images cell and westconcordaerial are similar based on Euclidean distance: 0.479266 .

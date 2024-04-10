@@ -1,0 +1,8 @@
+Distances: 
+	euclidian_distance = 0.072183
+	cosine_similarity = 0.746458
+	intersection_distance = 0.601104
+------------- 
+Similarities 
+	Images baby and peacock are similar based on Euclidean distance: 0.072183 .
+	Images baby and peacock are similar based on intersection distance: 0.601104.

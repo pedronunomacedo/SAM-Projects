@@ -1,0 +1,9 @@
+Distances: 
+	euclidian_distance = 0.037726
+	cosine_similarity = 0.996815
+	intersection_distance = 0.809439
+------------- 
+Similarities 
+	Images cameraman and circuit are similar based on Euclidean distance: 0.037726 .
+	Images cameraman and circuit are similar based on cosine similarity: 0.996815.
+	Images cameraman and circuit are similar based on intersection distance: 0.809439.

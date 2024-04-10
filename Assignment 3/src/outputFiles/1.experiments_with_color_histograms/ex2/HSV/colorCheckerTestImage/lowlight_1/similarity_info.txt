@@ -1,0 +1,8 @@
+Distances: 
+	euclidian_distance = 0.066152
+	cosine_similarity = 0.534269
+	intersection_distance = 0.545260
+------------- 
+Similarities 
+	Images colorCheckerTestImage and lowlight_1 are similar based on Euclidean distance: 0.066152 .
+	Images colorCheckerTestImage and lowlight_1 are similar based on intersection distance: 0.545260.

@@ -1,0 +1,9 @@
+Distances: 
+	euclidian_distance = 0.270148
+	cosine_similarity = 0.867647
+	intersection_distance = 0.679883
+------------- 
+Similarities 
+	Images circlesBrightDark and contorno are similar based on Euclidean distance: 0.270148 .
+	Images circlesBrightDark and contorno are similar based on cosine similarity: 0.867647.
+	Images circlesBrightDark and contorno are similar based on intersection distance: 0.679883.

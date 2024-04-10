@@ -1,0 +1,31 @@
+main_image = 'car_1.jpg'
+color_space = 'HSV'
+k = 2
+
+images_database = {
+    'toysnoflash.png',
+    'tape.png', 
+    'office_4.jpg',
+    'lowlight_2.jpg',
+    'lowlight_1.jpg',
+    'hands1.jpg'
+}
+
+------------- 
+
+euclidian_distances = {
+    'toysnoflash.png': 0.0974,
+    'tape.png': 0.1180, 
+    'office_4.jpg': 0.1180,
+    'lowlight_2.jpg': 0.1218,
+    'lowlight_1.jpg': 0.1212,
+    'hands1.jpg': 0.1353
+}
+
+------------- 
+
+result = [
+    1
+    3
+    2
+]

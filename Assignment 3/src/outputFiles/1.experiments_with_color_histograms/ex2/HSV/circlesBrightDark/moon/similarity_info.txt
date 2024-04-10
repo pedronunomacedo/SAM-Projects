@@ -1,0 +1,9 @@
+Distances: 
+	euclidian_distance = 0.283320
+	cosine_similarity = 0.853777
+	intersection_distance = 0.679500
+------------- 
+Similarities 
+	Images circlesBrightDark and moon are similar based on Euclidean distance: 0.283320 .
+	Images circlesBrightDark and moon are similar based on cosine similarity: 0.853777.
+	Images circlesBrightDark and moon are similar based on intersection distance: 0.679500.

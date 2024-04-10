@@ -1,0 +1,8 @@
+Distances: 
+	euclidian_distance = 0.296115
+	cosine_similarity = 0.945908
+	intersection_distance = 0.386539
+------------- 
+Similarities 
+	Images casa2 and car_2 are similar based on Euclidean distance: 0.296115 .
+	Images casa2 and car_2 are similar based on cosine similarity: 0.945908.

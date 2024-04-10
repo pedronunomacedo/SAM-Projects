@@ -1,0 +1,8 @@
+Distances: 
+	euclidian_distance = 0.064722
+	cosine_similarity = 0.569467
+	intersection_distance = 0.507232
+------------- 
+Similarities 
+	Images DistortedImage and praia are similar based on Euclidean distance: 0.064722 .
+	Images DistortedImage and praia are similar based on intersection distance: 0.507232.

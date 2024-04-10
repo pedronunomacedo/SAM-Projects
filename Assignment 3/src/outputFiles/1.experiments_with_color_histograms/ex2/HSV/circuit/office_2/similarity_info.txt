@@ -1,0 +1,7 @@
+Distances: 
+	euclidian_distance = 0.434169
+	cosine_similarity = 0.555210
+	intersection_distance = 0.259140
+------------- 
+Similarities 
+	Images circuit and office_2 are similar based on Euclidean distance: 0.434169 .

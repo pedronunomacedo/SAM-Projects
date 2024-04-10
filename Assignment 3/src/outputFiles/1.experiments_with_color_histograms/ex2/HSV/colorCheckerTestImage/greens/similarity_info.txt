@@ -1,0 +1,8 @@
+Distances: 
+	euclidian_distance = 0.041449
+	cosine_similarity = 0.736908
+	intersection_distance = 0.696443
+------------- 
+Similarities 
+	Images colorCheckerTestImage and greens are similar based on Euclidean distance: 0.041449 .
+	Images colorCheckerTestImage and greens are similar based on intersection distance: 0.696443.

@@ -1,0 +1,9 @@
+Distances: 
+	euclidian_distance = 0.036025
+	cosine_similarity = 0.997093
+	intersection_distance = 0.784419
+------------- 
+Similarities 
+	Images casa2 and contorno are similar based on Euclidean distance: 0.036025 .
+	Images casa2 and contorno are similar based on cosine similarity: 0.997093.
+	Images casa2 and contorno are similar based on intersection distance: 0.784419.

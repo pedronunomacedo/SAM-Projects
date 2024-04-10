@@ -1,0 +1,9 @@
+Distances: 
+	euclidian_distance = 0.107092
+	cosine_similarity = 0.975051
+	intersection_distance = 0.718734
+------------- 
+Similarities 
+	Images cameraman and eight are similar based on Euclidean distance: 0.107092 .
+	Images cameraman and eight are similar based on cosine similarity: 0.975051.
+	Images cameraman and eight are similar based on intersection distance: 0.718734.

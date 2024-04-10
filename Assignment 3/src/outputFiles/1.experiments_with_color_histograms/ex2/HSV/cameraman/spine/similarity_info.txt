@@ -1,0 +1,9 @@
+Distances: 
+	euclidian_distance = 0.138256
+	cosine_similarity = 0.959428
+	intersection_distance = 0.690042
+------------- 
+Similarities 
+	Images cameraman and spine are similar based on Euclidean distance: 0.138256 .
+	Images /Users/pedromacedo/Desktop/Uni/SAM-Year4Semester2/Projects/Assignment 3/src/resources/cameraman.tif and /Users/pedromacedo/Desktop/Uni/SAM-Year4Semester2/Projects/Assignment 3/src/resources/spine.tif are similar based on cosine similarity: 0.959428.
+	Images /Users/pedromacedo/Desktop/Uni/SAM-Year4Semester2/Projects/Assignment 3/src/resources/cameraman.tif and /Users/pedromacedo/Desktop/Uni/SAM-Year4Semester2/Projects/Assignment 3/src/resources/spine.tif are similar based on intersection distance: 0.690042.

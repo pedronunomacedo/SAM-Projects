@@ -1,0 +1,8 @@
+Distances: 
+	euclidian_distance = 0.261401
+	cosine_similarity = 0.857431
+	intersection_distance = 0.477425
+------------- 
+Similarities 
+	Images casa1 and saturn are similar based on Euclidean distance: 0.261401 .
+	Images casa1 and saturn are similar based on cosine similarity: 0.857431.

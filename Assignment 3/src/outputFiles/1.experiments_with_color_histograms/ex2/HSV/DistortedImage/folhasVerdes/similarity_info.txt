@@ -1,0 +1,14 @@
+Distances: 
+	euclidian_distance = 0.112092
+	cosine_similarity = 0.235645
+	intersection_distance = 0.286754
+------------- 
+Similarities 
+	Images DistortedImage and folhasVerdes are similar based on Euclidean distance: 0.112092 .
+Distances: 
+	euclidian_distance = 0.112092
+	cosine_similarity = 0.235645
+	intersection_distance = 0.286754
+------------- 
+Similarities 
+	Images DistortedImage and folhasVerdes are similar based on Euclidean distance: 0.112092 .

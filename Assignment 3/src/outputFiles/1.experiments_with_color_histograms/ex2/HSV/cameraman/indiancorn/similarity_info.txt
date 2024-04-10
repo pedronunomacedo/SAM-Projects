@@ -1,0 +1,7 @@
+Distances: 
+	euclidian_distance = 0.473790
+	cosine_similarity = 0.050036
+	intersection_distance = 0.180761
+------------- 
+Similarities 
+	Images cameraman and indiancorn are similar based on Euclidean distance: 0.473790 .

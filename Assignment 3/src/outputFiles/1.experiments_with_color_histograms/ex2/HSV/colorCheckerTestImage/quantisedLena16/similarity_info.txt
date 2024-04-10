@@ -1,0 +1,7 @@
+Distances: 
+	euclidian_distance = 0.488360
+	cosine_similarity = 0.131487
+	intersection_distance = 0.152965
+------------- 
+Similarities 
+	Images colorCheckerTestImage and quantisedLena16 are similar based on Euclidean distance: 0.488360 .

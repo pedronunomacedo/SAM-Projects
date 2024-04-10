@@ -1,0 +1,9 @@
+Distances: 
+	euclidian_distance = 0.237141
+	cosine_similarity = 0.942542
+	intersection_distance = 0.585483
+------------- 
+Similarities 
+	Images car_2 and tire are similar based on Euclidean distance: 0.237141 .
+	Images car_2 and tire are similar based on cosine similarity: 0.942542.
+	Images car_2 and tire are similar based on intersection distance: 0.585483.

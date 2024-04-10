@@ -1,0 +1,9 @@
+Distances: 
+	euclidian_distance = 0.327215
+	cosine_similarity = 0.811545
+	intersection_distance = 0.726308
+------------- 
+Similarities 
+	Images circlesBrightDark and testpat1 are similar based on Euclidean distance: 0.327215 .
+	Images circlesBrightDark and testpat1 are similar based on cosine similarity: 0.811545.
+	Images circlesBrightDark and testpat1 are similar based on intersection distance: 0.726308.

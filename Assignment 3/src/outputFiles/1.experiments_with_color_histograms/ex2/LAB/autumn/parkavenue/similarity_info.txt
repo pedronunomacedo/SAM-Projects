@@ -1,0 +1,7 @@
+Distances: 
+	euclidian_distance = 0.140718
+	cosine_similarity = 0.281152
+	intersection_distance = 0.335477
+------------- 
+Similarities 
+	Images autumn and parkavenue are similar based on Euclidean distance: 0.140718 .

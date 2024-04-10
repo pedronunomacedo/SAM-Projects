@@ -1,0 +1,7 @@
+Distances: 
+	euclidian_distance = 0.134897
+	cosine_similarity = 0.287275
+	intersection_distance = 0.285605
+------------- 
+Similarities 
+	Images board and foggyroad are similar based on Euclidean distance: 0.134897 .

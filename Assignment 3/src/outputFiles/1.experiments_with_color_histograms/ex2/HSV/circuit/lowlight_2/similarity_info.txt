@@ -1,0 +1,7 @@
+Distances: 
+	euclidian_distance = 0.452619
+	cosine_similarity = 0.288682
+	intersection_distance = 0.180867
+------------- 
+Similarities 
+	Images circuit and lowlight_2 are similar based on Euclidean distance: 0.452619 .

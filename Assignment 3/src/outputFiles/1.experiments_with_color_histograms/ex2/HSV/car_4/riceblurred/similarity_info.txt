@@ -1,0 +1,9 @@
+Distances: 
+	euclidian_distance = 0.280480
+	cosine_similarity = 0.852044
+	intersection_distance = 0.646919
+------------- 
+Similarities 
+	Images car_4 and riceblurred are similar based on Euclidean distance: 0.280480 .
+	Images /Users/pedromacedo/Desktop/Uni/SAM-Year4Semester2/Projects/Assignment 3/src/resources/car_4.jpg and /Users/pedromacedo/Desktop/Uni/SAM-Year4Semester2/Projects/Assignment 3/src/resources/riceblurred.png are similar based on cosine similarity: 0.852044.
+	Images /Users/pedromacedo/Desktop/Uni/SAM-Year4Semester2/Projects/Assignment 3/src/resources/car_4.jpg and /Users/pedromacedo/Desktop/Uni/SAM-Year4Semester2/Projects/Assignment 3/src/resources/riceblurred.png are similar based on intersection distance: 0.646919.

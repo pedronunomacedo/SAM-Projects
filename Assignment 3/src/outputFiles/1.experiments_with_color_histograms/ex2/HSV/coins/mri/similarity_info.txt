@@ -1,0 +1,9 @@
+Distances: 
+	euclidian_distance = 0.220786
+	cosine_similarity = 0.904925
+	intersection_distance = 0.708679
+------------- 
+Similarities 
+	Images coins and mri are similar based on Euclidean distance: 0.220786 .
+	Images coins and mri are similar based on cosine similarity: 0.904925.
+	Images coins and mri are similar based on intersection distance: 0.708679.

@@ -1,0 +1,7 @@
+Distances: 
+	euclidian_distance = 0.474560
+	cosine_similarity = 0.051877
+	intersection_distance = 0.172150
+------------- 
+Similarities 
+	Images casa2 and hallway are similar based on Euclidean distance: 0.474560 .

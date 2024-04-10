@@ -1,0 +1,9 @@
+Distances: 
+	euclidian_distance = 0.048126
+	cosine_similarity = 0.994828
+	intersection_distance = 0.825434
+------------- 
+Similarities 
+	Images casa1 and printedtext are similar based on Euclidean distance: 0.048126 .
+	Images casa1 and printedtext are similar based on cosine similarity: 0.994828.
+	Images casa1 and printedtext are similar based on intersection distance: 0.825434.

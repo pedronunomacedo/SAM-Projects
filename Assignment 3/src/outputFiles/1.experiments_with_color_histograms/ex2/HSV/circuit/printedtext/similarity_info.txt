@@ -1,0 +1,9 @@
+Distances: 
+	euclidian_distance = 0.023640
+	cosine_similarity = 0.998748
+	intersection_distance = 0.840473
+------------- 
+Similarities 
+	Images circuit and printedtext are similar based on Euclidean distance: 0.023640 .
+	Images circuit and printedtext are similar based on cosine similarity: 0.998748.
+	Images circuit and printedtext are similar based on intersection distance: 0.840473.

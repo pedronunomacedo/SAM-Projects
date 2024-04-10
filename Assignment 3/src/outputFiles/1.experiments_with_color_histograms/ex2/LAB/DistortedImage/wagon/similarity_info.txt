@@ -1,0 +1,8 @@
+Distances: 
+	euclidian_distance = 0.092713
+	cosine_similarity = 0.553640
+	intersection_distance = 0.521190
+------------- 
+Similarities 
+	Images DistortedImage and wagon are similar based on Euclidean distance: 0.092713 .
+	Images DistortedImage and wagon are similar based on intersection distance: 0.521190.

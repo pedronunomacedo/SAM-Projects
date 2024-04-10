@@ -1,0 +1,7 @@
+Distances: 
+	euclidian_distance = 0.475031
+	cosine_similarity = 0.112032
+	intersection_distance = 0.225977
+------------- 
+Similarities 
+	Images casa1 and toysflash are similar based on Euclidean distance: 0.475031 .

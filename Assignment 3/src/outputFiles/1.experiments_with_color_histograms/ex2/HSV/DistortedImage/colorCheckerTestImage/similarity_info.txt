@@ -1,0 +1,14 @@
+Distances: 
+	euclidian_distance = 0.070069
+	cosine_similarity = 0.332596
+	intersection_distance = 0.394864
+------------- 
+Similarities 
+	Images DistortedImage and colorCheckerTestImage are similar based on Euclidean distance: 0.070069 .
+Distances: 
+	euclidian_distance = 0.070069
+	cosine_similarity = 0.332596
+	intersection_distance = 0.394864
+------------- 
+Similarities 
+	Images DistortedImage and colorCheckerTestImage are similar based on Euclidean distance: 0.070069 .

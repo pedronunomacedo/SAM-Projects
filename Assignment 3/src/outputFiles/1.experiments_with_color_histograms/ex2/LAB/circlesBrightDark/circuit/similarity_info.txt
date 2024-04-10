@@ -1,0 +1,9 @@
+Distances: 
+	euclidian_distance = 0.267379
+	cosine_similarity = 0.870546
+	intersection_distance = 0.679259
+------------- 
+Similarities 
+	Images circlesBrightDark and circuit are similar based on Euclidean distance: 0.267379 .
+	Images circlesBrightDark and circuit are similar based on cosine similarity: 0.870546.
+	Images circlesBrightDark and circuit are similar based on intersection distance: 0.679259.

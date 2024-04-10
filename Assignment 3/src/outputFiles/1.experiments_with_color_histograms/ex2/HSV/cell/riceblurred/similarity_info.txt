@@ -1,0 +1,9 @@
+Distances: 
+	euclidian_distance = 0.092908
+	cosine_similarity = 0.981128
+	intersection_distance = 0.746570
+------------- 
+Similarities 
+	Images cell and riceblurred are similar based on Euclidean distance: 0.092908 .
+	Images cell and riceblurred are similar based on cosine similarity: 0.981128.
+	Images cell and riceblurred are similar based on intersection distance: 0.746570.

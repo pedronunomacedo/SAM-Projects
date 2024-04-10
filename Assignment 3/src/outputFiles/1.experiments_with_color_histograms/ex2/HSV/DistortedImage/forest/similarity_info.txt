@@ -1,0 +1,14 @@
+Distances: 
+	euclidian_distance = 0.480563
+	cosine_similarity = 0.102665
+	intersection_distance = 0.110843
+------------- 
+Similarities 
+	Images DistortedImage and forest are similar based on Euclidean distance: 0.480563 .
+Distances: 
+	euclidian_distance = 0.480563
+	cosine_similarity = 0.102665
+	intersection_distance = 0.110843
+------------- 
+Similarities 
+	Images DistortedImage and forest are similar based on Euclidean distance: 0.480563 .

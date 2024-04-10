@@ -1,0 +1,7 @@
+Distances: 
+	euclidian_distance = 0.076691
+	cosine_similarity = 0.371406
+	intersection_distance = 0.414448
+------------- 
+Similarities 
+	Images baby and westconcordaerial are similar based on Euclidean distance: 0.076691 .

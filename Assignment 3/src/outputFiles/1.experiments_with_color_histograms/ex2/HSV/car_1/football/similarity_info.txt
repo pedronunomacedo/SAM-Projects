@@ -1,0 +1,7 @@
+Distances: 
+	euclidian_distance = 0.098450
+	cosine_similarity = 0.261872
+	intersection_distance = 0.341484
+------------- 
+Similarities 
+	Images car_1 and football are similar based on Euclidean distance: 0.098450 .

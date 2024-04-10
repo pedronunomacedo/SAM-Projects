@@ -1,0 +1,9 @@
+Distances: 
+	euclidian_distance = 0.049341
+	cosine_similarity = 0.994570
+	intersection_distance = 0.758856
+------------- 
+Similarities 
+	Images coins and circuit are similar based on Euclidean distance: 0.049341 .
+	Images coins and circuit are similar based on cosine similarity: 0.994570.
+	Images coins and circuit are similar based on intersection distance: 0.758856.

@@ -1,0 +1,9 @@
+Distances: 
+	euclidian_distance = 0.047978
+	cosine_similarity = 0.994860
+	intersection_distance = 0.773651
+------------- 
+Similarities 
+	Images circuit and canoe are similar based on Euclidean distance: 0.047978 .
+	Images circuit and canoe are similar based on cosine similarity: 0.994860.
+	Images circuit and canoe are similar based on intersection distance: 0.773651.

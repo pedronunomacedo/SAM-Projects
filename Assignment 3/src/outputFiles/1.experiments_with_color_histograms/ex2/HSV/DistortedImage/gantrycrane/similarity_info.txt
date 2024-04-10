@@ -1,0 +1,14 @@
+Distances: 
+	euclidian_distance = 0.128749
+	cosine_similarity = 0.311093
+	intersection_distance = 0.474419
+------------- 
+Similarities 
+	Images DistortedImage and gantrycrane are similar based on Euclidean distance: 0.128749 .
+Distances: 
+	euclidian_distance = 0.128749
+	cosine_similarity = 0.311093
+	intersection_distance = 0.474419
+------------- 
+Similarities 
+	Images DistortedImage and gantrycrane are similar based on Euclidean distance: 0.128749 .

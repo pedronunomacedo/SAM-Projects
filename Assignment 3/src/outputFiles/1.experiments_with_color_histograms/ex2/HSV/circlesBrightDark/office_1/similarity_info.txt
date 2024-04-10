@@ -1,0 +1,7 @@
+Distances: 
+	euclidian_distance = 0.473523
+	cosine_similarity = 0.559151
+	intersection_distance = 0.170953
+------------- 
+Similarities 
+	Images circlesBrightDark and office_1 are similar based on Euclidean distance: 0.473523 .

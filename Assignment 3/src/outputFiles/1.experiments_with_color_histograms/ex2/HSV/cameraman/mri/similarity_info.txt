@@ -1,0 +1,9 @@
+Distances: 
+	euclidian_distance = 0.218725
+	cosine_similarity = 0.906750
+	intersection_distance = 0.697520
+------------- 
+Similarities 
+	Images cameraman and mri are similar based on Euclidean distance: 0.218725 .
+	Images /Users/pedromacedo/Desktop/Uni/SAM-Year4Semester2/Projects/Assignment 3/src/resources/cameraman.tif and /Users/pedromacedo/Desktop/Uni/SAM-Year4Semester2/Projects/Assignment 3/src/resources/mri.tif are similar based on cosine similarity: 0.906750.
+	Images /Users/pedromacedo/Desktop/Uni/SAM-Year4Semester2/Projects/Assignment 3/src/resources/cameraman.tif and /Users/pedromacedo/Desktop/Uni/SAM-Year4Semester2/Projects/Assignment 3/src/resources/mri.tif are similar based on intersection distance: 0.697520.

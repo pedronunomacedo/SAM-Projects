@@ -1,0 +1,7 @@
+Distances: 
+	euclidian_distance = 0.093483
+	cosine_similarity = 0.324943
+	intersection_distance = 0.438773
+------------- 
+Similarities 
+	Images baby and kobi are similar based on Euclidean distance: 0.093483 .

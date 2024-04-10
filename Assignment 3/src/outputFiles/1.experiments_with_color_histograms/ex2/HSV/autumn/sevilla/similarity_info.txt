@@ -1,0 +1,8 @@
+Distances: 
+	euclidian_distance = 0.064461
+	cosine_similarity = 0.594732
+	intersection_distance = 0.542178
+------------- 
+Similarities 
+	Images autumn and sevilla are similar based on Euclidean distance: 0.064461 .
+	Images /Users/pedromacedo/Desktop/Uni/SAM-Year4Semester2/Projects/Assignment 3/src/resources/autumn.tif and /Users/pedromacedo/Desktop/Uni/SAM-Year4Semester2/Projects/Assignment 3/src/resources/sevilla.jpg are similar based on intersection distance: 0.542178.

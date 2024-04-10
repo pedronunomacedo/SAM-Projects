@@ -1,0 +1,7 @@
+Distances: 
+	euclidian_distance = 0.455483
+	cosine_similarity = 0.313539
+	intersection_distance = 0.272237
+------------- 
+Similarities 
+	Images car_1 and elephant are similar based on Euclidean distance: 0.455483 .

@@ -1,0 +1,7 @@
+Distances: 
+	euclidian_distance = 0.468185
+	cosine_similarity = 0.155582
+	intersection_distance = 0.133400
+------------- 
+Similarities 
+	Images baby and canoe are similar based on Euclidean distance: 0.468185 .

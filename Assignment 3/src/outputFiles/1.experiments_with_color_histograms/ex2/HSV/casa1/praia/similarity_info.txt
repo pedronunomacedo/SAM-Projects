@@ -1,0 +1,7 @@
+Distances: 
+	euclidian_distance = 0.486941
+	cosine_similarity = 0.025933
+	intersection_distance = 0.210189
+------------- 
+Similarities 
+	Images casa1 and praia are similar based on Euclidean distance: 0.486941 .

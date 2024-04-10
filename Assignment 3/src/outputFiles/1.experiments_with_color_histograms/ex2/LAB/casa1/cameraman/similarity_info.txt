@@ -1,0 +1,9 @@
+Distances: 
+	euclidian_distance = 0.049787
+	cosine_similarity = 0.994469
+	intersection_distance = 0.858030
+------------- 
+Similarities 
+	Images casa1 and cameraman are similar based on Euclidean distance: 0.049787 .
+	Images casa1 and cameraman are similar based on cosine similarity: 0.994469.
+	Images casa1 and cameraman are similar based on intersection distance: 0.858030.

@@ -1,0 +1,8 @@
+Distances: 
+	euclidian_distance = 0.138837
+	cosine_similarity = 0.363328
+	intersection_distance = 0.520446
+------------- 
+Similarities 
+	Images car_1 and westconcordaerial are similar based on Euclidean distance: 0.138837 .
+	Images car_1 and westconcordaerial are similar based on intersection distance: 0.520446.

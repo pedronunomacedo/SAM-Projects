@@ -1,0 +1,7 @@
+Distances: 
+	euclidian_distance = 0.443096
+	cosine_similarity = 0.388996
+	intersection_distance = 0.188669
+------------- 
+Similarities 
+	Images baby and liftingbody are similar based on Euclidean distance: 0.443096 .

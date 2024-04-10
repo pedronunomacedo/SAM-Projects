@@ -1,0 +1,9 @@
+Distances: 
+	euclidian_distance = 0.078169
+	cosine_similarity = 0.986464
+	intersection_distance = 0.731975
+------------- 
+Similarities 
+	Images casa1 and trees are similar based on Euclidean distance: 0.078169 .
+	Images casa1 and trees are similar based on cosine similarity: 0.986464.
+	Images casa1 and trees are similar based on intersection distance: 0.731975.

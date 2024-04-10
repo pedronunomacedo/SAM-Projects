@@ -1,0 +1,9 @@
+Distances: 
+	euclidian_distance = 0.058870
+	cosine_similarity = 0.992284
+	intersection_distance = 0.785308
+------------- 
+Similarities 
+	Images casa1 and pout are similar based on Euclidean distance: 0.058870 .
+	Images /Users/pedromacedo/Desktop/Uni/SAM-Year4Semester2/Projects/Assignment 3/src/resources/casa1.jpg and /Users/pedromacedo/Desktop/Uni/SAM-Year4Semester2/Projects/Assignment 3/src/resources/pout.tif are similar based on cosine similarity: 0.992284.
+	Images /Users/pedromacedo/Desktop/Uni/SAM-Year4Semester2/Projects/Assignment 3/src/resources/casa1.jpg and /Users/pedromacedo/Desktop/Uni/SAM-Year4Semester2/Projects/Assignment 3/src/resources/pout.tif are similar based on intersection distance: 0.785308.

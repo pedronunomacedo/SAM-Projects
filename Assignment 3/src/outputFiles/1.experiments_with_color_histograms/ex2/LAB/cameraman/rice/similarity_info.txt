@@ -1,0 +1,9 @@
+Distances: 
+	euclidian_distance = 0.039655
+	cosine_similarity = 0.996481
+	intersection_distance = 0.793884
+------------- 
+Similarities 
+	Images cameraman and rice are similar based on Euclidean distance: 0.039655 .
+	Images cameraman and rice are similar based on cosine similarity: 0.996481.
+	Images cameraman and rice are similar based on intersection distance: 0.793884.

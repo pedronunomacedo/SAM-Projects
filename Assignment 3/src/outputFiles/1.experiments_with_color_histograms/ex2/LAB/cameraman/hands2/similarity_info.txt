@@ -1,0 +1,7 @@
+Distances: 
+	euclidian_distance = 0.477240
+	cosine_similarity = 0.138848
+	intersection_distance = 0.170784
+------------- 
+Similarities 
+	Images cameraman and hands2 are similar based on Euclidean distance: 0.477240 .

@@ -1,0 +1,7 @@
+Distances: 
+	euclidian_distance = 0.467196
+	cosine_similarity = 0.153626
+	intersection_distance = 0.161078
+------------- 
+Similarities 
+	Images baby and rice are similar based on Euclidean distance: 0.467196 .

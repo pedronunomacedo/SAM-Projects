@@ -1,0 +1,9 @@
+Distances: 
+	euclidian_distance = 0.000000
+	cosine_similarity = 1.000000
+	intersection_distance = 1.000000
+------------- 
+Similarities 
+	Images circuit and circuit are similar based on Euclidean distance: 0.000000 .
+	Images circuit and circuit are similar based on cosine similarity: 1.000000.
+	Images circuit and circuit are similar based on intersection distance: 1.000000.

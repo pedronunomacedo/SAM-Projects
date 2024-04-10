@@ -1,0 +1,7 @@
+Distances: 
+	euclidian_distance = 0.129897
+	cosine_similarity = 0.311880
+	intersection_distance = 0.395561
+------------- 
+Similarities 
+	Images car_1 and fabric are similar based on Euclidean distance: 0.129897 .

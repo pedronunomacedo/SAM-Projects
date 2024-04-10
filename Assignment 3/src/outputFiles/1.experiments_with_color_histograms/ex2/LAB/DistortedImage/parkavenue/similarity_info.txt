@@ -1,0 +1,7 @@
+Distances: 
+	euclidian_distance = 0.095389
+	cosine_similarity = 0.397775
+	intersection_distance = 0.406901
+------------- 
+Similarities 
+	Images DistortedImage and parkavenue are similar based on Euclidean distance: 0.095389 .

@@ -1,0 +1,9 @@
+Distances: 
+	euclidian_distance = 0.045680
+	cosine_similarity = 0.995348
+	intersection_distance = 0.758427
+------------- 
+Similarities 
+	Images casa2 and pout are similar based on Euclidean distance: 0.045680 .
+	Images casa2 and pout are similar based on cosine similarity: 0.995348.
+	Images casa2 and pout are similar based on intersection distance: 0.758427.

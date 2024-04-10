@@ -1,0 +1,7 @@
+Distances: 
+	euclidian_distance = 0.477739
+	cosine_similarity = 0.131376
+	intersection_distance = 0.173932
+------------- 
+Similarities 
+	Images casa1 and hands1 are similar based on Euclidean distance: 0.477739 .

@@ -1,0 +1,9 @@
+Distances: 
+	euclidian_distance = 0.048107
+	cosine_similarity = 0.994834
+	intersection_distance = 0.831605
+------------- 
+Similarities 
+	Images casa1 and rice are similar based on Euclidean distance: 0.048107 .
+	Images casa1 and rice are similar based on cosine similarity: 0.994834.
+	Images casa1 and rice are similar based on intersection distance: 0.831605.

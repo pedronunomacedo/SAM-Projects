@@ -1,0 +1,9 @@
+Distances: 
+	euclidian_distance = 0.226020
+	cosine_similarity = 0.901280
+	intersection_distance = 0.666667
+------------- 
+Similarities 
+	Images cameraman and yellowlily-segmented are similar based on Euclidean distance: 0.226020 .
+	Images /Users/pedromacedo/Desktop/Uni/SAM-Year4Semester2/Projects/Assignment 3/src/resources/cameraman.tif and /Users/pedromacedo/Desktop/Uni/SAM-Year4Semester2/Projects/Assignment 3/src/resources/yellowlily-segmented.png are similar based on cosine similarity: 0.901280.
+	Images /Users/pedromacedo/Desktop/Uni/SAM-Year4Semester2/Projects/Assignment 3/src/resources/cameraman.tif and /Users/pedromacedo/Desktop/Uni/SAM-Year4Semester2/Projects/Assignment 3/src/resources/yellowlily-segmented.png are similar based on intersection distance: 0.666667.

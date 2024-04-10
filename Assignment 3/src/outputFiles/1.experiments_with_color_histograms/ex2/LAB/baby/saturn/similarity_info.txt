@@ -1,0 +1,7 @@
+Distances: 
+	euclidian_distance = 0.283625
+	cosine_similarity = 0.423949
+	intersection_distance = 0.327127
+------------- 
+Similarities 
+	Images baby and saturn are similar based on Euclidean distance: 0.283625 .

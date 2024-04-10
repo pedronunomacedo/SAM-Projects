@@ -1,0 +1,9 @@
+Distances: 
+	euclidian_distance = 0.091237
+	cosine_similarity = 0.981804
+	intersection_distance = 0.750399
+------------- 
+Similarities 
+	Images cell and rice are similar based on Euclidean distance: 0.091237 .
+	Images cell and rice are similar based on cosine similarity: 0.981804.
+	Images cell and rice are similar based on intersection distance: 0.750399.

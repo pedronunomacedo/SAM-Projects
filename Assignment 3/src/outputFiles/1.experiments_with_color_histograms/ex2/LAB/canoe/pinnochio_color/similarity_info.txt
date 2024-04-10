@@ -1,0 +1,8 @@
+Distances: 
+	euclidian_distance = 0.287590
+	cosine_similarity = 0.817577
+	intersection_distance = 0.422229
+------------- 
+Similarities 
+	Images canoe and pinnochio_color are similar based on Euclidean distance: 0.287590 .
+	Images canoe and pinnochio_color are similar based on cosine similarity: 0.817577.

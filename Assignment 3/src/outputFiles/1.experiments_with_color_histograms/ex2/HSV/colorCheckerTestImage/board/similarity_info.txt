@@ -1,0 +1,8 @@
+Distances: 
+	euclidian_distance = 0.073482
+	cosine_similarity = 0.419412
+	intersection_distance = 0.575488
+------------- 
+Similarities 
+	Images colorCheckerTestImage and board are similar based on Euclidean distance: 0.073482 .
+	Images colorCheckerTestImage and board are similar based on intersection distance: 0.575488.

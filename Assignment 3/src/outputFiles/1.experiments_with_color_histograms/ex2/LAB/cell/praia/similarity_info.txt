@@ -1,0 +1,7 @@
+Distances: 
+	euclidian_distance = 0.467094
+	cosine_similarity = 0.255958
+	intersection_distance = 0.101261
+------------- 
+Similarities 
+	Images cell and praia are similar based on Euclidean distance: 0.467094 .

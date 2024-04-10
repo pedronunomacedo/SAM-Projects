@@ -1,0 +1,9 @@
+Distances: 
+	euclidian_distance = 0.046219
+	cosine_similarity = 0.995233
+	intersection_distance = 0.786834
+------------- 
+Similarities 
+	Images canoe and elephant are similar based on Euclidean distance: 0.046219 .
+	Images canoe and elephant are similar based on cosine similarity: 0.995233.
+	Images canoe and elephant are similar based on intersection distance: 0.786834.

@@ -1,0 +1,7 @@
+Distances: 
+	euclidian_distance = 0.470124
+	cosine_similarity = 0.116101
+	intersection_distance = 0.113417
+------------- 
+Similarities 
+	Images colorCheckerTestImage and liftingbody are similar based on Euclidean distance: 0.470124 .

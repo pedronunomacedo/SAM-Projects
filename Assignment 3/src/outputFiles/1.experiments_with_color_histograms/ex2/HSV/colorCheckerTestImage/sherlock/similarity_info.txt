@@ -1,0 +1,7 @@
+Distances: 
+	euclidian_distance = 0.115096
+	cosine_similarity = 0.168405
+	intersection_distance = 0.365227
+------------- 
+Similarities 
+	Images colorCheckerTestImage and sherlock are similar based on Euclidean distance: 0.115096 .

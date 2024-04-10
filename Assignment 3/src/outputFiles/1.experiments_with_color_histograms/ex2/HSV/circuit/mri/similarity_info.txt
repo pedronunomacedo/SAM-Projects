@@ -1,0 +1,9 @@
+Distances: 
+	euclidian_distance = 0.217473
+	cosine_similarity = 0.907863
+	intersection_distance = 0.734444
+------------- 
+Similarities 
+	Images circuit and mri are similar based on Euclidean distance: 0.217473 .
+	Images circuit and mri are similar based on cosine similarity: 0.907863.
+	Images circuit and mri are similar based on intersection distance: 0.734444.

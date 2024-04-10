@@ -1,0 +1,14 @@
+Distances: 
+	euclidian_distance = 0.103784
+	cosine_similarity = 0.243318
+	intersection_distance = 0.342106
+------------- 
+Similarities 
+	Images DistortedImage and floresVermelhas are similar based on Euclidean distance: 0.103784 .
+Distances: 
+	euclidian_distance = 0.103784
+	cosine_similarity = 0.243318
+	intersection_distance = 0.342106
+------------- 
+Similarities 
+	Images DistortedImage and floresVermelhas are similar based on Euclidean distance: 0.103784 .

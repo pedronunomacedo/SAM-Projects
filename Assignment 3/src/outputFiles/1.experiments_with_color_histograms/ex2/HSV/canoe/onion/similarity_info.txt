@@ -1,0 +1,7 @@
+Distances: 
+	euclidian_distance = 0.473647
+	cosine_similarity = 0.073310
+	intersection_distance = 0.140097
+------------- 
+Similarities 
+	Images canoe and onion are similar based on Euclidean distance: 0.473647 .

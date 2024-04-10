@@ -1,0 +1,9 @@
+Distances: 
+	euclidian_distance = 0.147289
+	cosine_similarity = 0.954260
+	intersection_distance = 0.820910
+------------- 
+Similarities 
+	Images casa1 and quantisedLena16 are similar based on Euclidean distance: 0.147289 .
+	Images /Users/pedromacedo/Desktop/Uni/SAM-Year4Semester2/Projects/Assignment 3/src/resources/casa1.jpg and /Users/pedromacedo/Desktop/Uni/SAM-Year4Semester2/Projects/Assignment 3/src/resources/quantisedLena16.jpg are similar based on cosine similarity: 0.954260.
+	Images /Users/pedromacedo/Desktop/Uni/SAM-Year4Semester2/Projects/Assignment 3/src/resources/casa1.jpg and /Users/pedromacedo/Desktop/Uni/SAM-Year4Semester2/Projects/Assignment 3/src/resources/quantisedLena16.jpg are similar based on intersection distance: 0.820910.

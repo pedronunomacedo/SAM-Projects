@@ -1,0 +1,7 @@
+Distances: 
+	euclidian_distance = 0.474440
+	cosine_similarity = 0.050294
+	intersection_distance = 0.112951
+------------- 
+Similarities 
+	Images canoe and greens are similar based on Euclidean distance: 0.474440 .
