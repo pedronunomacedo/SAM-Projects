@@ -34,6 +34,7 @@ function compare_images(filepath1, filepath2, color_space)
         return;  % Skip this comparison
     end
 
+    disp(norm(histogram_vector1 - histogram_vector2));
 
     % Calculate Euclidean distance
     euclidean_distance = norm(histogram_vector1 - histogram_vector2); % or euclidean_distance = sqrt(sum((Hf - Hg) .^ 2))
@@ -42,9 +43,7 @@ function compare_images(filepath1, filepath2, color_space)
     cosine_similarity = dot(histogram_vector1, histogram_vector2) / (norm(histogram_vector1) * norm(histogram_vector2));
 
     % Calculate intersection distance (normalize histograms to have the same scale)
-    histogram_vector1 = histogram_vector1 / sum(histogram_vector1);
-    histogram_vector2 = histogram_vector2 / sum(histogram_vector2);
-    intersection_distance = sum(min(histogram_vector1, histogram_vector2));
+    intersection_distance = sum(min(histogram_vector1, histogram_vector2)) / sum(max(histogram_vector1, histogram_vector2));
 
     % Write the distance informations into the information file
     fprintf(fileID, 'Distances: \n');

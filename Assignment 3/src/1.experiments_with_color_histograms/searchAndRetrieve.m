@@ -1,13 +1,15 @@
 function top_k_indices = searchAndRetrieve(main_image_path, num_bins, color_space, k, threshold, relevant_images, image_database_paths)
     images_directory = '../resources';
-    % Get images folder images
     
+    %{
+    % Get folder images
     imageFiles = dir(images_directory); % Add other file extensions if necessary
     imageFiles = imageFiles(~[imageFiles.isdir]);
     image_database_paths = arrayfun(@(file) fullfile(images_directory, file.name), imageFiles, 'UniformOutput', false);
 
     % Remove the main image from the database paths
     image_database_paths = image_database_paths(~strcmp(image_database_paths, main_image_path));
+    %}
     
     % Fetch the histogram of the main image
     main_image_histogram = get_histogram(main_image_path, num_bins, color_space);
@@ -21,11 +23,12 @@ function top_k_indices = searchAndRetrieve(main_image_path, num_bins, color_spac
     end
 
     % Placeholder for similarity scores
-    similarity_scores = zeros(length(image_database_paths), 1);
+    similarity_scores = struct;
     valid_indices = [];
     
     % Calculate the similarity scores
     valid_indices_idx = 1;
+    image_scores = struct('name', {}, 'index', 0, 'scores', {});
     for i = 1:length(image_database_paths)
         database_histogram = get_histogram(image_database_paths{i}, num_bins, color_space);
         
@@ -44,31 +47,72 @@ function top_k_indices = searchAndRetrieve(main_image_path, num_bins, color_spac
         % Choose one distance of the 3
         distance = euclidean_distance;
 
-        % Check if the distance is below the threshold
+        % Check if the euclidean_distance is below the threshold
         if distance < threshold
-            valid_indices(valid_indices_idx) = i;
-            valid_indices_idx = valid_indices_idx + 1;
-            similarity_scores(i) = distance;
+            % Store this image's information, including scores
+            image_scores(end+1) = struct( ...
+                                    'name', image_database_paths{i}, ...
+                                    'index', i, ...
+                                    'scores', struct( ...
+                                        'euclidean_distance', euclidean_distance, ...
+                                        'cosine_similarity', cosine_similarity, ...
+                                        'intersection_distance', intersection_distance ...
+                                    ));
         else
-            similarity_scores(i) = inf; % Assign infinity to exclude from top k
+            % Option to exclude or mark non-qualifying images, e.g., by adding with Inf scores
+            % Uncomment the following line to include images that do not meet the threshold with Inf scores
+            image_scores(end+1) = struct( ...
+                                    'name', image_database_paths{i}, ...
+                                    'index', i, ...
+                                    'scores', struct( ...
+                                        'euclidean_distance', Inf, ...
+                                        'cosine_similarity', Inf, ...
+                                        'intersection_distance', Inf ...
+                                    ));
         end
     end
 
-    % Filter out invalid indices (those with similarity score set to inf)
-    similarity_scores = similarity_scores(valid_indices);
-    
-    % Sort the valid indices by similarity score
-    [~, sort_order] = sort(similarity_scores);
-    sorted_valid_indices = valid_indices(sort_order);
+    % Extract Euclidean distances
+    euclidean_distances = arrayfun(@(x) x.scores.euclidean_distance, image_scores);
+
+    % Sort and get indices
+    [~, sortedIndices] = sort(euclidean_distances, 'ascend');
+
+    % Reorder the structured array
+    sorted_image_scores = image_scores(sortedIndices);
     
     % Select top k indices
-    top_k_indices = sorted_valid_indices(1:min(k, length(sorted_valid_indices)));
+    top_k_indices = sorted_image_scores(1:min(k, length(sorted_image_scores)));
     
     % Now, map these indices to their filenames
-    top_k_filenames = image_database_paths(top_k_indices);
+    top_k_filenames = cell(1, length(top_k_indices));
+
+    % Extract the filenames from the struct array
+    for i = 1:length(top_k_indices)
+        top_k_filenames{i} = top_k_indices(i).name;
+    end
 
     % Calculate performance metrics
     evaluatePerformance(top_k_filenames, relevant_images, image_database_paths);
+
+    indices = arrayfun(@(x) x.index, top_k_indices);
+    names = arrayfun(@(x) x.name, top_k_indices, 'UniformOutput', false);
+    scores = arrayfun(@(x) x.scores, top_k_indices, 'UniformOutput', false);
+
+    top_k_indices_struct = struct('index', num2cell(indices), 'name', names, 'scores', scores);
+    
+    fprintf("\n\n\n");
+    disp('---');
+    for idx = 1:length(top_k_indices_struct)
+        disp(['Index: ', num2str(top_k_indices_struct(idx).index)]);
+        disp(['Name: ', top_k_indices_struct(idx).name]);
+        disp('Scores: ');
+        disp(top_k_indices_struct(idx).scores);
+        
+        disp('---'); % Separator for clarity
+    end
+    
+    top_k_indices = arrayfun(@(x) x.index, top_k_indices);
 end
 
 function histogram_vector = get_histogram(image_path, num_bins, color_space)
