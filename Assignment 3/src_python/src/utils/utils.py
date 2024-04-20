@@ -25,7 +25,10 @@ def calculate_cosine_similarity(hist1, hist2):
     return np.dot(hist1, hist2) / (np.linalg.norm(hist1) * np.linalg.norm(hist2))
 
 def calculate_intersection_distance(hist1, hist2):
-    return np.sum(np.minimum(hist1, hist2))
+    intersection = np.sum(np.minimum(hist1, hist2))
+    maximum_intersection = np.minimum(np.sum(hist1), np.sum(hist2))  # Maximum possible intersection
+    normalized_intersection_distance = 1 - (intersection / maximum_intersection)
+    return normalized_intersection_distance
 
 def calculate_distances(matches, descriptors_1, descriptors_2):
     # Euclidean distances

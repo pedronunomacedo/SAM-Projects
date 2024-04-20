@@ -76,7 +76,13 @@ def script1_1(img_path, color_space, num_bins=256, debug=True):
         axs[0][2].set_title(f"Channel {labels[0]}")
         axs[0][2].imshow(img[:,:,0], cmap='gray')
 
+    colors = {
+        'HSV': ['red', 'green', 'blue'],
+        'LAB': ['gray', 'purple', 'orange']
+    }
     for i in range(img.shape[2]):
+        component_color = colors[color_space][i] if color_space in colors else 'blue'
+        
         if debug: 
             axs[0][2+i] = fig.add_subplot(2, 5, 3+i)
             axs[0][2+i].set_title(f"Channel {labels[i]}")
@@ -90,17 +96,26 @@ def script1_1(img_path, color_space, num_bins=256, debug=True):
         components_histograms.append(hist_component)
 
         if debug:
-            axs[1][2+i].fill_between(range(len(hist_component)), hist_component, color='blue')
-            axs[1][2+i].plot(hist_component, color='blue')
+            axs[1][2+i].fill_between(range(len(hist_component)), hist_component, color=component_color)
+            axs[1][2+i].plot(hist_component, color=component_color)
 
 
     # Get the histogram of the concatenated components
     hist_concatenate = np.concatenate(components_histograms).flatten()
     if debug:
         axs[1][1] = fig.add_subplot(2, 5, 7)
-        axs[1][1].fill_between(range(len(hist_concatenate)), hist_concatenate, color='blue')
         axs[1][1].set_title(f'{color_space} histogram')
-        axs[1][1].plot(hist_concatenate, color='blue')
+
+        # The start index for each component histogram on the concatenated histogram x-axis
+        start_index = 0
+        for i, hist_component in enumerate(components_histograms):
+            end_index = start_index + len(hist_component)
+            # Create an x-axis range for each component histogram
+            x_range = range(start_index, end_index)
+            # Plot each histogram component with its color and an alpha for transparency
+            axs[1][1].fill_between(x_range, hist_component, color=colors[color_space][i], alpha=0.5)
+            axs[1][1].plot(x_range, hist_component, color=colors[color_space][i], alpha=0.5)
+            start_index = end_index  # Update the start index for the next component
 
     # Show the final result
     if debug:
@@ -132,7 +147,7 @@ def script1_2(img1_path, img2_path, color_space, debug=True):
     intersection_distance = calculate_intersection_distance(hist1, hist2)
 
     # You will need to establish a threshold to take the decision between similar/dissimilar. Run the script with different images and different options for the color space and comment on the results.
-    threshold = 0.5
+    threshold = 0.2
     if euclidean_distance < threshold and cosine_similarity > threshold and intersection_distance > threshold:
         print("Conclusion: The images are similar\n")
         if debug : 
@@ -153,12 +168,14 @@ def script1_2(img1_path, img2_path, color_space, debug=True):
 
 
 
-def script1_3(query_img_path, images_database, color_space, k, distance_metric, num_bins=256, debug=True):
+def script1_3(query_img_path, images_database, color_space, k, distance_metric, num_bins=256, own_task=True, debug=True):
     """
     developing a “searchAndRetrieve”” function, which receives one reference/query image and an
     array of candidate images (“image database”). This function should return the top_k most similar
     images to the query image, indicated by their index in the array.
     """
+
+    threshold = 0.2
 
     # Get the histogram of the query image
     query_hist = script1_1(img_path=query_img_path, color_space=color_space, num_bins=num_bins, debug=debug)
@@ -182,8 +199,30 @@ def script1_3(query_img_path, images_database, color_space, k, distance_metric, 
 
     if debug:
         print("distances: ", distances)
-    
-    return [item[0] for item in distances[:k]] # Only return the images 
+
+    if (k > len(distances)):
+        k = len(distances)
+
+    result = []
+    if own_task:
+        return [item[0] for item in distances[:k]]
+    else:
+        # Go thorugh each image and check the threshold
+        for item in distances:
+            if distance_metric == 'euclidean_distance':
+                if item[2] < threshold:
+                    result.append(item[0]) # only append the image filaname
+            elif distance_metric == 'cosine_similarity':
+                if item[2] > threshold:
+                    result.append(item[0]) # only append the image filaname
+            elif distance_metric == 'intersection_distance':
+                if item[2] > threshold:
+                    result.append(item[0]) # only append the image filaname
+
+        if (k > len(result)):
+            k = len(result)
+
+    return result[:k] # Only return the top_k images
 
 def script1_4(query_img_path, images_database, expected_images, color_space, k, distance_metric, num_bins=256, debug=True):
     """
@@ -196,7 +235,7 @@ def script1_4(query_img_path, images_database, expected_images, color_space, k, 
     """
 
     # Call the algorithmfor the color space specified
-    returned_imgs_indexes = script1_3(query_img_path=query_img_path, images_database=images_database, color_space=color_space, k=k, distance_metric=distance_metric, num_bins=num_bins, debug=debug)
+    returned_imgs_indexes = script1_3(query_img_path=query_img_path, images_database=images_database, color_space=color_space, k=k, distance_metric=distance_metric, num_bins=num_bins, own_task=False, debug=debug)
 
     # Get the images from the indexes returned in script1_3
     returned_imgs = [images_database[idx] for idx in returned_imgs_indexes]
@@ -205,9 +244,13 @@ def script1_4(query_img_path, images_database, expected_images, color_space, k, 
     precision, recall, f1_score = calculate_precision_recall_f1_score(obtained_imgs=returned_imgs, expected_images=expected_images)
 
     if debug:
+        print("returned_imgs_indexes: ", returned_imgs_indexes)
+        print("---------———————————————————————")
         print(f"Precision: {precision}")
         print(f"Recall: {recall}")
         print(f"F1 score: {f1_score}")
+
+    return precision, recall, f1_score
 
 def script_2(img1_path, img2_path, color_space, debug=True):
     # Load images
@@ -234,23 +277,28 @@ def script_2(img1_path, img2_path, color_space, debug=True):
     # Sort them in the order of their distance (lower distance is better)
     matches = sorted(matches, key=lambda x: x.distance)
 
-    # Compute the average distance of the top 30 matches
-    if len(matches) > 30:
-        selected_matches = matches[:30]
+    N = 30 # Number of descriptors to show
+    selected_matches = matches[:N] if len(matches) > N else matches
+
+    max_possible_distance = np.sqrt(128) * 255
+
+    if selected_matches:
+        # Calculate average distance of the top matches
+        average_distance = sum(match.distance for match in selected_matches) / len(selected_matches)
+        
+        # Normalize the average distance against the maximum possible distance
+        normalized_average_distance = average_distance / max_possible_distance
     else:
-        selected_matches = matches
+        average_distance = float('inf')
+        normalized_average_distance = 1.0  # No matches or infinite distance
 
     # Draw first 30 matches.
     img_matches = cv2.drawMatches(img1, keypoints_1, img2, keypoints_2, selected_matches, None, flags=cv2.DrawMatchesFlags_NOT_DRAW_SINGLE_POINTS)
 
-    
-
     # Display the resulting frame
     plt.imshow(cv2.cvtColor(img_matches, cv2.COLOR_BGR2RGB))
-    plt.title(f'Average Distance: {average_distance:.2f}')
+    plt.title(f'Average Distance: {average_distance:.4f}')
     plt.show()
-
-    print("average_distance: ", average_distance)
 
 
 if __name__ == '__main__':
